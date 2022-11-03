@@ -59,10 +59,11 @@ If I did these analyses again, I would...
 
 ## To-Do
 
-- Constrain topology in priors.
-- Constrain truncal branch length.
+- Constrain topology in priors. Done
+- Constrain truncal branch length. Done, kinda?
 - Incorporate info on doubling time to constrain substitution rate distribution prior.
-- Map mutations to branches.
+- Compare Relaxed Clock and Strict Clock AIC and BIC
+- Adjust ASR-MAF script to map mutations to branches.
 - Adjust priors for estimated and fixed runs based on BEAST slurm outputs.
 - Determine if it would be possible to do a permutation test for branch mutations and mutation rate.
 

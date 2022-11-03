@@ -61,6 +61,7 @@ If I did these analyses again, I would...
 
 - Constrain topology in priors.
 - Constrain truncal branch length.
+- Incorporate info on doubling time to constrain substitution rate distribution prior.
 - Map mutations to branches.
 - Adjust priors for estimated and fixed runs based on BEAST slurm outputs.
 - Determine if it would be possible to do a permutation test for branch mutations and mutation rate.

@@ -57,6 +57,14 @@ The biggest difficulty in implementing these analyses was...
 
 If I did these analyses again, I would...
 
+## To-Do
+
+- Constrain topology in priors.
+- Constrain truncal branch length.
+- Map mutations to branches.
+- Adjust priors for estimated and fixed runs based on BEAST slurm outputs.
+- Determine if it would be possible to do a permutation test for branch mutations and mutation rate.
+
 ## References
 
 - Alexandrov, L. B., Kim, J., Haradhvala, N. J., Huang, M. N., Tian Ng, A. W., Wu, Y., Boot, A., Covington, K. R., Gordenin, D. A., Bergstrom, E. N., Islam, S. M. A., Lopez-Bigas, N., Klimczak, L. J., McPherson, J. R., Morganella, S., Sabarinathan, R., Wheeler, D. A., Mustonen, V., PCAWG Mutational Signatures Working Group, … PCAWG Consortium. (2020). The repertoire of mutational signatures in human cancer. Nature, 578(7793), 94–101.

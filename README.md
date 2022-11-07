@@ -61,11 +61,13 @@ If I did these analyses again, I would...
 
 - Constrain topology in priors. Done
 - Constrain truncal branch length. Done, kinda?
-- Incorporate info on doubling time to constrain substitution rate distribution prior.
 - Compare Relaxed Clock and Strict Clock AIC and BIC
 - Adjust ASR-MAF script to map mutations to branches.
 - Adjust priors for estimated and fixed runs based on BEAST slurm outputs.
+- Try to fix heavy truncal branch mutation load.
+- Incorporate info on doubling time to constrain substitution rate distribution prior.
 - Determine if it would be possible to do a permutation test for branch mutations and mutation rate.
+- Useful plots? how rate variability varies with clade age (does it increase? could decrease bc immune surveillance), some way to compare clade-wide rate variability to see if trends in rate changes remain consistent within clades or are somewhat random?, boxplots of commonly observed mutations and their associated relative rate changes
 
 ## References
 

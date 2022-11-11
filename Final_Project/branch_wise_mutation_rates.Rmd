@@ -1,0 +1,62 @@
+---
+title: "Final Project"
+author: "Krishna Dasari"
+date: "10/23/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+setwd('~/Desktop/Phylogenetics/Final_Project/')
+library(data.table)
+library(readxl)
+library(ape)
+```
+
+
+```{r}
+maf=read_xls('PNAS Data/mafs.xls',sheet='435')
+maf=as.data.table(maf)
+
+for(sample_idx in 4:ncol(maf)){
+  tmp = as.list(maf[, ..sample_idx])
+  tmp = paste(tmp[[1]], collapse = '')
+  tmp = gsub('\n','', tmp)
+  fwrite(list(paste0('>', colnames(maf)[sample_idx],'\n', tmp)), file = '435/435_aln.fasta', append = T, quote = F)
+}
+```
+
+```{r}
+maf=read_xls('PNAS Data/mafs.xls',sheet='407')
+maf=as.data.table(maf)
+```
+```{r}
+for(sample_idx in 4:ncol(maf)){
+  tmp = as.list(maf[, ..sample_idx])
+  tmp = paste(tmp[[1]], collapse = '')
+  tmp = gsub('\n','', tmp)
+  fwrite(list(paste0('>', colnames(maf)[sample_idx],'\n', tmp)), file = '407/407_aln.fasta', append = T, quote = F)
+}
+```
+
+```{r}
+setwd('~/Desktop/Phylogenetics/Final_Project/435/estimated_rates_results/')
+tree_maf = fread('435_asr.maf')
+#View(tree_maf)
+#' mutations on branches leading to each node, mostly N2 and N3
+table(tree_maf$Origin_Node)
+
+variant_info = fread('../../PNAS Data/pnas_gilead_variants_info.csv', header = T, skip = 2)
+variant_info$CHR = as.character(variant_info$CHR)
+#View(variant_info)
+
+tree_maf_w_genes = merge.data.table(tree_maf, variant_info[,.(GeneName,CHR,POS)], 
+                 by.x = c('Chromosome','Start_Position'), by.y= c('CHR','POS'), 
+                 all.x = T)
+
+orig_maf=fread('../435_maf.maf',header=T)
+
+asr_tree=read.tree('ASR/tree.newick.txt')
+plot(asr_tree,show.node.label = T)
+```
+

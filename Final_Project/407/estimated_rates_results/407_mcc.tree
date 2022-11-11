@@ -1,0 +1,109 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=6;
+	taxlabels
+	Met1
+	Met2
+	Met3
+	Met4
+	Normal
+	Prim
+;
+end;
+
+begin trees;
+	tree TREE1 = [&R] (((((Met1[&height=2.9344089265714027E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=0.0810936755799076,length_95%_HPD={0.0029779197727890505,0.19172073391919753},length_median=0.06877016577720951,length_range={0.0012681053284069321,0.8965066382667999},rate=1.61525764058048,rate_95%_HPD={0.14892100291216684,4.748866421528356},rate_median=1.0008639692271455,rate_range={0.06040875382530888,46.17411114669914}]:0.081097,Met2[&height=2.9344089265714027E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=0.08107483783820263,length_95%_HPD={0.002968590230196355,0.19165781535902227},length_median=0.06876661164485398,length_range={0.0012681053284069321,0.7366779001223023},rate=0.18808777197213028,rate_95%_HPD={0.010244894766400049,0.5551557969957627},rate_median=0.11393621794176303,rate_range={0.0019086270993824426,10.2160574233553}]:0.081097)[&CAheight_95%_HPD={0.002970622286284197,0.19172073391921174},CAheight_mean=0.08109665639458308,CAheight_median=0.06877048600668445,CAheight_range={0.0012681053284069321,0.8965066382667999},height=0.08106140439261204,height_95%_HPD={0.0029779197727890505,0.19162533114153746},height_median=0.06876271423667646,height_range={0.0012681053284069321,0.7366779001223023},length=0.09315954714996963,length_95%_HPD={2.422577983480778E-4,0.2439262662960573},length_median=0.07067553787118896,length_range={1.0038097228459719E-4,1.7159666150053425},posterior=0.9998166712498854,rate=0.38444545907597094,rate_95%_HPD={0.007000851982499169,1.12871617917501},rate_median=0.18968533510866953,rate_range={2.363639029448769E-4,101.07633779943392}]:0.095248,Met3[&height=2.9326918245541997E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=0.17106622081693862,length_95%_HPD={0.017569517798236234,0.36710079083499636},length_median=0.15151965559992675,length_range={0.0048428713432855375,1.803360503415746},rate=0.15136404834124062,rate_95%_HPD={0.019258399730919612,0.3861854238798242},rate_median=0.11154030879081954,rate_range={0.005172089075235942,5.036004819480808}]:0.176344)[&CAheight_95%_HPD={0.017569517798236234,0.3814879377119098},CAheight_mean=0.17634432902081418,CAheight_median=0.15452744131001594,CAheight_range={0.004842871343299748,1.803360503415746},height=0.16919710818934844,height_95%_HPD={0.017569517798236234,0.36044403784750045},height_median=0.15089142221150098,height_range={0.004842871343299748,1.0236011133578842},length=0.17765183587189923,length_95%_HPD={3.434730317053436E-6,0.523911631126964},length_median=0.12130610909012773,length_range={3.434730317053436E-6,2.5832445717947223},posterior=0.940305659025191,rate=0.17908702298115894,rate_95%_HPD={1.5757574230573673E-4,0.5581549291966595},rate_median=0.07954182310013964,rate_range={1.4876716168471627E-4,127.19113946694415}]:0.167047,Met4[&height=2.944593117845849E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=0.3360142819508436,length_95%_HPD={0.041636960413043766,0.7245320641898019},length_median=0.2904617586655007,length_range={0.010250386725601857,2.6280836742644027},rate=0.2427350552484489,rate_95%_HPD={0.025947795726220538,0.5918927477129518},rate_median=0.1868269841159182,rate_range={0.01516554322198444,5.067581907096979}]:0.343391)[&CAheight_95%_HPD={0.05804162387704537,0.7360134566989416},CAheight_mean=0.3433913556273711,CAheight_median=0.2970021624941239,CAheight_range={0.020841769998298787,2.6280836742644027},height=0.3433913556273711,height_95%_HPD={0.05804162387704537,0.7360134566989416},height_median=0.2970021624941239,height_range={0.020841769998298787,2.6280836742644027},length=3.5786608618578795,length_95%_HPD={2.8986518353669766,4.34402092612666},length_median=3.540393326349502,length_range={1.0136654256709505,6.975958223246607},posterior=1.0,rate=0.07164132183407726,rate_95%_HPD={0.025137055543765788,0.10911559636097007},rate_median=0.07064244408013515,rate_range={2.708207013678464E-4,0.21305781265415802}]:3.578661,Prim[&height=3.5,height_95%_HPD={3.499999999999986,3.500000000000014},height_median=3.5,height_range={3.4999999999999716,3.500000000000057},length=0.42205221748522015,length_95%_HPD={0.010216391422389393,1.0466171705366207},length_median=0.34318398079594914,length_range={0.00357488762725211,4.253734990906011},rate=1.3569763228397096,rate_95%_HPD={0.0860422459764336,4.163637406721819},rate_median=0.8174261146074406,rate_range={0.00184291655580377,56.72386369183873}]:0.422052)[&CAheight_95%_HPD={3.5102163914223894,4.546617170536621},CAheight_mean=3.9220522174852994,CAheight_median=3.843183980795949,CAheight_range={3.503574887627252,7.753734990906011},height=3.9220522174852994,height_95%_HPD={3.5102163914223894,4.546617170536621},height_median=3.843183980795949,height_range={3.503574887627252,7.753734990906011},length=74.77211489817716,length_95%_HPD={72.8678070964406,77.87539364088938},length_median=74.2497600947194,length_range={71.29006503911039,182.5765474956872},posterior=1.0,rate=0.026478172456751357,rate_95%_HPD={0.013311397994746108,0.036850603404938974},rate_median=0.027285606378490847,rate_range={1.0874995247086794E-4,0.04737775678220929}]:74.772115,Normal[&height=78.0,height_95%_HPD={77.99999999999999,78.00000000000001},height_median=78.0,height_range={77.99999999999997,78.00000000000006},length=0.6941671156618835,length_95%_HPD={1.3043801061485283E-7,3.643904601956649},length_median=0.00149787769976939,length_range={1.3043801061485283E-7,108.41413333047478},rate=9.667602947477105,rate_95%_HPD={1.51080107782721E-4,5.719196044577662},rate_median=0.18921563832172306,rate_range={1.51080107782721E-4,10673.613610798457}]:0.694167)[&CAheight_95%_HPD={78.000000130438,81.64390460195665},CAheight_mean=78.69416711567504,CAheight_median=78.00149787769976,CAheight_range={78.000000130438,186.41413333047484},height=78.69416711567504,height_95%_HPD={78.000000130438,81.64390460195665},height_median=78.00149787769976,height_range={78.000000130438,186.41413333047484},length=0.0,posterior=1.0,rate=1.0];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="rate_95%_HPD";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set colour.scheme.rate="rate:InterpolatingContinuous{{true,false,0.0,0.6},#-2536895,#-12492071}";
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="posterior";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

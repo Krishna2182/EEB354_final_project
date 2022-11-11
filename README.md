@@ -38,10 +38,7 @@ The methodology of the project will be split into three portions. First, Bayesia
 
 A permutation-based hypothesis test will be performed to determine the significance of the association between significant branches and the branch mutations. This would allow me to determine which mutations/groups of mutations tend to cause increased mutation rates. Though the small size of each tree may produce large distributions of branch-specific mutation rates that impair my ability to assess whether mutations are significantly increasing the mutation rate, I can leverage the repeated evolution aspect of cancer to combine information about several independent rate distributions and their corresponding branch mutations. This should allow me to establish tighter rate distributions.
 
-The data I will use to construct phylogenies will come from a 2016 study of metastatic lineages (Zhao et al., 2016), which performed sequencing on normal tissue, primary tissue, and several metastatic sites for several patients of different cancers. For some patients, the primary tumor was resected and sequenced earlier than the metastatic sites, allowing for time-calibration. It is important to note that these patients have been treated with chemotherapy, which induces a strong selective pressure 
-
-
-, which performed multi-region sampling (2-8 samples per tumor) of 100 non-small cell lung cancer patients, who had not previously received systemic treatment. This data is valuable to my analysis because 1) it is one of the few cases of publicly available multi-region tumor sample data, 2) the samples are from the same tumor rather than metastatic lineages, allowing for the assumption that the mutational processes affecting each lineage should be approximately equal—an essential assumption because mutational processes have a significant influence on mutation rates (Alexandrov et al. 2020), and 3) the patients had not yet received treatment, because treatment would have altered cancer evolution and mutation rates (Fisk et al. 2022). As part of my analysis, I will need to determine whether phylogenetic inference can accurately and informatively be performed on the 39 patients who only had 2 samples taken.
+The data I will use to construct phylogenies will come from a 2016 study of metastatic lineages (Zhao et al., 2016), which performed sequencing on normal tissue, primary tissue, and several metastatic sites for several patients of different cancers. For some patients, the primary tumor was resected and sequenced earlier than the metastatic sites, allowing for time-calibration. It is important to note that many of these patients have been treated with chemotherapy, which induces a strong selective pressure. Additionally metastatic samples reside in different tissues, which may expose them to different mutational processes that independently affect the mutation rate variability. This effect can be controlled for through mutational signature deconvolution, but that is outside of the current scope of this project. Although there are limitations to the data, including the aforementioned confounding variables as well the short alignment lengths, this is one of the only publicly available multi-sample cancer datasets that allows for time-calibration, so it will be necessary to make do with the data.
 
 
 ## Methods
@@ -68,13 +65,33 @@ Though the effective sample size (ESS) for certain parameters was relatively low
 Six runs of 500 million chain length were also completed, and the ESS and trace appeared to significantly improve, as shown below. However, it appears that for a short time, one of the runs entered an extremely different parameter sampling space, resulting in trace plots that are hard to interpret. For example, the likelihood suddenly spiked from negative likelihoods to positive tens of thousands for just a small number of runs. For this reason, the 500 million chain length results are not included here but will modified and posted soon.
 ![Stats for alignment 435](/Final_Project/Images/435_run_stats.png)
 
-The MCC trees for both the relaxed clock and strict models are shown below, in that order. Posterior probabilities are displayed on the nodes. The rates inferred by the relaxed clock inference are displayed on the branches. 95% confidence intervals are available in the github repository.
+The MCC trees for both the relaxed clock and strict models are shown below, in that order. Posterior probabilities are displayed on the nodes. 95% confidence intervals for rates inferred by the relaxed clock inference are displayed on the branches.
 
-![435 relaxed clock maximum clade credibility tree](/Final_Project/435/estimated_rates_results/435_mcc.tree.png)
+![435 relaxed clock maximum clade credibility tree](/Final_Project/Images/435_mcc_relaxed.tree.png)
 
-![435 strict clock maximum clade credibility tree](/Final_Project/435/estimated_rates_results/435_mcc.tree.png)
+![435 strict clock maximum clade credibility tree](/Final_Project/Images/435_mcc_strict.tree.png)
+
+The mean log likelihood for the relaxed model was -545.061, and the mean log likelihood for the strict model was -564.775. 
+
+Once ancestral state reconstruction was performed, the mutations were programmatically mapped onto the tree. A snapshot of the results are shown below. The rest can be found by running the Rmd document in the repository. 
+
+![435 mutations mapped to branches](/Final_Project/Images/435_tree_maf.png)
 
 ### 407
+
+Similarly, six runs of 50 million chain length were completed. A 20% burn-in was used, an MCC tree was constructed, and ancestral state reconstruction was performed.
+
+The traces also appeared acceptable for this alignment, though the ESS was still relatively low for certain parameters. Shown below is the likelihood trace.
+
+![407 likelihood trace](/Final_Project/Images/407_likelihood_trace.png)
+
+The MCC trees for the relaxed and strict clock models are shown below, in that order. Again, posterior probabilities are shown on the nodes, and for the relaxed clock model, 95% confidence intervals for the rates are shown on the branches.
+
+![407 relaxed clock maximum clade credibility tree](/Final_Project/Images/407_mcc_relaxed.tree.png)
+
+![407 strict clock maximum clade credibility tree](/Final_Project/Images/407_mcc_strict.tree.png)
+
+The mean log likelihood for the relaxed model was -3015.937, and the mean log likelihood for the strict model was -3041.73. 
 
 ## Discussion
 

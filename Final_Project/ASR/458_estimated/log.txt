@@ -1,0 +1,685 @@
+START OF LOG FILE
+*******************************************************************************
+B&B: A Branch and Bound algorithm for Ancestral Sequence Reconstruction.       
+For information, please send email to Tal Pupko: talp@post.tau.ac.il           
+Ref: Pupko, T., Pe'er, I., Graur, D. Hasegawa, M., and Friedman N. 2002.       
+A branch-and-bound algorithm for the inference of ancestral amino-acid         
+sequences when the replacement rate varies among sites: Application to the     
+evolution of five gene families. Bioinformatics 18: 1116-1123.                 
+*******************************************************************************
+
+brent, f(1)=1484.48
+brent, f(2.52786)=1471.72
+brent, f(3.47214)=1466.08
+brent, f(4.05573)=1463.39
+brent, f(4.41641)=1461.98
+brent, f(4.63932)=1461.2
+brent, f(4.77709)=1460.75
+brent, f(4.86223)=1460.48
+brent, f(4.91486)=1460.32
+bestHkyParamAlphaAndBBL: trtv = 4.91486
+ while in brent: with alpha = 1.5 logL = -1477.01
+brent, f(1.5)=1477.01
+ while in brent: with alpha = 2.83688 logL = -1497.58
+brent, f(2.83688)=1497.58
+ while in brent: with alpha = 0.927051 logL = -1457.22
+brent, f(0.927051)=1457.22
+ while in brent: with alpha = 0.572949 logL = -1445.33
+brent, f(0.572949)=1445.33
+ while in brent: with alpha = 0.354102 logL = -1469.5
+brent, f(0.354102)=1469.5
+ while in brent: with alpha = 0.683223 logL = -1447.24
+brent, f(0.683223)=1447.24
+ while in brent: with alpha = 0.497923 logL = -1447
+brent, f(0.497923)=1447
+ while in brent: with alpha = 0.587536 logL = -1445.36
+brent, f(0.587536)=1445.36
+ while in brent: with alpha = 0.56722 logL = -1445.35
+brent, f(0.56722)=1445.35
+ while in brent: with alpha = 0.578679 logL = -1445.33
+brent, f(0.578679)=1445.33
+# bestHkyParamAlphaAndBBL::bestHkyParamAlphaAndBBL iteration 0: after param optimization:
+# old L = -1.79769e+308	# new L = -1445.33
+# new hkyParam = 4.91486
+# new Alpha = 0.578679
+--- Iter=0 logL=-1445.33
+LikelihoodLast was not sent to bblEM
+check bl=0.000236949 gives sumL 500.014
+check bl=5.00012 gives sumL 214.333
+check bl=4.69595 gives sumL 219.929
+check bl=2.34809 gives sumL 283.122
+check bl=2.05491 gives sumL 295.367
+check bl=1.02757 gives sumL 355.839
+check bl=0.79947 gives sumL 375.253
+check bl=0.399853 gives sumL 420.764
+check bl=0.262766 gives sumL 442.575
+check bl=0.159933 gives sumL 462.381
+check bl=0.0908059 gives sumL 477.726
+check bl=0.0490534 gives sumL 487.857
+check bl=0.0257673 gives sumL 493.778
+check bl=0.0134062 gives sumL 496.973
+check bl=0.00702282 gives sumL 498.608
+check bl=0.00377407 gives sumL 499.408
+check bl=0.002133 gives sumL 499.781
+check bl=0.00130717 gives sumL 499.943
+check bl=0.000892397 gives sumL 500.007
+check bl=0.000684274 gives sumL 500.029
+check bl=0.000579894 gives sumL 500.036
+check bl=0.000527557 gives sumL 500.038
+check bl=0.000382253 gives sumL 500.036
+check bl=0.000485217 gives sumL 500.039
+check bl=0.000473803 gives sumL 500.039
+check bl=0.000474967 gives sumL 500.039
+check bl=0.000474492 gives sumL 500.039
+check bl=0.000236949 gives sumL 475.137
+check bl=5.00012 gives sumL 213.752
+check bl=4.9927 gives sumL 213.883
+check bl=2.49647 gives sumL 276.34
+check bl=2.48884 gives sumL 276.618
+check bl=1.24454 gives sumL 337.899
+check bl=1.23756 gives sumL 338.367
+check bl=0.6189 gives sumL 390.033
+check bl=0.613423 gives sumL 390.616
+check bl=0.30683 gives sumL 429.982
+check bl=0.302851 gives sumL 430.606
+check bl=0.151544 gives sumL 457.153
+check bl=0.149113 gives sumL 457.625
+check bl=0.0746749 gives sumL 472.58
+check bl=0.0734226 gives sumL 472.834
+check bl=0.0368298 gives sumL 479.985
+check bl=0.0362869 gives sumL 480.081
+check bl=0.035755 gives sumL 480.176
+check bl=0.017996 gives sumL 482.837
+check bl=0.00911645 gives sumL 483.247
+check bl=0.0118785 gives sumL 483.269
+check bl=0.0109247 gives sumL 483.283
+check bl=0.0107774 gives sumL 483.284
+check bl=0.0107501 gives sumL 483.284
+check bl=0.0107608 gives sumL 483.284
+check bl=0.0202803 gives sumL 467.949
+check bl=5.01014 gives sumL 213.836
+check bl=3.66488 gives sumL 241.728
+check bl=2.42782 gives sumL 278.876
+check bl=1.37509 gives sumL 328.761
+check bl=0.615752 gives sumL 387.883
+check bl=0.210231 gives sumL 440.018
+check bl=0.0635897 gives sumL 464.21
+check bl=0.0310517 gives sumL 467.833
+check bl=0.0253159 gives sumL 468.03
+check bl=0.0243545 gives sumL 468.036
+check bl=0.0241948 gives sumL 468.036
+check bl=0.0241628 gives sumL 468.036
+check bl=0.0241386 gives sumL 468.036
+check bl=0.0205172 gives sumL 430.174
+check bl=5.01026 gives sumL 210.55
+check bl=4.78415 gives sumL 214.485
+check bl=2.40233 gives sumL 273.536
+check bl=2.18796 gives sumL 281.455
+check bl=1.10424 gives sumL 335.743
+check bl=0.937001 gives sumL 347.213
+check bl=0.478759 gives sumL 386.3
+check bl=0.376555 gives sumL 397.348
+check bl=0.198536 gives sumL 419.207
+check bl=0.151473 gives sumL 425.184
+check bl=0.0859953 gives sumL 432.346
+check bl=0.0736126 gives sumL 433.263
+check bl=0.0656196 gives sumL 433.701
+check bl=0.0430684 gives sumL 433.853
+check bl=0.0544088 gives sumL 434.029
+check bl=0.0523295 gives sumL 434.042
+check bl=0.0519505 gives sumL 434.042
+check bl=0.0518656 gives sumL 434.042
+check bl=0.0518137 gives sumL 434.042
+check bl=1.22948 gives sumL 333.105
+check bl=0.614742 gives sumL 379.811
+check bl=0.307371 gives sumL 412.866
+check bl=0.153686 gives sumL 432.588
+check bl=0.0768428 gives sumL 440.835
+check bl=0.0384215 gives sumL 441.375
+check bl=0.0588117 gives sumL 441.751
+check bl=0.0536946 gives sumL 441.842
+check bl=0.0522807 gives sumL 441.849
+check bl=0.051725 gives sumL 441.85
+check bl=0.0517768 gives sumL 441.85
+check bl=1.21323e-06 gives sumL 500.28
+check bl=6.56615e-07 gives sumL 500.28
+check bl=1.01697e-06 gives sumL 500.28
+check bl=9.58682e-07 gives sumL 500.28
+check bl=9.31865e-07 gives sumL 500.28
+check bl=9.34109e-07 gives sumL 500.28
+check bl=9.33075e-07 gives sumL 500.28
+check bl=10 gives sumL -163.071
+check bl=45.875 gives sumL -28.4449
+check bl=48.4673 gives sumL -26.1423
+check bl=50.9251 gives sumL -24.1867
+check bl=66.3376 gives sumL -15.4446
+check bl=74.0438 gives sumL -12.5742
+check bl=77.8969 gives sumL -11.3852
+check bl=79.8234 gives sumL -10.8418
+check bl=80.7867 gives sumL -10.5819
+check bl=81.2684 gives sumL -10.4547
+check bl=81.5092 gives sumL -10.3918
+check bl=81.6296 gives sumL -10.3605
+check bl=1e-06 gives sumL 613.136
+check bl=5 gives sumL 244.643
+check bl=0.0597061 gives sumL 592.961
+check bl=4.84405e-05 gives sumL 613.12
+check bl=1.03565e-06 gives sumL 613.136
+check bl=1.0011e-06 gives sumL 613.136
+check bl=1.0022e-06 gives sumL 613.136
+Time BBL iteration = 0 sec
+--- Iter=1 logL=-1293.54
+LikelihoodLast was not sent to bblEM
+check bl=0.000474967 gives sumL 500.853
+check bl=0.000237533 gives sumL 500.932
+check bl=0.000118817 gives sumL 500.969
+check bl=5.94583e-05 gives sumL 500.985
+check bl=2.97792e-05 gives sumL 500.99
+check bl=9.12275e-06 gives sumL 500.988
+check bl=2.66102e-05 gives sumL 500.99
+check bl=2.47492e-05 gives sumL 500.99
+check bl=1.6936e-05 gives sumL 500.99
+check bl=2.27204e-05 gives sumL 500.99
+check bl=2.20274e-05 gives sumL 500.99
+check bl=2.21036e-05 gives sumL 500.99
+check bl=2.20814e-05 gives sumL 500.99
+check bl=0.0107501 gives sumL 482.363
+check bl=0.00537508 gives sumL 482.16
+check bl=0.00941104 gives sumL 482.431
+check bl=0.00890339 gives sumL 482.442
+check bl=0.00856471 gives sumL 482.443
+check bl=0.00859562 gives sumL 482.443
+check bl=0.00858702 gives sumL 482.443
+check bl=0.0241628 gives sumL 490.574
+check bl=0.0120814 gives sumL 494.337
+check bl=0.00604077 gives sumL 496.035
+check bl=0.00302043 gives sumL 496.678
+check bl=0.00151027 gives sumL 496.786
+check bl=0.00190979 gives sumL 496.789
+check bl=0.00176248 gives sumL 496.792
+check bl=0.00174298 gives sumL 496.792
+check bl=0.00173996 gives sumL 496.792
+check bl=0.00173822 gives sumL 496.792
+check bl=0.0518656 gives sumL 410.818
+check bl=5.02593 gives sumL 170.489
+check bl=3.50052 gives sumL 200.142
+check bl=2.11847 gives sumL 243.369
+check bl=1.01316 gives sumL 305.416
+check bl=0.359478 gives sumL 370.993
+check bl=0.116015 gives sumL 406.377
+check bl=0.0662364 gives sumL 410.801
+check bl=0.0594483 gives sumL 410.929
+check bl=0.058599 gives sumL 410.931
+check bl=0.058494 gives sumL 410.931
+check bl=0.0584355 gives sumL 410.931
+check bl=0.051725 gives sumL 463.829
+check bl=0.0258626 gives sumL 468.088
+check bl=0.00224101 gives sumL 460.937
+check bl=0.0249567 gives sumL 468.173
+check bl=0.0152066 gives sumL 468.413
+check bl=0.0200816 gives sumL 468.477
+check bl=0.0185302 gives sumL 468.506
+check bl=0.0182668 gives sumL 468.507
+check bl=0.0182121 gives sumL 468.507
+check bl=0.0182303 gives sumL 468.507
+check bl=9.34109e-07 gives sumL 500.501
+check bl=5.17055e-07 gives sumL 500.501
+check bl=2.43019e-07 gives sumL 500.501
+check bl=4.45761e-07 gives sumL 500.501
+check bl=4.17806e-07 gives sumL 500.501
+check bl=3.977e-07 gives sumL 500.501
+check bl=3.99868e-07 gives sumL 500.501
+check bl=3.99368e-07 gives sumL 500.501
+check bl=10 gives sumL -123.631
+check bl=45.8148 gives sumL -20.5547
+check bl=48.1963 gives sumL -18.9954
+check bl=50.4603 gives sumL -17.6588
+check bl=66.045 gives sumL -11.1393
+check bl=73.8373 gives sumL -9.02534
+check bl=77.7334 gives sumL -8.15381
+check bl=79.6815 gives sumL -7.75638
+check bl=80.6555 gives sumL -7.56642
+check bl=81.1426 gives sumL -7.47354
+check bl=81.3861 gives sumL -7.42761
+check bl=81.5078 gives sumL -7.40478
+check bl=1.0011e-06 gives sumL 613.134
+check bl=5 gives sumL 199.043
+check bl=0.0463435 gives sumL 592.836
+check bl=2.13738e-05 gives sumL 613.126
+check bl=1.00992e-06 gives sumL 613.134
+check bl=1.0022e-06 gives sumL 613.134
+Time BBL iteration = 0 sec
+--- Iter=2 logL=-1280.57
+LikelihoodLast was not sent to bblEM
+check bl=2.21036e-05 gives sumL 501.065
+check bl=1.11018e-05 gives sumL 501.069
+check bl=5.6009e-06 gives sumL 501.071
+check bl=2.85045e-06 gives sumL 501.072
+check bl=1.47522e-06 gives sumL 501.072
+check bl=7.87612e-07 gives sumL 501.072
+check bl=4.43806e-07 gives sumL 501.072
+check bl=3.06135e-07 gives sumL 501.072
+check bl=3.90295e-07 gives sumL 501.072
+check bl=3.80148e-07 gives sumL 501.072
+check bl=3.77694e-07 gives sumL 501.072
+check bl=3.78172e-07 gives sumL 501.072
+check bl=0.00859562 gives sumL 482.429
+check bl=0.00429786 gives sumL 481.931
+check bl=0.00836961 gives sumL 482.432
+check bl=0.00826175 gives sumL 482.433
+check bl=0.00816084 gives sumL 482.433
+check bl=0.008169 gives sumL 482.433
+check bl=0.00173996 gives sumL 500.083
+check bl=0.000870031 gives sumL 500.368
+check bl=0.000435065 gives sumL 500.491
+check bl=0.000217583 gives sumL 500.532
+check bl=4.98475e-05 gives sumL 500.508
+check bl=0.000198382 gives sumL 500.533
+check bl=0.000185273 gives sumL 500.534
+check bl=0.00011756 gives sumL 500.533
+check bl=0.000164163 gives sumL 500.535
+check bl=0.000155792 gives sumL 500.535
+check bl=0.000157124 gives sumL 500.535
+check bl=0.000156967 gives sumL 500.535
+check bl=0.058494 gives sumL 410.334
+check bl=0.029247 gives sumL 407.519
+check bl=0.0570113 gives sumL 410.351
+check bl=0.0562704 gives sumL 410.355
+check bl=0.0427587 gives sumL 409.835
+check bl=0.055513 gives sumL 410.357
+check bl=0.0555685 gives sumL 410.357
+check bl=0.0182121 gives sumL 469.501
+check bl=0.00910609 gives sumL 468.674
+check bl=0.0172711 gives sumL 469.524
+check bl=0.0168424 gives sumL 469.529
+check bl=0.016467 gives sumL 469.531
+check bl=0.016485 gives sumL 469.531
+check bl=0.0165015 gives sumL 469.531
+check bl=3.99868e-07 gives sumL 500.522
+check bl=2.49934e-07 gives sumL 500.522
+check bl=3.75768e-07 gives sumL 500.522
+check bl=3.68184e-07 gives sumL 500.522
+check bl=3.64595e-07 gives sumL 500.522
+check bl=3.6506e-07 gives sumL 500.522
+check bl=10 gives sumL -118.881
+check bl=45.7539 gives sumL -19.7233
+check bl=48.1231 gives sumL -18.231
+check bl=50.3756 gives sumL -16.9514
+check bl=65.9417 gives sumL -10.6878
+check bl=73.7248 gives sumL -8.65811
+check bl=77.6163 gives sumL -7.82148
+check bl=79.5621 gives sumL -7.44
+check bl=80.535 gives sumL -7.25767
+check bl=81.0214 gives sumL -7.16852
+check bl=81.2646 gives sumL -7.12444
+check bl=81.3862 gives sumL -7.10252
+check bl=1.0011e-06 gives sumL 613.134
+check bl=5 gives sumL 192.578
+check bl=0.0454929 gives sumL 592.255
+check bl=1.93417e-05 gives sumL 613.126
+check bl=1.00842e-06 gives sumL 613.134
+check bl=1.0022e-06 gives sumL 613.134
+Time BBL iteration = 0 sec
+--- Iter=3 logL=-1279.98
+LikelihoodLast was not sent to bblEM
+check bl=3.77694e-07 gives sumL 501.074
+check bl=2.38847e-07 gives sumL 501.074
+check bl=1.69424e-07 gives sumL 501.074
+check bl=1.34712e-07 gives sumL 501.074
+check bl=1.17356e-07 gives sumL 501.074
+check bl=1.08678e-07 gives sumL 501.074
+check bl=1.04339e-07 gives sumL 501.074
+check bl=1.02169e-07 gives sumL 501.074
+check bl=1.01085e-07 gives sumL 501.074
+check bl=1.00542e-07 gives sumL 501.074
+check bl=1.00271e-07 gives sumL 501.074
+check bl=0.00816084 gives sumL 482.433
+check bl=0.00408047 gives sumL 481.865
+check bl=0.00813469 gives sumL 482.433
+check bl=0.00812161 gives sumL 482.433
+check bl=0.00610104 gives sumL 482.323
+check bl=0.00810847 gives sumL 482.433
+check bl=0.00810036 gives sumL 482.433
+check bl=0.000157124 gives sumL 500.97
+check bl=7.86121e-05 gives sumL 500.996
+check bl=3.9356e-05 gives sumL 501.007
+check bl=1.9728e-05 gives sumL 501.01
+check bl=5.91748e-06 gives sumL 501.009
+check bl=1.76517e-05 gives sumL 501.011
+check bl=1.64166e-05 gives sumL 501.011
+check bl=1.11671e-05 gives sumL 501.011
+check bl=1.50303e-05 gives sumL 501.011
+check bl=1.45507e-05 gives sumL 501.011
+check bl=1.46052e-05 gives sumL 501.011
+check bl=1.45905e-05 gives sumL 501.011
+check bl=0.055513 gives sumL 410.388
+check bl=0.0277565 gives sumL 407.201
+check bl=0.0552719 gives sumL 410.389
+check bl=0.0551465 gives sumL 410.389
+check bl=0.0414515 gives sumL 409.783
+check bl=0.0550101 gives sumL 410.389
+check bl=0.0550652 gives sumL 410.389
+check bl=0.016485 gives sumL 469.403
+check bl=0.00824255 gives sumL 468.265
+check bl=0.0164685 gives sumL 469.403
+check bl=0.016452 gives sumL 469.403
+check bl=3.64595e-07 gives sumL 500.524
+check bl=5 gives sumL 167.883
+check bl=0.0169471 gives sumL 494.22
+check bl=2.94367e-06 gives sumL 500.523
+check bl=3.6506e-07 gives sumL 500.524
+check bl=10 gives sumL -118.228
+check bl=45.6931 gives sumL -19.6341
+check bl=48.0622 gives sumL -18.1468
+check bl=50.3146 gives sumL -16.8718
+check bl=65.8504 gives sumL -10.6415
+check bl=73.6183 gives sumL -8.62218
+check bl=77.5023 gives sumL -7.78972
+check bl=79.4442 gives sumL -7.41012
+check bl=80.4152 gives sumL -7.22869
+check bl=80.9007 gives sumL -7.13997
+check bl=81.1435 gives sumL -7.09611
+check bl=81.2649 gives sumL -7.07429
+check bl=1.0011e-06 gives sumL 613.134
+check bl=5 gives sumL 191.72
+check bl=0.0454864 gives sumL 592.134
+check bl=1.91786e-05 gives sumL 613.126
+check bl=1.00829e-06 gives sumL 613.134
+check bl=1.0022e-06 gives sumL 613.134
+Time BBL iteration = 0 sec
+--- Iter=4 logL=-1279.95
+LikelihoodLast was not sent to bblEM
+check bl=1.00271e-07 gives sumL 501.074
+check bl=1.00071e-07 gives sumL 501.074
+check bl=0.00810847 gives sumL 482.433
+check bl=0.00405429 gives sumL 481.857
+check bl=0.00810036 gives sumL 482.433
+check bl=0.00809226 gives sumL 482.433
+check bl=1.46052e-05 gives sumL 501.063
+check bl=7.35262e-06 gives sumL 501.066
+check bl=3.72631e-06 gives sumL 501.067
+check bl=1.91315e-06 gives sumL 501.067
+check bl=3.55991e-07 gives sumL 501.067
+check bl=1.76439e-06 gives sumL 501.067
+check bl=1.65488e-06 gives sumL 501.067
+check bl=1.00543e-06 gives sumL 501.067
+check bl=1.42718e-06 gives sumL 501.067
+check bl=1.36915e-06 gives sumL 501.067
+check bl=1.34816e-06 gives sumL 501.067
+check bl=1.34961e-06 gives sumL 501.067
+check bl=1.35106e-06 gives sumL 501.067
+check bl=0.0550101 gives sumL 410.39
+check bl=0.0275051 gives sumL 407.133
+check bl=0.0549551 gives sumL 410.39
+check bl=0.0549002 gives sumL 410.39
+check bl=0.0164685 gives sumL 469.389
+check bl=0.00823431 gives sumL 468.248
+check bl=0.016452 gives sumL 469.389
+check bl=3.64595e-07 gives sumL 500.524
+check bl=5 gives sumL 167.791
+check bl=0.107941 gives sumL 463.382
+check bl=0.000125624 gives sumL 500.477
+check bl=4.84905e-07 gives sumL 500.524
+check bl=3.6506e-07 gives sumL 500.524
+check bl=3.65525e-07 gives sumL 500.524
+check bl=10 gives sumL -118.118
+check bl=45.6324 gives sumL -19.6429
+check bl=48.0031 gives sumL -18.1523
+check bl=50.2567 gives sumL -16.8749
+check bl=65.7608 gives sumL -10.6485
+check bl=73.5128 gives sumL -8.62976
+check bl=77.3888 gives sumL -7.79742
+check bl=79.3268 gives sumL -7.41784
+check bl=80.2958 gives sumL -7.23642
+check bl=80.7803 gives sumL -7.14771
+check bl=81.0226 gives sumL -7.10384
+check bl=81.1437 gives sumL -7.08203
+check bl=1.0011e-06 gives sumL 613.134
+check bl=5 gives sumL 191.612
+check bl=0.045592 gives sumL 592.073
+check bl=1.9249e-05 gives sumL 613.126
+check bl=1.00833e-06 gives sumL 613.134
+check bl=1.0022e-06 gives sumL 613.134
+Time BBL iteration = 0 sec
+--- Iter=5 logL=-1279.97
+Likelihood went down oldL=-1279.95 newL=-1279.97 Do not update tree
+Overall running time for BBL = 0 sec
+# bestHkyParamAlphaAndBBL::bestHkyParamAlphaAndBBL iteration 0: after branch lengths optimization:
+# After BBL new L = -1279.95 old L = -1.79769e+308
+# The tree:((((Met1:0.000000,Met2:0.008108):0.000015,Met3:0.055010):0.016469,Prim:0.000000):81.264850,Normal:0.000001);
+brent, f(0x1.3a8cfc24040fdp+2)=0x1.3ffccf040de8ep+10
+brent, f(0x1.84ce5b9f2ccfap+1)=0x1.3df7f06131946p+10
+brent, f(0x1.e0973c5889094p+0)=0x1.3cc2f85143e02p+10
+brent, f(0x1.29057cc4ae5b6p+0)=0x1.3c44baed1a09dp+10
+brent, f(0x1.6f2381779ea72p-1)=0x1.3c5483bbe7fdap+10
+brent, f(0x1.0948f9963d98ep+0)=0x1.3c3d206d10a8cp+10
+brent, f(0x1.fe9c6332031f8p-1)=0x1.3c3c3a4031ad5p+10
+brent, f(0x1.ef72c8fe9084cp-1)=0x1.3c3c18fba7802p+10
+brent, f(0x1.f467220c358bdp-1)=0x1.3c3c15c18d848p+10
+brent, f(0x1.f9682a124f6c8p-1)=0x1.3c3c20809516fp+10
+bestHkyParamAlphaAndBBL: trtv = 0x1.f467220c358bdp-1
+ while in brent: with alpha = 0x1.28488da63726p-1 logL = -0x1.3c3c15c18d848p+10
+brent, f(0x1.28488da63726p-1)=0x1.3c3c15c18d848p+10
+ while in brent: with alpha = 0x1.223c8e0d66102p+1 logL = -0x1.3bf835cf2cba3p+10
+brent, f(0x1.223c8e0d66102p+1)=0x1.3bf835cf2cba3p+10
+ while in brent: with alpha = 0x1.a7d593ffa5914p+1 logL = -0x1.3bf53d59960f2p+10
+brent, f(0x1.a7d593ffa5914p+1)=0x1.3bf53d59960f2p+10
+ while in brent: with alpha = 0x1.725cf7f5a7ab6p+1 logL = -0x1.3bf62dfe5324dp+10
+brent, f(0x1.725cf7f5a7ab6p+1)=0x1.3bf62dfe5324dp+10
+ while in brent: with alpha = 0x1.fa66f9365ca41p+1 logL = -0x1.3bf42ac8c856ap+10
+brent, f(0x1.fa66f9365ca41p+1)=0x1.3bf42ac8c856ap+10
+ while in brent: with alpha = 0x1.16b74d22154f9p+2 logL = -0x1.3bf3a91b14806p+10
+brent, f(0x1.16b74d22154f9p+2)=0x1.3bf3a91b14806p+10
+ while in brent: with alpha = 0x1.267c2f4ff63bfp+2 logL = -0x1.3bf363cc47a12p+10
+brent, f(0x1.267c2f4ff63bfp+2)=0x1.3bf363cc47a12p+10
+ while in brent: with alpha = 0x1.303b1db8b2b3p+2 logL = -0x1.3bf33cb4680e6p+10
+brent, f(0x1.303b1db8b2b3p+2)=0x1.3bf33cb4680e6p+10
+ while in brent: with alpha = 0x1.364111878d22ep+2 logL = -0x1.3bf32581c475bp+10
+brent, f(0x1.364111878d22ep+2)=0x1.3bf32581c475bp+10
+ while in brent: with alpha = 0x1.39fa0c276f957p+2 logL = -0x1.3bf317d13bbfbp+10
+brent, f(0x1.39fa0c276f957p+2)=0x1.3bf317d13bbfbp+10
+# bestHkyParamAlphaAndBBL::bestHkyParamAlphaAndBBL iteration 1: after param optimization:
+# old L = -0x1.3ffccf040de8ep+10	# new L = -0x1.3bf317d13bbfbp+10
+# new hkyParam = 0x1.f467220c358bdp-1
+# new Alpha = 0x1.39fa0c276f957p+2
+--- Iter=0 logL=-0x1.3bf317d13bbfbp+10
+LikelihoodLast was not sent to bblEM
+check bl=0x1.aea955bee76d1p-24 gives sumL 0x1.f512fc48606c8p+8
+check bl=0x1.adcd226b15d6fp-24 gives sumL 0x1.f512fc49a2522p+8
+check bl=0x1.09b2cc50d9848p-7 gives sumL 0x1.e12c85df1256dp+8
+check bl=0x1.09b3a3106e5a6p-8 gives sumL 0x1.e09c3362e3b6ap+8
+check bl=0x1.0847a040f9c74p-7 gives sumL 0x1.e12c8e48d2ca6p+8
+check bl=0x1.0793a029994a8p-7 gives sumL 0x1.e12c905c1b19fp+8
+check bl=0x1.06e1ceba2c905p-7 gives sumL 0x1.e12c9109834f1p+8
+check bl=0x1.07251b2e438a8p-7 gives sumL 0x1.e12c90f1158b4p+8
+check bl=0x1.ea11fc06e1e84p-17 gives sumL 0x1.f51107ead40a6p+8
+check bl=0x1.ed6cfa5a397e3p-18 gives sumL 0x1.f511b2fb82c35p+8
+check bl=0x1.f422f700e8aap-19 gives sumL 0x1.f5120471ec56dp+8
+check bl=0x1.00c778272380dp-19 gives sumL 0x1.f5122938face8p+8
+check bl=0x1.0e33717481d87p-20 gives sumL 0x1.f51237e007185p+8
+check bl=0x1.290b640f3e87cp-21 gives sumL 0x1.f5123bd8b8167p+8
+check bl=0x1.c44d52fac3426p-22 gives sumL 0x1.f5123bd0563b9p+8
+check bl=0x1.0b606420e73d2p-21 gives sumL 0x1.f5123bf0bc8fap+8
+check bl=0x1.0742506d6e95p-21 gives sumL 0x1.f5123bf13bdbcp+8
+check bl=0x1.06955b155b46p-21 gives sumL 0x1.f5123bf13e625p+8
+check bl=0x1.06e652300e2c9p-21 gives sumL 0x1.f5123bf13dda8p+8
+check bl=0x1.c2a4a47744201p-5 gives sumL 0x1.9ab3ce8897c7ep+8
+check bl=0x1.c2a4da2729559p-6 gives sumL 0x1.9834a05e157eap+8
+check bl=0x1.ab7605a317a17p-5 gives sumL 0x1.9ac5b2a61728ep+8
+check bl=0x1.a0e91c0dbfe91p-5 gives sumL 0x1.9ac98eef9d86ep+8
+check bl=0x1.97b1bddc5628ep-5 gives sumL 0x1.9aca952bbe534p+8
+check bl=0x1.9821b35e0f612p-5 gives sumL 0x1.9aca95cda5059p+8
+check bl=0x1.988a2ebc89bc7p-5 gives sumL 0x1.9aca9533aa0dfp+8
+check bl=0x1.0dd1f01caea98p-6 gives sumL 0x1.d12ef76b47e5p+8
+check bl=0x1.0dd25b7c79147p-7 gives sumL 0x1.d015e7bdb28f6p+8
+check bl=0x1.0b2d96e48efebp-6 gives sumL 0x1.d12f2fe14efacp+8
+check bl=0x1.09e0b0023db8fp-6 gives sumL 0x1.d12f3da9ebd1fp+8
+check bl=0x1.089ae8f526329p-6 gives sumL 0x1.d12f4216a7a3bp+8
+check bl=0x1.08dea639d7971p-6 gives sumL 0x1.d12f41e93d91bp+8
+check bl=0x1.877b38d1081eap-22 gives sumL 0x1.f486456e04872p+8
+check bl=0x1.f2db033bfadbcp-23 gives sumL 0x1.f48644b6ef2e1p+8
+check bl=0x1.82ac8b7616effp-22 gives sumL 0x1.f486456e61968p+8
+check bl=0x1.80fd177718facp-22 gives sumL 0x1.f486456e6d212p+8
+check bl=0x1.80129a2d3367bp-22 gives sumL 0x1.f486456e6ec09p+8
+check bl=0x1.7f94cab749e51p-22 gives sumL 0x1.f486456e6e442p+8
+check bl=0x1.4p+3 gives sumL -0x1.c03ff4bb6493cp-3
+check bl=0x1.6d0f34e9550e4p+5 gives sumL -0x1.8714d081b5371p-30
+check bl=0x1.6d6ca971c5607p+5 gives sumL -0x1.7dd63e372f77bp-30
+check bl=0x1.6dca35e6e3e3ep+5 gives sumL -0x1.74ce89c0a1cb2p-30
+check bl=0x1.fbf44fdcc7003p+5 gives sumL -0x1.10f55a16442a8p-43
+check bl=0x1.fc76592888136p+5 gives sumL -0x1.0c897089995cfp-43
+check bl=0x1.fcf883be5872ap+5 gives sumL -0x1.05cbbe97bd382p-43
+check bl=0x1.21c5bb6440a3cp+6 gives sumL 0x0p+0
+check bl=0x1.221d043ed5ef2p+6 gives sumL 0x0p+0
+check bl=0x1.2273842b0e8dfp+6 gives sumL 0x0p+0
+check bl=0x1.33c15c8a31ce2p+6 gives sumL 0x0p+0
+check bl=0x1.35b25c9c0592ep+6 gives sumL 0x0p+0
+check bl=0x1.3760d47c03f56p+6 gives sumL 0x0p+0
+check bl=0x1.3e3804b2ac81dp+6 gives sumL 0x0p+0
+check bl=0x1.425e214f8b19bp+6 gives sumL 0x0p+0
+check bl=0x1.43b6ab1c7014p+6 gives sumL 0x0p+0
+check bl=0x1.4462f002e2912p+6 gives sumL 0x0p+0
+check bl=0x1.44b912761bcfbp+6 gives sumL 0x0p+0
+check bl=0x1.0cbb116794282p-20 gives sumL 0x1.329124441eae7p+9
+check bl=0x1.400002197622dp+2 gives sumL 0x1.d6f1720144a2ep+3
+check bl=0x1.0f06c00c2218p-20 gives sumL 0x1.32912443fce43p+9
+check bl=0x1.0d06bc291df73p-20 gives sumL 0x1.329124441e1e6p+9
+Time BBL iteration = 0 sec
+--- Iter=1 logL=-0x1.3beced955166p+10
+LikelihoodLast was not sent to bblEM
+check bl=0x1.adcd226b15d6fp-24 gives sumL 0x1.f512feb81d378p+8
+check bl=0x1.adcd226b15d6fp-24 gives sumL 0x1.f512feb81d378p+8
+check bl=0x1.aea91d5fd81ccp-24 gives sumL 0x1.f512feb6db5aep+8
+check bl=0x1.06e1ceba2c905p-7 gives sumL 0x1.e12c931030439p+8
+check bl=0x1.06e2a579c1663p-8 gives sumL 0x1.e09878eeefba7p+8
+check bl=0x1.069e824615962p-7 gives sumL 0x1.e12c932293d7cp+8
+check bl=0x1.065b470c7a893p-7 gives sumL 0x1.e12c93029fd82p+8
+check bl=0x1.06955b155b46p-21 gives sumL 0x1.f512ef9a05df4p+8
+check bl=0x1.3c45404ad4a49p-22 gives sumL 0x1.f512f438d217ep+8
+check bl=0x1.a7a50ab5c761bp-23 gives sumL 0x1.f512f679b0764p+8
+check bl=0x1.3f324fc5d66ep-23 gives sumL 0x1.f512f791f8093p+8
+check bl=0x1.0af8f24dddf42p-23 gives sumL 0x1.f512f81a7270fp+8
+check bl=0x1.e1b88723c36e6p-24 gives sumL 0x1.f512f85d58414p+8
+check bl=0x1.c79bd867c7317p-24 gives sumL 0x1.f512f87e5f6bbp+8
+check bl=0x1.ba8d8109c913p-24 gives sumL 0x1.f512f88ec473ep+8
+check bl=0x1.b406555aca03cp-24 gives sumL 0x1.f512f896eecdbp+8
+check bl=0x1.b0c2bf834a7c2p-24 gives sumL 0x1.f512f89b01de4p+8
+check bl=0x1.af20f4978ab85p-24 gives sumL 0x1.f512f89d0adcfp+8
+check bl=0x1.9821b35e0f612p-5 gives sumL 0x1.9ac973c7c8956p+8
+check bl=0x1.9821e90df496ap-6 gives sumL 0x1.975fbff59600ap+8
+check bl=0x1.97b937ff9505dp-5 gives sumL 0x1.9ac974433c6eep+8
+check bl=0x1.9750d7606e3e9p-5 gives sumL 0x1.9ac97397e6f4ep+8
+check bl=0x1.089ae8f526329p-6 gives sumL 0x1.d12f9b205b23p+8
+check bl=0x1.089b5454f09d8p-7 gives sumL 0x1.d0081f3a7572ep+8
+check bl=0x1.08572bb074ce1p-6 gives sumL 0x1.d12f9b4424ddap+8
+check bl=0x1.08137fc320c61p-6 gives sumL 0x1.d12f9b03a433ep+8
+check bl=0x1.80129a2d3367bp-22 gives sumL 0x1.f486523a8c426p+8
+check bl=0x1.eb7264982624dp-23 gives sumL 0x1.f4865177b635bp+8
+check bl=0x1.7f94cab749e51p-22 gives sumL 0x1.f486523a8c683p+8
+check bl=0x1.7f171b767c85bp-22 gives sumL 0x1.f486523a8b9b8p+8
+check bl=0x1.4p+3 gives sumL -0x1.bf36b151293d7p-3
+check bl=0x1.6cb912761bcfbp+5 gives sumL -0x1.8eddbecdc8702p-30
+check bl=0x1.6d1670f1a1d5cp+5 gives sumL -0x1.8572ab5136b0bp-30
+check bl=0x1.6d73e75430f3fp+5 gives sumL -0x1.7c3e91b089eddp-30
+check bl=0x1.fb7306203449ap+5 gives sumL -0x1.100a3de7ddccdp-43
+check bl=0x1.fbf4ee52f0189p+5 gives sumL -0x1.1052ef6b60688p-43
+check bl=0x1.0cbb116794282p-20 gives sumL 0x1.329124158ddfdp+9
+check bl=0x1.400002197622dp+2 gives sumL 0x1.d5e32d831a5b9p+3
+check bl=0x1.0f093a21113c8p-20 gives sumL 0x1.329124156bc5p+9
+check bl=0x1.0d06bc291df73p-20 gives sumL 0x1.329124158d4f6p+9
+Time BBL iteration = 0 sec
+--- Iter=2 logL=-0x1.3beceb13fa5e4p+10
+LikelihoodLast was not sent to bblEM
+Overall running time for BBL = 0 sec
+# bestHkyParamAlphaAndBBL::bestHkyParamAlphaAndBBL iteration 1: after branch lengths optimization:
+# After BBL new L = -0x1.3beceb13fa5e4p+10 old L = -0x1.3ffccf040de8ep+10
+# The tree:((((Met1:0x1.adcd226b15d6fp-24,Met2:0x1.069e824615962p-7):0x1.af20f4978ab85p-24,Met3:0x1.97b937ff9505dp-5):0x1.08572bb074ce1p-6,Prim:0x1.7f94cab749e51p-22):0x1.fb7306203449ap+5,Normal:0x1.0cbb116794282p-20);
+brent, f(0x1.f467220c358bdp-1)=0x1.3beceb13fa5e4p+10
+brent, f(0x1.41c654e93ff96p+1)=0x1.3c75e37a820d9p+10
+brent, f(0x1.90726eeb8fc5fp+0)=0x1.3c035014e56cep+10
+brent, f(0x1.d4b64177a4251p-1)=0x1.3bf11a728d763p+10
+brent, f(0x1.275d75d63f8ffp+0)=0x1.3bea422b0a525p+10
+brent, f(0x1.4f80b79ae5fc4p+0)=0x1.3bf0077f5a019p+10
+brent, f(0x1.1d2d4de78ffd5p+0)=0x1.3be9dd170023ep+10
+brent, f(0x1.1a534052e5b7fp+0)=0x1.3be9d86fa17b2p+10
+brent, f(0x1.17807fadcc82ap+0)=0x1.3be9de952d9c9p+10
+bestHkyParamAlphaAndBBL: trtv = 0x1.1a534052e5b7fp+0
+ while in brent: with alpha = 0x1.39fa0c276f957p+2 logL = -0x1.3be9d86fa17b2p+10
+brent, f(0x1.39fa0c276f957p+2)=0x1.3be9d86fa17b2p+10
+ while in brent: with alpha = 0x1.8418bbb43a44p+1 logL = -0x1.3becf834069f9p+10
+brent, f(0x1.8418bbb43a44p+1)=0x1.3becf834069f9p+10
+ while in brent: with alpha = 0x1.0c2b0ca58db2dp+2 logL = -0x1.3beab7ae27b74p+10
+brent, f(0x1.0c2b0ca58db2dp+2)=0x1.3beab7ae27b74p+10
+ while in brent: with alpha = 0x1.287abba541c82p+2 logL = -0x1.3bea25b15d1b5p+10
+brent, f(0x1.287abba541c82p+2)=0x1.3bea25b15d1b5p+10
+ while in brent: with alpha = 0x1.334b1a069262cp+2 logL = -0x1.3be9f4d7899ffp+10
+brent, f(0x1.334b1a069262cp+2)=0x1.3be9f4d7899ffp+10
+ while in brent: with alpha = 0x1.36d6445a22571p+2 logL = -0x1.3be9e5b1871f5p+10
+brent, f(0x1.36d6445a22571p+2)=0x1.3be9e5b1871f5p+10
+# bestHkyParamAlphaAndBBL::bestHkyParamAlphaAndBBL iteration 2: after param optimization:
+# old L = -0x1.3beceb13fa5e4p+10	# new L = -0x1.3be9d86fa17b2p+10
+# new hkyParam = 0x1.1a534052e5b7fp+0
+# new Alpha = 0x1.39fa0c276f957p+2
+--- Iter=0 logL=-0x1.3be9d86fa17b2p+10
+LikelihoodLast was not sent to bblEM
+check bl=0x1.adcd226b15d6fp-24 gives sumL 0x1.f512fcde8f61fp+8
+check bl=0x1.adcd226b15d6fp-24 gives sumL 0x1.f512fcde8f61fp+8
+check bl=0x1.aea91d5fd81ccp-24 gives sumL 0x1.f512fcdd4e22cp+8
+check bl=0x1.069e824615962p-7 gives sumL 0x1.e13eb28b18f4fp+8
+check bl=0x1.4041a7a091857p+2 gives sumL 0x1.aa98bbfab7393p+3
+check bl=0x1.c1a0ad3f6b178p-2 gives sumL 0x1.5e159ad57170ap+8
+check bl=0x1.2d61b34e4b107p-7 gives sumL 0x1.e1375154248fdp+8
+check bl=0x1.073e86bef4966p-7 gives sumL 0x1.e13eb2f4fa527p+8
+check bl=0x1.06fb228e71e3dp-7 gives sumL 0x1.e13eb2eb06358p+8
+check bl=0x1.af20f4978ab85p-24 gives sumL 0x1.f512fbd5e2759p+8
+check bl=0x1.ae44a2a446484p-24 gives sumL 0x1.f512fbd71c216p+8
+check bl=0x1.97b937ff9505dp-5 gives sumL 0x1.9a814153591bap+8
+check bl=0x1.4197b937ff951p+2 gives sumL 0x1.96c6c6df79a5cp+3
+check bl=0x1.7fbb2300b7399p-1 gives sumL 0x1.fcabd60efa35p+7
+check bl=0x1.bba740715f28bp-5 gives sumL 0x1.9a723d22f138fp+8
+check bl=0x1.99556c9c5c8b2p-5 gives sumL 0x1.9a8148d2deba5p+8
+check bl=0x1.98eca276e8c4p-5 gives sumL 0x1.9a81489bef0dap+8
+check bl=0x1.08572bb074ce1p-6 gives sumL 0x1.d1722e6e69edap+8
+check bl=0x1.40842b95d83a7p+2 gives sumL 0x1.a82c325d15213p+3
+check bl=0x1.dac5ef05790fbp-2 gives sumL 0x1.52c1e2b348367p+8
+check bl=0x1.1e0f254fbcdabp-6 gives sumL 0x1.d16d901567f46p+8
+check bl=0x1.08f62048ad18cp-6 gives sumL 0x1.d1722f58e7badp+8
+check bl=0x1.08b24baa0b2f6p-6 gives sumL 0x1.d1722f384827p+8
+check bl=0x1.7f94cab749e51p-22 gives sumL 0x1.f48642cf8fc8bp+8
+check bl=0x1.400000bfca655p+2 gives sumL 0x1.ad62adc651d7p+3
+check bl=0x1.c50ff32f0f8c4p-2 gives sumL 0x1.61480c593800ap+8
+check bl=0x1.42c055cdd47a2p-10 gives sumL 0x1.f40fe6a1a6488p+8
+check bl=0x1.8fa0ca4d08777p-19 gives sumL 0x1.f48614df38718p+8
+check bl=0x1.86618341891d7p-22 gives sumL 0x1.f48642cf4bbp+8
+check bl=0x1.806958c5f6575p-22 gives sumL 0x1.f48642cf91185p+8
+check bl=0x1.80e73e70c35fcp-22 gives sumL 0x1.f48642cf9098bp+8
+check bl=0x1.4p+3 gives sumL -0x1.22d19ba338a54p-2
+check bl=0x1.25b983101a24dp+5 gives sumL -0x1.eb90d7093b388p-22
+check bl=0x1.2604b49a1d9b2p+5 gives sumL -0x1.e2bb047853ea7p-22
+check bl=0x1.264ff96402dd1p+5 gives sumL -0x1.da0ba6137462bp-22
+check bl=0x1.90e17fc21b936p+5 gives sumL -0x1.50bacebe386fbp-31
+check bl=0x1.91481fe2d3c67p+5 gives sumL -0x1.48805886375f3p-31
+check bl=0x1.91aeda4936249p+5 gives sumL -0x1.4075fd07d0df9p-31
+check bl=0x1.c690f034b5372p+5 gives sumL -0x1.877dba79eb2bfp-36
+check bl=0x1.c8a0afdf05eafp+5 gives sumL -0x1.58ba564ec6d96p-36
+check bl=0x1.ca8a02de6ab94p+5 gives sumL -0x1.327e0d0f3821fp-36
+check bl=0x1.e2fe847f4f817p+5 gives sumL -0x1.0e7dee5a101c6p-38
+check bl=0x1.e96f3e697c973p+5 gives sumL -0x1.6b80373609641p-39
+check bl=0x1.eed1bc091d05cp+5 gives sumL -0x1.057b3f1872f17p-39
+check bl=0x1.f5226114a8a7bp+5 gives sumL -0x1.61c67c1f5bc98p-40
+check bl=0x1.f84ab39a6e78ap+5 gives sumL -0x1.2454e3989b56cp-40
+check bl=0x1.f9dedcdd51612p+5 gives sumL -0x1.071084d97ac14p-40
+check bl=0x1.faa8f17ec2d56p+5 gives sumL -0x1.f596754a71a35p-41
+check bl=0x1.0cbb116794282p-20 gives sumL 0x1.329122f98598bp+9
+check bl=0x1.2793040250d76p-21 gives sumL 0x1.329120db7f9bep+9
+check bl=0x1.0c6f66a60a591p-20 gives sumL 0x1.329122f985075p+9
+Time BBL iteration = 0 sec
+--- Iter=1 logL=-0x1.3be9d6326ecc9p+10
+LikelihoodLast was not sent to bblEM
+Overall running time for BBL = 0 sec
+# bestHkyParamAlphaAndBBL::bestHkyParamAlphaAndBBL iteration 2: after branch lengths optimization:
+# After BBL new L = -0x1.3be9d6326ecc9p+10 old L = -0x1.3beceb13fa5e4p+10
+# The tree:((((Met1:0x1.adcd226b15d6fp-24,Met2:0x1.073e86bef4966p-7):0x1.ae44a2a446484p-24,Met3:0x1.99556c9c5c8b2p-5):0x1.08f62048ad18cp-6,Prim:0x1.806958c5f6575p-22):0x1.faa8f17ec2d56p+5,Normal:0x1.0cbb116794282p-20);
+END OF LOG FILE
+visited: 6224
+min positions to be visited: 6224

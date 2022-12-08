@@ -1,0 +1,3298 @@
+marginal probabilities at position: 1
+of node: Met0: p(C)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999979 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.993761 p(C)=0.00610759 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999528 p(T)=0.000464039 
+of node: N4: p(C)=0.998275 p(T)=0.00169274 
+of node: N3: p(C)=0.998275 p(T)=0.00169257 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 2
+of node: Met0: p(G)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=1 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999986 
+of node: Met5: p(G)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.999998 
+of node: N4: p(G)=0.999996 
+of node: N3: p(G)=0.999995 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 3
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999996 
+of node: N4: p(T)=0.999993 
+of node: N3: p(T)=0.999993 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=0.999998 
+
+marginal probabilities at position: 4
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999999 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999982 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999995 
+of node: N4: p(C)=0.999988 
+of node: N3: p(C)=0.999986 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=0.999999 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=0.999998 
+
+marginal probabilities at position: 5
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999993 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.996998 p(A)=0.0027165 p(C)=0.000184456 p(G)=0.000101313 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.951609 p(T)=0.0478632 p(G)=0.000285866 p(C)=0.000241937 
+of node: N4: p(A)=0.699684 p(T)=0.298903 p(C)=0.000782333 p(G)=0.000630522 
+of node: N3: p(A)=0.69964 p(T)=0.298942 p(C)=0.00078499 p(G)=0.000633416 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=1 
+
+marginal probabilities at position: 6
+of node: Met0: p(C)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(A)=0.989074 p(C)=0.0108313 
+of node: N6: p(A)=0.995784 p(C)=0.00420627 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.991745 p(C)=0.00787138 p(G)=0.000215227 p(T)=0.00016795 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.9998 p(A)=0.000165642 
+of node: N4: p(C)=0.999061 p(A)=0.000819769 
+of node: N3: p(C)=0.999061 p(A)=0.000819573 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 7
+of node: Met0: p(G)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999965 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999315 p(G)=0.000675951 
+of node: N4: p(A)=0.996974 p(G)=0.00298851 
+of node: N3: p(A)=0.996474 p(G)=0.00348172 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 8
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999995 
+of node: N4: p(T)=0.999986 
+of node: N3: p(T)=0.999985 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=0.999999 
+of node: Normal: p(T)=1 
+of node: N1: p(T)=0.999998 
+
+marginal probabilities at position: 9
+of node: Met0: p(T)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999999 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999966 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999398 p(T)=0.000594222 
+of node: N4: p(C)=0.997339 p(T)=0.00262675 
+of node: N3: p(C)=0.996899 p(T)=0.00306122 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=1 
+of node: Normal: p(T)=1 
+of node: N1: p(T)=1 
+
+marginal probabilities at position: 10
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999999 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999982 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999997 
+of node: N4: p(C)=0.999994 
+of node: N3: p(C)=0.999993 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=0.999998 
+
+marginal probabilities at position: 11
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999994 
+of node: N4: p(T)=0.999984 
+of node: N3: p(T)=0.999982 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 12
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999999 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999982 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999997 
+of node: N4: p(C)=0.999994 
+of node: N3: p(C)=0.999993 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(T)=1 
+of node: N1: p(T)=0.999998 
+
+marginal probabilities at position: 13
+of node: Met0: p(A)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999999 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.99998 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999917 
+of node: N4: p(C)=0.999622 p(A)=0.000305121 
+of node: N3: p(C)=0.999557 p(A)=0.000361334 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 14
+of node: Met0: p(C)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999974 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999639 p(C)=0.000324158 
+of node: N4: p(A)=0.997808 p(C)=0.00205064 
+of node: N3: p(A)=0.997209 p(C)=0.0026294 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 15
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999994 
+of node: N4: p(T)=0.999984 
+of node: N3: p(T)=0.999982 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 16
+of node: Met0: p(C)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999988 
+of node: N6: p(A)=0.998429 p(C)=0.00152618 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.919186 p(A)=0.0794575 p(T)=0.00087094 p(G)=0.000485148 
+of node: Met5: p(A)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.965877 p(A)=0.0338866 p(T)=0.000153623 
+of node: N4: p(C)=0.966829 p(A)=0.0329739 p(T)=0.000128765 
+of node: N3: p(C)=0.966841 p(A)=0.0329604 p(T)=0.000129595 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 17
+of node: Met0: p(G)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999785 p(G)=0.000201793 
+of node: Met5: p(A)=1 
+of node: Met6: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: N8: p(A)=0.968971 p(G)=0.0305609 p(T)=0.000241183 p(C)=0.000227123 
+of node: N4: p(A)=0.96676 p(G)=0.0328109 p(T)=0.000220746 p(C)=0.000207877 
+of node: N3: p(A)=0.966276 p(G)=0.0332893 p(T)=0.000223962 p(C)=0.000210906 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 18
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999995 
+of node: N4: p(A)=0.999986 
+of node: N3: p(A)=0.999984 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 19
+of node: Met0: p(T)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999995 
+of node: Met4: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: N5: p(C)=0.998527 p(T)=0.00112862 p(A)=0.000185417 p(G)=0.000159424 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999235 p(T)=0.000754546 
+of node: N4: p(C)=0.996619 p(T)=0.00333782 
+of node: N3: p(C)=0.996178 p(T)=0.00377199 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=1 
+of node: Normal: p(T)=1 
+of node: N1: p(T)=1 
+
+marginal probabilities at position: 20
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999995 
+of node: N4: p(T)=0.999986 
+of node: N3: p(T)=0.999985 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=1 
+
+marginal probabilities at position: 21
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999995 
+of node: N4: p(T)=0.999986 
+of node: N3: p(T)=0.999985 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 22
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.998447 p(A)=0.00150755 
+of node: N6: p(C)=0.999987 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999981 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999997 
+of node: N4: p(C)=0.999994 
+of node: N3: p(C)=0.999993 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 23
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.998447 p(A)=0.00150755 
+of node: N6: p(C)=0.999987 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999981 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999997 
+of node: N4: p(C)=0.999994 
+of node: N3: p(C)=0.999993 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 24
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999996 
+of node: N4: p(T)=0.999993 
+of node: N3: p(T)=0.999993 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=0.999998 
+
+marginal probabilities at position: 25
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999994 
+of node: N4: p(T)=0.999984 
+of node: N3: p(T)=0.999982 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 26
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999997 
+of node: N4: p(A)=0.999994 
+of node: N3: p(A)=0.999994 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=0.999998 
+
+marginal probabilities at position: 27
+of node: Met0: p(G)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=1 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999986 
+of node: Met5: p(G)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.999998 
+of node: N4: p(G)=0.999996 
+of node: N3: p(G)=0.999995 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=0.999998 
+
+marginal probabilities at position: 28
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999997 
+of node: N4: p(A)=0.999994 
+of node: N3: p(A)=0.999994 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=0.999998 
+
+marginal probabilities at position: 29
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999995 
+of node: N4: p(T)=0.999986 
+of node: N3: p(T)=0.999985 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=0.999999 
+of node: Normal: p(T)=1 
+of node: N1: p(T)=0.999998 
+
+marginal probabilities at position: 30
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999999 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999979 
+of node: Met5: p(C)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(C)=0.998479 p(G)=0.00140377 
+of node: N4: p(C)=0.999459 p(G)=0.000477931 
+of node: N3: p(C)=0.999459 p(G)=0.00047787 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=0.999998 
+
+marginal probabilities at position: 31
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999996 
+of node: N4: p(T)=0.999993 
+of node: N3: p(T)=0.999993 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=0.999998 
+
+marginal probabilities at position: 32
+of node: Met0: p(T)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=0.999993 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.996408 p(T)=0.00324392 p(A)=0.000214013 p(C)=0.000133837 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999772 p(G)=0.000189186 
+of node: N4: p(T)=0.99897 p(G)=0.000897897 
+of node: N3: p(T)=0.99897 p(G)=0.000897666 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=1 
+of node: Normal: p(T)=1 
+of node: N1: p(T)=1 
+
+marginal probabilities at position: 33
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999996 
+of node: N4: p(A)=0.999988 
+of node: N3: p(A)=0.999987 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=0.999999 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 34
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999999 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999982 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999995 
+of node: N4: p(C)=0.999986 
+of node: N3: p(C)=0.999984 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=0.999999 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=0.999998 
+
+marginal probabilities at position: 35
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.99998 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: N8: p(T)=0.999774 p(C)=0.000163872 
+of node: N4: p(T)=0.99983 p(C)=0.00013527 
+of node: N3: p(T)=0.999828 p(C)=0.00013657 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 36
+of node: Met0: p(G)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=1 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999986 
+of node: Met5: p(G)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.999998 
+of node: N4: p(G)=0.999996 
+of node: N3: p(G)=0.999995 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 37
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999977 
+of node: Met4: p(G)=1 
+of node: N5: p(C)=0.989206 p(G)=0.0101196 p(T)=0.000415618 p(A)=0.000258904 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999983 
+of node: N4: p(C)=0.999922 
+of node: N3: p(C)=0.99992 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 38
+of node: Met0: p(G)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999965 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999315 p(G)=0.000675951 
+of node: N4: p(A)=0.996974 p(G)=0.00298851 
+of node: N3: p(A)=0.996474 p(G)=0.00348172 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 39
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999995 
+of node: N4: p(A)=0.999986 
+of node: N3: p(A)=0.999984 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 40
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999995 
+of node: N4: p(A)=0.999986 
+of node: N3: p(A)=0.999984 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 41
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999996 
+of node: N4: p(T)=0.999993 
+of node: N3: p(T)=0.999993 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 42
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999996 
+of node: N4: p(T)=0.999993 
+of node: N3: p(T)=0.999993 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 43
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999997 
+of node: N4: p(A)=0.999994 
+of node: N3: p(A)=0.999994 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=0.999998 
+
+marginal probabilities at position: 44
+of node: Met0: p(C)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=1 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999979 
+of node: Met5: p(G)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.999727 p(C)=0.000242704 
+of node: N4: p(G)=0.998137 p(C)=0.00173448 
+of node: N3: p(G)=0.997536 p(C)=0.00231342 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 45
+of node: Met0: p(G)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=1 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999986 
+of node: Met5: p(G)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.999997 
+of node: N4: p(G)=0.999991 
+of node: N3: p(G)=0.999989 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=0.999999 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=0.999998 
+
+marginal probabilities at position: 46
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.99995 
+of node: N6: p(T)=0.993944 p(G)=0.00549427 p(C)=0.000333839 p(A)=0.000227508 
+of node: Met4: p(G)=1 
+of node: N5: p(T)=0.982756 p(G)=0.0162052 p(C)=0.000624167 p(A)=0.000414246 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999973 
+of node: N4: p(T)=0.999874 p(G)=0.000106273 
+of node: N3: p(T)=0.999872 p(G)=0.000106927 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 47
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999996 
+of node: N4: p(T)=0.999993 
+of node: N3: p(T)=0.999993 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=0.999998 
+
+marginal probabilities at position: 48
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999996 
+of node: N4: p(T)=0.999993 
+of node: N3: p(T)=0.999993 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=0.999998 
+
+marginal probabilities at position: 49
+of node: Met0: p(T)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=0.999993 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.996408 p(T)=0.00324392 p(A)=0.000214013 p(C)=0.000133837 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999772 p(G)=0.000189186 
+of node: N4: p(T)=0.99897 p(G)=0.000897897 
+of node: N3: p(T)=0.99897 p(G)=0.000897666 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=1 
+of node: Normal: p(T)=1 
+of node: N1: p(T)=1 
+
+marginal probabilities at position: 50
+of node: Met0: p(G)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=0.999962 
+of node: N6: p(G)=0.994382 p(T)=0.0055316 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999687 p(T)=0.000286685 
+of node: Met5: p(G)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.999998 
+of node: N4: p(G)=0.999995 
+of node: N3: p(G)=0.999995 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 51
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999995 
+of node: N4: p(T)=0.999986 
+of node: N3: p(T)=0.999985 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=1 
+
+marginal probabilities at position: 52
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999997 
+of node: N4: p(A)=0.999994 
+of node: N3: p(A)=0.999994 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=0.999998 
+
+marginal probabilities at position: 53
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999999 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999971 
+of node: Met5: p(C)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(C)=0.997212 p(T)=0.00275852 
+of node: N4: p(C)=0.998672 p(T)=0.00131399 
+of node: N3: p(C)=0.998672 p(T)=0.00131398 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 54
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.993703 p(A)=0.00620588 
+of node: N6: p(A)=0.993176 p(C)=0.00672687 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999568 p(C)=0.000398309 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999995 
+of node: N4: p(A)=0.999986 
+of node: N3: p(A)=0.999984 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=0.999999 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 55
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999997 
+of node: Met4: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: N5: p(T)=0.999244 p(C)=0.0004213 p(A)=0.000180164 p(G)=0.000154907 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999993 
+of node: N4: p(T)=0.99998 
+of node: N3: p(T)=0.999978 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 56
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999996 
+of node: N4: p(A)=0.999988 
+of node: N3: p(A)=0.999987 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=0.999999 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 57
+of node: Met0: p(G)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=0.999952 
+of node: N6: p(G)=0.999994 
+of node: Met4: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: N5: p(G)=0.999053 p(A)=0.000630163 p(T)=0.000163376 p(C)=0.000153852 
+of node: Met5: p(A)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.997319 p(A)=0.00265054 
+of node: N4: p(G)=0.998688 p(A)=0.00129736 
+of node: N3: p(G)=0.998688 p(A)=0.00129725 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 58
+of node: Met0: p(A)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=0.999999 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999974 
+of node: Met5: p(G)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.99952 p(A)=0.000473762 
+of node: N4: p(G)=0.997648 p(A)=0.00232049 
+of node: N3: p(G)=0.997191 p(A)=0.00277106 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=1 
+
+marginal probabilities at position: 59
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999999 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999979 
+of node: Met5: p(C)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(C)=0.998479 p(G)=0.00140377 
+of node: N4: p(C)=0.999459 p(G)=0.00047793 
+of node: N3: p(C)=0.999459 p(G)=0.00047787 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 60
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999995 
+of node: N4: p(T)=0.999986 
+of node: N3: p(T)=0.999985 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 61
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999995 
+of node: N4: p(T)=0.999986 
+of node: N3: p(T)=0.999985 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 62
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999996 
+of node: N4: p(A)=0.999988 
+of node: N3: p(A)=0.999987 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=0.999999 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 63
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999999 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999969 
+of node: Met5: p(C)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(C)=0.996287 p(G)=0.00354903 p(T)=0.000106062 
+of node: N4: p(C)=0.99726 p(G)=0.00262502 
+of node: N3: p(C)=0.997259 p(G)=0.00262546 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 64
+of node: Met0: p(G)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=1 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999986 
+of node: Met5: p(G)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.999998 
+of node: N4: p(G)=0.999996 
+of node: N3: p(G)=0.999995 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 65
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999977 
+of node: Met4: p(G)=1 
+of node: N5: p(C)=0.989206 p(G)=0.0101196 p(T)=0.000415618 p(A)=0.000258904 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999983 
+of node: N4: p(C)=0.999922 
+of node: N3: p(C)=0.99992 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 66
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999971 
+of node: Met5: p(G)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.996977 p(G)=0.00298871 
+of node: N4: p(A)=0.998557 p(G)=0.00142638 
+of node: N3: p(A)=0.998557 p(G)=0.00142627 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=1 
+
+marginal probabilities at position: 67
+of node: Met0: p(C)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999979 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.993761 p(C)=0.00610759 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999528 p(T)=0.000464039 
+of node: N4: p(C)=0.998275 p(T)=0.00169274 
+of node: N3: p(C)=0.998275 p(T)=0.00169257 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 68
+of node: Met0: p(G)=1 
+of node: Met1: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: Met3: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=0.999859 
+of node: N6: p(G)=0.999807 p(A)=0.000106066 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999972 
+of node: Met5: p(G)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.999997 
+of node: N4: p(G)=0.999991 
+of node: N3: p(G)=0.999989 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=1 
+of node: Normal: p(T)=1 
+of node: N1: p(T)=1 
+
+marginal probabilities at position: 69
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999999 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999982 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999995 
+of node: N4: p(C)=0.999988 
+of node: N3: p(C)=0.999986 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=0.999999 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=0.999998 
+
+marginal probabilities at position: 70
+of node: Met0: p(C)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999995 
+of node: Met4: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: N5: p(T)=0.998436 p(C)=0.00119874 p(A)=0.000196655 p(G)=0.000169087 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999123 p(C)=0.000865971 
+of node: N4: p(T)=0.996271 p(C)=0.00368242 
+of node: N3: p(T)=0.995816 p(C)=0.00413169 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 71
+of node: Met0: p(C)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999987 
+of node: N6: p(A)=0.99836 p(C)=0.00159359 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.949592 p(A)=0.0490482 p(T)=0.000879548 p(G)=0.000480499 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999982 
+of node: N4: p(C)=0.999928 
+of node: N3: p(C)=0.999928 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 72
+of node: Met0: p(G)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=1 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999986 
+of node: Met5: p(G)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.999997 
+of node: N4: p(G)=0.999991 
+of node: N3: p(G)=0.999989 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 73
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999999 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999982 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999995 
+of node: N4: p(C)=0.999988 
+of node: N3: p(C)=0.999986 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 74
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.99998 
+of node: Met5: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999787 p(C)=0.00011364 
+of node: N4: p(T)=0.999847 
+of node: N3: p(T)=0.999845 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 75
+of node: Met0: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.99998 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999974 
+of node: N4: p(T)=0.999913 
+of node: N3: p(T)=0.999903 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=0.999998 
+
+marginal probabilities at position: 76
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999995 
+of node: N4: p(A)=0.999986 
+of node: N3: p(A)=0.999984 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 77
+of node: Met0: p(G)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=1 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999986 
+of node: Met5: p(G)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.999998 
+of node: N4: p(G)=0.999996 
+of node: N3: p(G)=0.999995 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=0.999998 
+
+marginal probabilities at position: 78
+of node: Met0: p(G)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=1 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999986 
+of node: Met5: p(G)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.999998 
+of node: N4: p(G)=0.999996 
+of node: N3: p(G)=0.999995 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 79
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999997 
+of node: N4: p(A)=0.999994 
+of node: N3: p(A)=0.999994 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=0.999998 
+
+marginal probabilities at position: 80
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999997 
+of node: N4: p(A)=0.999994 
+of node: N3: p(A)=0.999994 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=0.999998 
+
+marginal probabilities at position: 81
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999994 
+of node: N4: p(T)=0.999984 
+of node: N3: p(T)=0.999982 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 82
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999999 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999982 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999997 
+of node: N4: p(C)=0.999994 
+of node: N3: p(C)=0.999993 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 83
+of node: Met0: p(A)=1 
+of node: Met1: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999902 
+of node: N6: p(A)=0.991501 p(G)=0.00825863 p(T)=0.000123955 p(C)=0.000116729 
+of node: Met4: p(G)=1 
+of node: N5: p(A)=0.975558 p(G)=0.0241016 p(T)=0.000175294 p(C)=0.000165075 
+of node: Met5: p(A)=1 
+of node: Met6: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: N8: p(A)=0.999346 p(G)=0.000585161 
+of node: N4: p(A)=0.999365 p(G)=0.000594747 
+of node: N3: p(A)=0.999365 p(G)=0.000594887 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=0.999998 
+
+marginal probabilities at position: 84
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999982 
+of node: Met5: p(T)=1 p(G)=1 p(C)=1 p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999789 p(G)=0.000145558 
+of node: N4: p(A)=0.999843 p(G)=0.000120723 
+of node: N3: p(A)=0.999842 p(G)=0.000121907 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 85
+of node: Met0: p(G)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=1 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999986 
+of node: Met5: p(G)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.999997 
+of node: N4: p(G)=0.999991 
+of node: N3: p(G)=0.999989 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=0.999999 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=0.999998 
+
+marginal probabilities at position: 86
+of node: Met0: p(C)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999999 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.999982 
+of node: Met5: p(C)=1 
+of node: Met6: p(C)=1 
+of node: N8: p(C)=0.999997 
+of node: N4: p(C)=0.999994 
+of node: N3: p(C)=0.999993 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(T)=1 
+of node: N1: p(T)=0.999998 
+
+marginal probabilities at position: 87
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999996 
+of node: N4: p(T)=0.999993 
+of node: N3: p(T)=0.999993 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=0.999998 
+
+marginal probabilities at position: 88
+of node: Met0: p(G)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=1 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999986 
+of node: Met5: p(G)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.999998 
+of node: N4: p(G)=0.999996 
+of node: N3: p(G)=0.999995 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 89
+of node: Met0: p(A)=1 
+of node: Met1: p(C)=1 
+of node: Met3: p(C)=1 
+of node: Met7: p(C)=1 
+of node: N7: p(C)=0.999999 
+of node: N6: p(C)=0.999991 
+of node: Met4: p(C)=1 
+of node: N5: p(C)=0.995918 p(A)=0.00369487 p(T)=0.000253683 p(G)=0.000133479 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999799 p(C)=0.000169278 
+of node: N4: p(A)=0.999057 p(C)=0.000829162 
+of node: N3: p(A)=0.999057 p(C)=0.000828957 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=1 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=1 
+
+marginal probabilities at position: 90
+of node: Met0: p(T)=1 
+of node: Met1: p(T)=1 
+of node: Met3: p(T)=1 
+of node: Met7: p(T)=1 
+of node: N7: p(T)=0.999999 
+of node: N6: p(T)=0.999999 
+of node: Met4: p(T)=1 
+of node: N5: p(T)=0.999981 
+of node: Met5: p(T)=1 
+of node: Met6: p(T)=1 
+of node: N8: p(T)=0.999994 
+of node: N4: p(T)=0.999984 
+of node: N3: p(T)=0.999982 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+marginal probabilities at position: 91
+of node: Met0: p(G)=1 
+of node: Met1: p(G)=1 
+of node: Met3: p(G)=1 
+of node: Met7: p(G)=1 
+of node: N7: p(G)=1 
+of node: N6: p(G)=0.999999 
+of node: Met4: p(G)=1 
+of node: N5: p(G)=0.999979 
+of node: Met5: p(A)=1 
+of node: Met6: p(G)=1 
+of node: N8: p(G)=0.9976 p(A)=0.00237292 
+of node: N4: p(G)=0.99897 p(A)=0.0010189 
+of node: N3: p(G)=0.998969 p(A)=0.00101888 
+of node: Prim: p(G)=1 
+of node: N2: p(G)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=1 
+
+marginal probabilities at position: 92
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999996 
+of node: N4: p(A)=0.999988 
+of node: N3: p(A)=0.999987 
+of node: Prim: p(T)=1 
+of node: N2: p(T)=0.999999 
+of node: Normal: p(A)=1 
+of node: N1: p(A)=0.999998 
+
+marginal probabilities at position: 93
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999997 
+of node: N4: p(A)=0.999994 
+of node: N3: p(A)=0.999994 
+of node: Prim: p(A)=1 
+of node: N2: p(A)=1 
+of node: Normal: p(G)=1 
+of node: N1: p(G)=0.999998 
+
+marginal probabilities at position: 94
+of node: Met0: p(A)=1 
+of node: Met1: p(A)=1 
+of node: Met3: p(A)=1 
+of node: Met7: p(A)=1 
+of node: N7: p(A)=0.999999 
+of node: N6: p(A)=0.999999 
+of node: Met4: p(A)=1 
+of node: N5: p(A)=0.999983 
+of node: Met5: p(A)=1 
+of node: Met6: p(A)=1 
+of node: N8: p(A)=0.999996 
+of node: N4: p(A)=0.999988 
+of node: N3: p(A)=0.999987 
+of node: Prim: p(C)=1 
+of node: N2: p(C)=1 
+of node: Normal: p(C)=1 
+of node: N1: p(C)=1 
+
+
+++++++++++++++++++++++++ marginal probs +++++++++++++++++++++++++++++++
+
+node,site,A,C,G,T
+N7,1,1.13838e-07,6.7891e-07,9.78797e-08,0.999999
+N7,2,2.87331e-07,7.44377e-08,1,7.90458e-08
+N7,3,1.11238e-07,4.13839e-07,9.56438e-08,0.999999
+N7,4,9.87557e-08,0.999999,8.49113e-08,3.89992e-07
+N7,5,1.59519e-07,4.25004e-07,9.86631e-08,0.999999
+N7,6,0.989074,0.0108313,5.30164e-05,4.13962e-05
+N7,7,0.999999,1.00442e-07,3.34386e-07,1.0666e-07
+N7,8,1.11238e-07,4.1384e-07,9.56442e-08,0.999999
+N7,9,9.87642e-08,0.999999,8.49187e-08,3.90656e-07
+N7,10,9.87554e-08,0.999999,8.49112e-08,3.89991e-07
+N7,11,1.11238e-07,4.13842e-07,9.56439e-08,0.999999
+N7,12,9.87554e-08,0.999999,8.49112e-08,3.89991e-07
+N7,13,9.87898e-08,0.999999,8.49162e-08,3.90023e-07
+N7,14,0.999999,1.00563e-07,3.33682e-07,1.06667e-07
+N7,15,1.11238e-07,4.13842e-07,9.56439e-08,0.999999
+N7,16,0.999988,1.12761e-05,7.44514e-07,3.45786e-07
+N7,17,0.999999,1.00533e-07,3.41313e-07,1.06757e-07
+N7,18,0.999999,1.00433e-07,3.33626e-07,1.0665e-07
+N7,19,1.02533e-07,0.999999,8.81591e-08,4.3236e-07
+N7,20,1.11238e-07,4.1384e-07,9.5644e-08,0.999999
+N7,21,1.11238e-07,4.1384e-07,9.56442e-08,0.999999
+N7,22,0.00150755,0.998447,1.54907e-05,2.95311e-05
+N7,23,0.00150755,0.998447,1.54907e-05,2.95311e-05
+N7,24,1.11238e-07,4.13839e-07,9.56438e-08,0.999999
+N7,25,1.11238e-07,4.13842e-07,9.56439e-08,0.999999
+N7,26,0.999999,1.00433e-07,3.33623e-07,1.0665e-07
+N7,27,2.87331e-07,7.44377e-08,1,7.90458e-08
+N7,28,0.999999,1.00433e-07,3.33623e-07,1.0665e-07
+N7,29,1.11238e-07,4.1384e-07,9.56442e-08,0.999999
+N7,30,9.87626e-08,0.999999,8.49715e-08,3.90029e-07
+N7,31,1.11238e-07,4.13839e-07,9.56438e-08,0.999999
+N7,32,2.96581e-07,7.72442e-08,1,1.1904e-07
+N7,33,0.999999,1.00433e-07,3.33624e-07,1.0665e-07
+N7,34,9.87555e-08,0.999999,8.49113e-08,3.89994e-07
+N7,35,1.11241e-07,4.13903e-07,9.56469e-08,0.999999
+N7,36,2.87331e-07,7.44377e-08,1,7.90458e-08
+N7,37,1.07196e-07,0.999999,2.47129e-07,4.16613e-07
+N7,38,0.999999,1.00442e-07,3.34386e-07,1.0666e-07
+N7,39,0.999999,1.00433e-07,3.33626e-07,1.0665e-07
+N7,40,0.999999,1.00433e-07,3.33626e-07,1.0665e-07
+N7,41,1.11238e-07,4.13839e-07,9.56438e-08,0.999999
+N7,42,1.11238e-07,4.13839e-07,9.56438e-08,0.999999
+N7,43,0.999999,1.00433e-07,3.33623e-07,1.0665e-07
+N7,44,2.87369e-07,7.45085e-08,1,7.90551e-08
+N7,45,2.87332e-07,7.44378e-08,1,7.90459e-08
+N7,46,2.3813e-06,5.3418e-06,4.27504e-05,0.99995
+N7,47,1.11238e-07,4.13839e-07,9.56438e-08,0.999999
+N7,48,1.11238e-07,4.13839e-07,9.56438e-08,0.999999
+N7,49,2.96581e-07,7.72442e-08,1,1.1904e-07
+N7,50,1.25441e-06,5.44885e-07,0.999962,3.59438e-05
+N7,51,1.11238e-07,4.1384e-07,9.5644e-08,0.999999
+N7,52,0.999999,1.00433e-07,3.33623e-07,1.0665e-07
+N7,53,9.8763e-08,0.999999,8.49178e-08,3.90603e-07
+N7,54,0.00620588,0.993703,3.16082e-05,5.91637e-05
+N7,55,1.1528e-07,4.35715e-07,9.91189e-08,0.999999
+N7,56,0.999999,1.00433e-07,3.33624e-07,1.0665e-07
+N7,57,2.67363e-05,1.02935e-05,0.999952,1.09308e-05
+N7,58,2.87725e-07,7.44428e-08,1,7.90512e-08
+N7,59,9.87626e-08,0.999999,8.49715e-08,3.90029e-07
+N7,60,1.11238e-07,4.1384e-07,9.56442e-08,0.999999
+N7,61,1.11238e-07,4.1384e-07,9.56442e-08,0.999999
+N7,62,0.999999,1.00433e-07,3.33624e-07,1.0665e-07
+N7,63,9.87766e-08,0.999999,8.51261e-08,3.9008e-07
+N7,64,2.87331e-07,7.44377e-08,1,7.90458e-08
+N7,65,1.07196e-07,0.999999,2.47129e-07,4.16613e-07
+N7,66,0.999999,1.00441e-07,3.34313e-07,1.06659e-07
+N7,67,1.13838e-07,6.7891e-07,9.78797e-08,0.999999
+N7,68,7.71263e-05,3.07985e-05,0.999859,3.27071e-05
+N7,69,9.87557e-08,0.999999,8.49113e-08,3.89992e-07
+N7,70,1.15732e-07,4.63707e-07,9.95081e-08,0.999999
+N7,71,0.999987,1.1882e-05,7.68232e-07,3.59759e-07
+N7,72,2.87332e-07,7.44379e-08,1,7.90459e-08
+N7,73,9.87556e-08,0.999999,8.49115e-08,3.89992e-07
+N7,74,1.11243e-07,4.13883e-07,9.565e-08,0.999999
+N7,75,1.11241e-07,4.13868e-07,9.56464e-08,0.999999
+N7,76,0.999999,1.00433e-07,3.33626e-07,1.0665e-07
+N7,77,2.87331e-07,7.44377e-08,1,7.90458e-08
+N7,78,2.87331e-07,7.44377e-08,1,7.90458e-08
+N7,79,0.999999,1.00433e-07,3.33623e-07,1.0665e-07
+N7,80,0.999999,1.00433e-07,3.33623e-07,1.0665e-07
+N7,81,1.11238e-07,4.13842e-07,9.56439e-08,0.999999
+N7,82,9.87554e-08,0.999999,8.49112e-08,3.89991e-07
+N7,83,0.999902,1.24725e-06,9.56946e-05,1.32446e-06
+N7,84,0.999999,1.00435e-07,3.33673e-07,1.06653e-07
+N7,85,2.87332e-07,7.44379e-08,1,7.90459e-08
+N7,86,9.87554e-08,0.999999,8.49112e-08,3.89991e-07
+N7,87,1.11238e-07,4.13839e-07,9.56438e-08,0.999999
+N7,88,2.87331e-07,7.44377e-08,1,7.90458e-08
+N7,89,1.57917e-07,0.999999,8.85362e-08,4.04122e-07
+N7,90,1.11238e-07,4.13842e-07,9.56439e-08,0.999999
+N7,91,2.87657e-07,7.44417e-08,1,7.905e-08
+N7,92,0.999999,1.00433e-07,3.33624e-07,1.0665e-07
+N7,93,0.999999,1.00433e-07,3.33623e-07,1.0665e-07
+N7,94,0.999999,1.00433e-07,3.33624e-07,1.0665e-07
+N6,1,3.43059e-07,2.02001e-05,2.94966e-07,0.999979
+N6,2,3.16203e-07,7.95832e-08,1,8.45098e-08
+N6,3,1.20405e-07,4.63373e-07,1.03526e-07,0.999999
+N6,4,1.06509e-07,0.999999,9.15656e-08,4.34357e-07
+N6,5,5.68961e-06,1.1981e-06,3.92739e-07,0.999993
+N6,6,0.995784,0.00420627,5.16273e-06,4.18515e-06
+N6,7,0.999999,1.09253e-07,4.29874e-07,1.16016e-07
+N6,8,1.20427e-07,4.63472e-07,1.03563e-07,0.999999
+N6,9,1.07289e-07,0.999999,9.22489e-08,4.85117e-07
+N6,10,1.06478e-07,0.999999,9.15508e-08,4.34271e-07
+N6,11,1.20417e-07,4.6362e-07,1.03536e-07,0.999999
+N6,12,1.06478e-07,0.999999,9.15508e-08,4.34271e-07
+N6,13,1.1013e-07,0.999999,9.2038e-08,4.36429e-07
+N6,14,0.999999,1.23859e-07,3.75959e-07,1.16811e-07
+N6,15,1.20417e-07,4.6362e-07,1.03536e-07,0.999999
+N6,16,0.998429,0.00152618,2.48412e-05,1.97437e-05
+N6,17,0.999999,1.17699e-07,9.67503e-07,1.24985e-07
+N6,18,0.999999,1.08375e-07,3.72155e-07,1.15084e-07
+N6,19,5.20635e-07,0.999995,4.47649e-07,3.79199e-06
+N6,20,1.20445e-07,4.63472e-07,1.03544e-07,0.999999
+N6,21,1.20427e-07,4.63472e-07,1.03563e-07,0.999999
+N6,22,1.19532e-05,0.999987,2.9554e-07,9.77279e-07
+N6,23,1.19532e-05,0.999987,2.9554e-07,9.77279e-07
+N6,24,1.20405e-07,4.63373e-07,1.03526e-07,0.999999
+N6,25,1.20417e-07,4.6362e-07,1.03536e-07,0.999999
+N6,26,0.999999,1.08365e-07,3.71951e-07,1.15073e-07
+N6,27,3.16203e-07,7.95832e-08,1,8.45098e-08
+N6,28,0.999999,1.08365e-07,3.71951e-07,1.15073e-07
+N6,29,1.20427e-07,4.63472e-07,1.03563e-07,0.999999
+N6,30,1.07153e-07,0.999999,9.78082e-08,4.36753e-07
+N6,31,1.20405e-07,4.63373e-07,1.03526e-07,0.999999
+N6,32,1.04676e-06,4.02265e-07,0.999993,5.62155e-06
+N6,33,0.999999,1.08398e-07,3.72027e-07,1.15092e-07
+N6,34,1.06487e-07,0.999999,9.1559e-08,4.34473e-07
+N6,35,1.20738e-07,4.67592e-07,1.03812e-07,0.999999
+N6,36,3.16203e-07,7.95832e-08,1,8.45098e-08
+N6,37,9.22518e-07,0.999977,1.98153e-05,2.23817e-06
+N6,38,0.999999,1.09253e-07,4.29874e-07,1.16016e-07
+N6,39,0.999999,1.08375e-07,3.72155e-07,1.15084e-07
+N6,40,0.999999,1.08375e-07,3.72155e-07,1.15084e-07
+N6,41,1.20405e-07,4.63373e-07,1.03526e-07,0.999999
+N6,42,1.20405e-07,4.63373e-07,1.03526e-07,0.999999
+N6,43,0.999999,1.08365e-07,3.71951e-07,1.15073e-07
+N6,44,3.19149e-07,8.93086e-08,1,8.56059e-08
+N6,45,3.16256e-07,7.95935e-08,1,8.45288e-08
+N6,46,0.000227508,0.000333839,0.00549427,0.993944
+N6,47,1.20405e-07,4.63373e-07,1.03526e-07,0.999999
+N6,48,1.20405e-07,4.63373e-07,1.03526e-07,0.999999
+N6,49,1.04676e-06,4.02265e-07,0.999993,5.62155e-06
+N6,50,5.36886e-05,3.28594e-05,0.994382,0.0055316
+N6,51,1.20445e-07,4.63472e-07,1.03544e-07,0.999999
+N6,52,0.999999,1.08365e-07,3.71951e-07,1.15073e-07
+N6,53,1.07123e-07,0.999999,9.21062e-08,4.75695e-07
+N6,54,0.993176,0.00672687,5.50133e-05,4.17811e-05
+N6,55,5.41824e-07,1.96636e-06,4.65867e-07,0.999997
+N6,56,0.999999,1.08398e-07,3.72027e-07,1.15092e-07
+N6,57,4.42377e-06,7.56565e-07,0.999994,8.034e-07
+N6,58,3.50519e-07,8.01206e-08,0.999999,8.50804e-08
+N6,59,1.07153e-07,0.999999,9.78082e-08,4.36753e-07
+N6,60,1.20427e-07,4.63472e-07,1.03563e-07,0.999999
+N6,61,1.20427e-07,4.63472e-07,1.03563e-07,0.999999
+N6,62,0.999999,1.08398e-07,3.72027e-07,1.15092e-07
+N6,63,1.08548e-07,0.999999,1.15851e-07,4.40216e-07
+N6,64,3.16203e-07,7.95832e-08,1,8.45098e-08
+N6,65,9.22518e-07,0.999977,1.98153e-05,2.23817e-06
+N6,66,0.999999,1.09071e-07,4.17972e-07,1.15823e-07
+N6,67,3.43059e-07,2.02001e-05,2.94966e-07,0.999979
+N6,68,0.000106066,4.19659e-05,0.999807,4.45681e-05
+N6,69,1.06509e-07,0.999999,9.15656e-08,4.34357e-07
+N6,70,5.85724e-07,4.2157e-06,5.03613e-07,0.999995
+N6,71,0.99836,0.00159359,2.6057e-05,2.07249e-05
+N6,72,3.16256e-07,7.96016e-08,1,8.45208e-08
+N6,73,1.06495e-07,0.999999,9.15801e-08,4.34357e-07
+N6,74,1.20867e-07,4.66175e-07,1.04143e-07,0.999999
+N6,75,1.20689e-07,4.65234e-07,1.0377e-07,0.999999
+N6,76,0.999999,1.08375e-07,3.72155e-07,1.15084e-07
+N6,77,3.16203e-07,7.95832e-08,1,8.45098e-08
+N6,78,3.16203e-07,7.95832e-08,1,8.45098e-08
+N6,79,0.999999,1.08365e-07,3.71951e-07,1.15073e-07
+N6,80,0.999999,1.08365e-07,3.71951e-07,1.15073e-07
+N6,81,1.20417e-07,4.6362e-07,1.03536e-07,0.999999
+N6,82,1.06478e-07,0.999999,9.15508e-08,4.34271e-07
+N6,83,0.991501,0.000116729,0.00825863,0.000123955
+N6,84,0.999999,1.08649e-07,3.75391e-07,1.15375e-07
+N6,85,3.16256e-07,7.96016e-08,1,8.45208e-08
+N6,86,1.06478e-07,0.999999,9.15508e-08,4.34271e-07
+N6,87,1.20405e-07,4.63373e-07,1.03526e-07,0.999999
+N6,88,3.16203e-07,7.95832e-08,1,8.45098e-08
+N6,89,7.30192e-06,0.999991,4.57764e-07,1.41606e-06
+N6,90,1.20417e-07,4.6362e-07,1.03536e-07,0.999999
+N6,91,3.41172e-07,7.99666e-08,0.999999,8.49169e-08
+N6,92,0.999999,1.08383e-07,3.72027e-07,1.15107e-07
+N6,93,0.999999,1.08365e-07,3.71951e-07,1.15073e-07
+N6,94,0.999999,1.08398e-07,3.72027e-07,1.15092e-07
+N5,1,7.04145e-05,0.00610759,6.05433e-05,0.993761
+N5,2,8.8047e-06,2.37315e-06,0.999986,2.52006e-06
+N5,3,3.51268e-06,1.25466e-05,3.02025e-06,0.999981
+N5,4,3.14575e-06,0.999982,2.69908e-06,1.19004e-05
+N5,5,0.0027165,0.000184456,0.000101313,0.996998
+N5,6,0.991745,0.00787138,0.000215227,0.00016795
+N5,7,0.999965,3.46264e-06,2.82039e-05,3.67699e-06
+N5,8,3.52067e-06,1.25711e-05,3.03502e-06,0.999981
+N5,9,3.40523e-06,0.999966,2.92787e-06,2.78234e-05
+N5,10,3.13235e-06,0.999982,2.69324e-06,1.18779e-05
+N5,11,3.5168e-06,1.26107e-05,3.02379e-06,0.999981
+N5,12,3.13235e-06,0.999982,2.69324e-06,1.18779e-05
+N5,13,4.6508e-06,0.99998,2.86751e-06,1.24053e-05
+N5,14,0.999974,1.09137e-05,1.11242e-05,4.01935e-06
+N5,15,3.5168e-06,1.26107e-05,3.02379e-06,0.999981
+N5,16,0.0794575,0.919186,0.000485148,0.00087094
+N5,17,0.999785,6.33255e-06,0.000201793,6.72457e-06
+N5,18,0.999983,3.17291e-06,1.01706e-05,3.36933e-06
+N5,19,0.000185417,0.998527,0.000159424,0.00112862
+N5,20,3.52857e-06,1.25711e-05,3.02712e-06,0.999981
+N5,21,3.52067e-06,1.25711e-05,3.03502e-06,0.999981
+N5,22,3.90001e-06,0.999981,2.71667e-06,1.19497e-05
+N5,23,3.90001e-06,0.999981,2.71667e-06,1.19497e-05
+N5,24,3.51268e-06,1.25466e-05,3.02025e-06,0.999981
+N5,25,3.5168e-06,1.26107e-05,3.02379e-06,0.999981
+N5,26,0.999983,3.16924e-06,1.01153e-05,3.36543e-06
+N5,27,8.8047e-06,2.37315e-06,0.999986,2.52006e-06
+N5,28,0.999983,3.16924e-06,1.01153e-05,3.36543e-06
+N5,29,3.52067e-06,1.25711e-05,3.03502e-06,0.999981
+N5,30,3.35594e-06,0.999979,5.20174e-06,1.24556e-05
+N5,31,3.51268e-06,1.25466e-05,3.02025e-06,0.999981
+N5,32,0.000214013,0.000133837,0.996408,0.00324392
+N5,33,0.999983,3.18287e-06,1.01349e-05,3.37283e-06
+N5,34,3.13593e-06,0.999982,2.69631e-06,1.19333e-05
+N5,35,3.63057e-06,1.36112e-05,3.12161e-06,0.99998
+N5,36,8.8047e-06,2.37315e-06,0.999986,2.52006e-06
+N5,37,0.000258904,0.989206,0.0101196,0.000415618
+N5,38,0.999965,3.46264e-06,2.82039e-05,3.67699e-06
+N5,39,0.999983,3.17291e-06,1.01706e-05,3.36933e-06
+N5,40,0.999983,3.17291e-06,1.01706e-05,3.36933e-06
+N5,41,3.51268e-06,1.25466e-05,3.02025e-06,0.999981
+N5,42,3.51268e-06,1.25466e-05,3.02025e-06,0.999981
+N5,43,0.999983,3.16924e-06,1.01153e-05,3.36543e-06
+N5,44,9.66517e-06,8.02617e-06,0.999979,2.99892e-06
+N5,45,8.82038e-06,2.37779e-06,0.999986,2.5292e-06
+N5,46,0.000414246,0.000624167,0.0162052,0.982756
+N5,47,3.51268e-06,1.25466e-05,3.02025e-06,0.999981
+N5,48,3.51268e-06,1.25466e-05,3.02025e-06,0.999981
+N5,49,0.000214013,0.000133837,0.996408,0.00324392
+N5,50,1.87777e-05,7.83206e-06,0.999687,0.000286685
+N5,51,3.52857e-06,1.25711e-05,3.02712e-06,0.999981
+N5,52,0.999983,3.16924e-06,1.01153e-05,3.36543e-06
+N5,53,3.31993e-06,0.999971,2.85452e-06,2.25505e-05
+N5,54,0.999568,0.000398309,2.18688e-05,1.13591e-05
+N5,55,0.000180164,0.0004213,0.000154907,0.999244
+N5,56,0.999983,3.18287e-06,1.01349e-05,3.37283e-06
+N5,57,0.000630163,0.000153852,0.999053,0.000163376
+N5,58,2.11337e-05,2.57929e-06,0.999974,2.73897e-06
+N5,59,3.35594e-06,0.999979,5.20174e-06,1.24556e-05
+N5,60,3.52067e-06,1.25711e-05,3.03502e-06,0.999981
+N5,61,3.52067e-06,1.25711e-05,3.03502e-06,0.999981
+N5,62,0.999983,3.18287e-06,1.01349e-05,3.37283e-06
+N5,63,3.85202e-06,0.999969,1.38735e-05,1.32997e-05
+N5,64,8.8047e-06,2.37315e-06,0.999986,2.52006e-06
+N5,65,0.000258904,0.989206,0.0101196,0.000415618
+N5,66,0.999971,3.3706e-06,2.17975e-05,3.57926e-06
+N5,67,7.04145e-05,0.00610759,6.05433e-05,0.993761
+N5,68,1.78578e-05,4.85758e-06,0.999972,5.1669e-06
+N5,69,3.14575e-06,0.999982,2.69908e-06,1.19004e-05
+N5,70,0.000196655,0.00119874,0.000169087,0.998436
+N5,71,0.0490482,0.949592,0.000480499,0.000879548
+N5,72,8.82038e-06,2.38201e-06,0.999986,2.52498e-06
+N5,73,3.13915e-06,0.999982,2.70568e-06,1.19004e-05
+N5,74,3.68117e-06,1.32205e-05,3.26092e-06,0.99998
+N5,75,3.61552e-06,1.29933e-05,3.10867e-06,0.99998
+N5,76,0.999983,3.17291e-06,1.01706e-05,3.36933e-06
+N5,77,8.8047e-06,2.37315e-06,0.999986,2.52006e-06
+N5,78,8.8047e-06,2.37315e-06,0.999986,2.52006e-06
+N5,79,0.999983,3.16924e-06,1.01153e-05,3.36543e-06
+N5,80,0.999983,3.16924e-06,1.01153e-05,3.36543e-06
+N5,81,3.5168e-06,1.26107e-05,3.02379e-06,0.999981
+N5,82,3.13235e-06,0.999982,2.69324e-06,1.18779e-05
+N5,83,0.975558,0.000165075,0.0241016,0.000175294
+N5,84,0.999982,3.27422e-06,1.10243e-05,3.47691e-06
+N5,85,8.82038e-06,2.38201e-06,0.999986,2.52498e-06
+N5,86,3.13235e-06,0.999982,2.69324e-06,1.18779e-05
+N5,87,3.51268e-06,1.25466e-05,3.02025e-06,0.999981
+N5,88,8.8047e-06,2.37315e-06,0.999986,2.52006e-06
+N5,89,0.00369487,0.995918,0.000133479,0.000253683
+N5,90,3.5168e-06,1.26107e-05,3.02379e-06,0.999981
+N5,91,1.61248e-05,2.49972e-06,0.999979,2.65446e-06
+N5,92,0.999983,3.1762e-06,1.01349e-05,3.37949e-06
+N5,93,0.999983,3.16924e-06,1.01153e-05,3.36543e-06
+N5,94,0.999983,3.18287e-06,1.01349e-05,3.37283e-06
+N8,1,4.25273e-06,0.999528,3.65655e-06,0.000464039
+N8,2,1.58966e-06,3.32867e-07,0.999998,3.53473e-07
+N8,3,5.48997e-07,2.60643e-06,4.72035e-07,0.999996
+N8,4,9.9966e-07,0.999995,6.15441e-07,3.11656e-06
+N8,5,0.951609,0.000241937,0.000285866,0.0478632
+N8,6,0.000165642,0.9998,7.90779e-06,2.61902e-05
+N8,7,0.999315,4.34522e-06,0.000675951,4.61421e-06
+N8,8,8.3033e-07,3.41256e-06,1.05019e-06,0.999995
+N8,9,4.28645e-06,0.999398,3.68554e-06,0.000594222
+N8,10,4.73936e-07,0.999997,4.07496e-07,2.36621e-06
+N8,11,6.76928e-07,4.86285e-06,5.82032e-07,0.999994
+N8,12,4.73936e-07,0.999997,4.07496e-07,2.36621e-06
+N8,13,6.17303e-05,0.999917,4.7562e-06,1.65692e-05
+N8,14,0.999639,0.000324158,2.3007e-05,1.37866e-05
+N8,15,6.76928e-07,4.86285e-06,5.82032e-07,0.999994
+N8,16,0.0338866,0.965877,8.24216e-05,0.000153623
+N8,17,0.968971,0.000227123,0.0305609,0.000241183
+N8,18,0.999995,5.96184e-07,3.99708e-06,6.33091e-07
+N8,19,5.41532e-06,0.999235,4.65616e-06,0.000754546
+N8,20,1.16659e-06,3.41256e-06,7.13929e-07,0.999995
+N8,21,8.30331e-07,3.41256e-06,1.05019e-06,0.999995
+N8,22,4.74213e-07,0.999997,4.0752e-07,2.36633e-06
+N8,23,4.74213e-07,0.999997,4.0752e-07,2.36633e-06
+N8,24,5.48997e-07,2.60643e-06,4.72035e-07,0.999996
+N8,25,6.76928e-07,4.86285e-06,5.82032e-07,0.999994
+N8,26,0.999997,4.80559e-07,2.02361e-06,5.10308e-07
+N8,27,1.58966e-06,3.32867e-07,0.999998,3.53473e-07
+N8,28,0.999997,4.80559e-07,2.02361e-06,5.10308e-07
+N8,29,8.3033e-07,3.41256e-06,1.05019e-06,0.999995
+N8,30,3.8143e-05,0.998479,0.00140377,7.95725e-05
+N8,31,5.48997e-07,2.60643e-06,4.72035e-07,0.999996
+N8,32,1.05457e-05,2.82846e-05,0.000189186,0.999772
+N8,33,0.999996,1.01518e-06,2.67665e-06,7.73571e-07
+N8,34,5.86157e-07,0.999995,5.03985e-07,4.34085e-06
+N8,35,3.36259e-05,0.000163872,2.8912e-05,0.999774
+N8,36,1.58966e-06,3.32867e-07,0.999998,3.53473e-07
+N8,37,1.19721e-06,0.999983,1.16426e-05,4.24624e-06
+N8,38,0.999315,4.34522e-06,0.000675951,4.61421e-06
+N8,39,0.999995,5.96184e-07,3.99708e-06,6.33091e-07
+N8,40,0.999995,5.96184e-07,3.99708e-06,6.33091e-07
+N8,41,5.48997e-07,2.60643e-06,4.72035e-07,0.999996
+N8,42,5.48997e-07,2.60643e-06,4.72035e-07,0.999996
+N8,43,0.999997,4.80559e-07,2.02361e-06,5.10308e-07
+N8,44,2.00846e-05,0.000242704,0.999727,1.03498e-05
+N8,45,2.13174e-06,5.01951e-07,0.999997,7.19886e-07
+N8,46,1.69005e-06,5.31158e-06,2.02736e-05,0.999973
+N8,47,5.48997e-07,2.60643e-06,4.72035e-07,0.999996
+N8,48,5.48997e-07,2.60643e-06,4.72035e-07,0.999996
+N8,49,1.05457e-05,2.82846e-05,0.000189186,0.999772
+N8,50,1.60646e-06,3.37917e-07,0.999998,4.17521e-07
+N8,51,1.16659e-06,3.41256e-06,7.13929e-07,0.999995
+N8,52,0.999997,4.80559e-07,2.02361e-06,5.10308e-07
+N8,53,1.60758e-05,0.997212,1.38221e-05,0.00275852
+N8,54,0.999995,1.46495e-06,2.71951e-06,7.95912e-07
+N8,55,7.80987e-07,5.87007e-06,6.71503e-07,0.999993
+N8,56,0.999996,1.01518e-06,2.67665e-06,7.73571e-07
+N8,57,0.00265054,1.46683e-05,0.997319,1.55763e-05
+N8,58,0.000473762,3.2494e-06,0.99952,3.45056e-06
+N8,59,3.8143e-05,0.998479,0.00140377,7.95725e-05
+N8,60,8.30331e-07,3.41256e-06,1.05019e-06,0.999995
+N8,61,8.30331e-07,3.41256e-06,1.05019e-06,0.999995
+N8,62,0.999996,1.01518e-06,2.67665e-06,7.73571e-07
+N8,63,5.80069e-05,0.996287,0.00354903,0.000106062
+N8,64,1.58966e-06,3.32867e-07,0.999998,3.53473e-07
+N8,65,1.19721e-06,0.999983,1.16426e-05,4.24624e-06
+N8,66,0.996977,1.65536e-05,0.00298871,1.75783e-05
+N8,67,4.25273e-06,0.999528,3.65655e-06,0.000464039
+N8,68,2.14253e-06,5.03635e-07,0.999997,7.22614e-07
+N8,69,9.9966e-07,0.999995,6.15441e-07,3.11656e-06
+N8,70,6.06673e-06,0.000865971,5.21625e-06,0.999123
+N8,71,1.21566e-05,0.999982,1.1066e-06,4.83805e-06
+N8,72,2.13174e-06,6.88813e-07,0.999997,5.33025e-07
+N8,73,7.15785e-07,0.999995,8.99317e-07,3.11656e-06
+N8,74,4.28016e-05,0.00011364,5.68269e-05,0.999787
+N8,75,4.24824e-06,1.76267e-05,3.65269e-06,0.999974
+N8,76,0.999995,5.96184e-07,3.99708e-06,6.33091e-07
+N8,77,1.58966e-06,3.32867e-07,0.999998,3.53473e-07
+N8,78,1.58966e-06,3.32867e-07,0.999998,3.53473e-07
+N8,79,0.999997,4.80559e-07,2.02361e-06,5.10308e-07
+N8,80,0.999997,4.80559e-07,2.02361e-06,5.10308e-07
+N8,81,6.76928e-07,4.86285e-06,5.82032e-07,0.999994
+N8,82,4.73936e-07,0.999997,4.07496e-07,2.36621e-06
+N8,83,0.999346,3.3606e-05,0.000585161,3.56864e-05
+N8,84,0.999789,3.19382e-05,0.000145558,3.39154e-05
+N8,85,2.13174e-06,6.88812e-07,0.999997,5.33025e-07
+N8,86,4.73936e-07,0.999997,4.07496e-07,2.36621e-06
+N8,87,5.48997e-07,2.60643e-06,4.72035e-07,0.999996
+N8,88,1.58966e-06,3.32867e-07,0.999998,3.53473e-07
+N8,89,0.999799,0.000169278,2.22371e-05,9.81773e-06
+N8,90,6.76928e-07,4.86285e-06,5.82032e-07,0.999994
+N8,91,0.00237292,1.33515e-05,0.9976,1.4178e-05
+N8,92,0.999996,7.28475e-07,2.67665e-06,1.06028e-06
+N8,93,0.999997,4.80559e-07,2.02361e-06,5.10308e-07
+N8,94,0.999996,1.01518e-06,2.67665e-06,7.73571e-07
+N4,1,1.72532e-05,0.998275,1.48345e-05,0.00169274
+N4,2,2.9363e-06,6.18322e-07,0.999996,6.56599e-07
+N4,3,1.03157e-06,4.76881e-06,8.86958e-07,0.999993
+N4,4,3.60858e-06,0.999988,1.77758e-06,7.06336e-06
+N4,5,0.699684,0.000782333,0.000630522,0.298903
+N4,6,0.000819769,0.999061,3.43304e-05,8.47309e-05
+N4,7,0.996974,1.81545e-05,0.00298851,1.92783e-05
+N4,8,2.34116e-06,7.56644e-06,3.75764e-06,0.999986
+N4,9,1.82374e-05,0.997339,1.56807e-05,0.00262675
+N4,10,8.91846e-07,0.999994,7.66821e-07,4.35725e-06
+N4,11,1.62452e-06,1.29746e-05,1.39679e-06,0.999984
+N4,12,8.91846e-07,0.999994,7.66821e-07,4.35725e-06
+N4,13,0.000305121,0.999622,2.05643e-05,5.27666e-05
+N4,14,0.997808,0.00205064,7.66418e-05,6.44482e-05
+N4,15,1.62452e-06,1.29746e-05,1.39679e-06,0.999984
+N4,16,0.0329739,0.966829,6.82904e-05,0.000128765
+N4,17,0.96676,0.000207877,0.0328109,0.000220746
+N4,18,0.999986,1.44761e-06,1.10902e-05,1.53723e-06
+N4,19,2.33773e-05,0.996619,2.01001e-05,0.00333782
+N4,20,4.08584e-06,7.56644e-06,2.01296e-06,0.999986
+N4,21,2.34116e-06,7.56644e-06,3.75764e-06,0.999986
+N4,22,8.93063e-07,0.999994,7.66919e-07,4.35764e-06
+N4,23,8.93063e-07,0.999994,7.66919e-07,4.35764e-06
+N4,24,1.03157e-06,4.76881e-06,8.86957e-07,0.999993
+N4,25,1.62452e-06,1.29746e-05,1.39679e-06,0.999984
+N4,26,0.999994,8.95028e-07,3.69717e-06,9.50434e-07
+N4,27,2.9363e-06,6.18322e-07,0.999996,6.56599e-07
+N4,28,0.999994,8.95028e-07,3.69717e-06,9.50435e-07
+N4,29,2.34116e-06,7.56644e-06,3.75764e-06,0.999986
+N4,30,1.65103e-05,0.999459,0.000477931,4.65576e-05
+N4,31,1.03157e-06,4.76881e-06,8.86957e-07,0.999993
+N4,32,4.39021e-05,8.8143e-05,0.000897897,0.99897
+N4,33,0.999988,3.63022e-06,6.0257e-06,2.21577e-06
+N4,34,1.43452e-06,0.999986,1.23342e-06,1.18207e-05
+N4,35,1.8748e-05,0.00013527,1.61197e-05,0.99983
+N4,36,2.9363e-06,6.18322e-07,0.999996,6.56599e-07
+N4,37,4.23778e-06,0.999922,6.32625e-05,1.0829e-05
+N4,38,0.996974,1.81545e-05,0.00298851,1.92783e-05
+N4,39,0.999986,1.44761e-06,1.10902e-05,1.53723e-06
+N4,40,0.999986,1.44761e-06,1.10902e-05,1.53723e-06
+N4,41,1.03157e-06,4.76881e-06,8.86957e-07,0.999993
+N4,42,1.03157e-06,4.76881e-06,8.86957e-07,0.999993
+N4,43,0.999994,8.95028e-07,3.69717e-06,9.50434e-07
+N4,44,7.42819e-05,0.00173448,0.998137,5.42929e-05
+N4,45,5.07135e-06,1.52659e-06,0.999991,2.75143e-06
+N4,46,6.05202e-06,1.36541e-05,0.000106273,0.999874
+N4,47,1.03157e-06,4.76881e-06,8.86958e-07,0.999993
+N4,48,1.03157e-06,4.76881e-06,8.86958e-07,0.999993
+N4,49,4.39021e-05,8.8143e-05,0.000897897,0.99897
+N4,50,2.99519e-06,6.42032e-07,0.999995,9.74021e-07
+N4,51,4.08584e-06,7.56644e-06,2.01296e-06,0.999986
+N4,52,0.999994,8.95028e-07,3.69717e-06,9.50435e-07
+N4,53,7.60251e-06,0.998672,6.53673e-06,0.00131399
+N4,54,0.999986,5.85738e-06,6.16234e-06,2.3112e-06
+N4,55,2.08238e-06,1.64673e-05,1.79046e-06,0.99998
+N4,56,0.999988,3.63022e-06,6.0257e-06,2.21577e-06
+N4,57,0.00129736,7.2087e-06,0.998688,7.65495e-06
+N4,58,0.00232049,1.529e-05,0.997648,1.62366e-05
+N4,59,1.65103e-05,0.999459,0.00047793,4.65576e-05
+N4,60,2.34116e-06,7.56644e-06,3.75764e-06,0.999986
+N4,61,2.34116e-06,7.56644e-06,3.75764e-06,0.999986
+N4,62,0.999988,3.63022e-06,6.0257e-06,2.21577e-06
+N4,63,3.86717e-05,0.99726,0.00262502,7.6236e-05
+N4,64,2.9363e-06,6.18322e-07,0.999996,6.56599e-07
+N4,65,4.23778e-06,0.999922,6.32625e-05,1.0829e-05
+N4,66,0.998557,7.83283e-06,0.00142638,8.31772e-06
+N4,67,1.72532e-05,0.998275,1.48345e-05,0.00169274
+N4,68,5.11047e-06,1.53492e-06,0.999991,2.76544e-06
+N4,69,3.60858e-06,0.999988,1.77758e-06,7.06336e-06
+N4,70,2.50114e-05,0.00368242,2.15052e-05,0.996271
+N4,71,5.54803e-05,0.999928,3.80692e-06,1.24574e-05
+N4,72,5.07135e-06,2.65693e-06,0.999991,1.62109e-06
+N4,73,2.06741e-06,0.999988,3.31876e-06,7.06336e-06
+N4,74,2.79718e-05,7.97027e-05,4.5585e-05,0.999847
+N4,75,1.75432e-05,5.47641e-05,1.50839e-05,0.999913
+N4,76,0.999986,1.44761e-06,1.10902e-05,1.53723e-06
+N4,77,2.9363e-06,6.18322e-07,0.999996,6.56599e-07
+N4,78,2.9363e-06,6.18322e-07,0.999996,6.56599e-07
+N4,79,0.999994,8.95028e-07,3.69717e-06,9.50434e-07
+N4,80,0.999994,8.95028e-07,3.69717e-06,9.50434e-07
+N4,81,1.62452e-06,1.29746e-05,1.39679e-06,0.999984
+N4,82,8.91846e-07,0.999994,7.66821e-07,4.35725e-06
+N4,83,0.999365,1.93408e-05,0.000594747,2.05381e-05
+N4,84,0.999843,1.73814e-05,0.000120723,1.84574e-05
+N4,85,5.07135e-06,2.65693e-06,0.999991,1.62109e-06
+N4,86,8.91846e-07,0.999994,7.66821e-07,4.35725e-06
+N4,87,1.03157e-06,4.76881e-06,8.86957e-07,0.999993
+N4,88,2.9363e-06,6.18322e-07,0.999996,6.56599e-07
+N4,89,0.999057,0.000829162,7.12201e-05,4.21657e-05
+N4,90,1.62452e-06,1.29746e-05,1.39679e-06,0.999984
+N4,91,0.0010189,5.60686e-06,0.99897,5.95395e-06
+N4,92,0.999988,2.0866e-06,6.0257e-06,3.75939e-06
+N4,93,0.999994,8.95028e-07,3.69717e-06,9.50434e-07
+N4,94,0.999988,3.63022e-06,6.0257e-06,2.21578e-06
+N3,1,1.73855e-05,0.998275,1.49483e-05,0.00169257
+N3,2,3.23934e-06,7.23851e-07,0.999995,7.68661e-07
+N3,3,1.17285e-06,5.15861e-06,1.00843e-06,0.999993
+N3,4,4.28181e-06,0.999986,2.06915e-06,7.73929e-06
+N3,5,0.69964,0.00078499,0.000633416,0.298942
+N3,6,0.000819573,0.999061,3.444e-05,8.51025e-05
+N3,7,0.996474,2.1357e-05,0.00348172,2.26791e-05
+N3,8,2.69957e-06,8.23912e-06,4.41934e-06,0.999985
+N3,9,2.15134e-05,0.996899,1.84975e-05,0.00306122
+N3,10,1.02254e-06,0.999993,8.79198e-07,4.74004e-06
+N3,11,1.86429e-06,1.42869e-05,1.60294e-06,0.999982
+N3,12,1.02254e-06,0.999993,8.79197e-07,4.74004e-06
+N3,13,0.000361334,0.999557,2.38771e-05,5.78762e-05
+N3,14,0.997209,0.0026294,8.4903e-05,7.65525e-05
+N3,15,1.86429e-06,1.42869e-05,1.60294e-06,0.999982
+N3,16,0.0329604,0.966841,6.87342e-05,0.000129595
+N3,17,0.966276,0.000210906,0.0332893,0.000223962
+N3,18,0.999984,1.67263e-06,1.22842e-05,1.77617e-06
+N3,19,2.6649e-05,0.996178,2.29131e-05,0.00377199
+N3,20,4.79778e-06,8.23913e-06,2.32112e-06,0.999985
+N3,21,2.69957e-06,8.23913e-06,4.41934e-06,0.999985
+N3,22,1.02376e-06,0.999993,8.79296e-07,4.74042e-06
+N3,23,1.02376e-06,0.999993,8.79296e-07,4.74042e-06
+N3,24,1.17285e-06,5.15861e-06,1.00843e-06,0.999993
+N3,25,1.86429e-06,1.42869e-05,1.60294e-06,0.999982
+N3,26,0.999994,1.024e-06,4.01591e-06,1.08739e-06
+N3,27,3.23934e-06,7.23851e-07,0.999995,7.68661e-07
+N3,28,0.999994,1.024e-06,4.01591e-06,1.08739e-06
+N3,29,2.69957e-06,8.23912e-06,4.41934e-06,0.999985
+N3,30,1.66424e-05,0.999459,0.00047787,4.69362e-05
+N3,31,1.17285e-06,5.15861e-06,1.00843e-06,0.999993
+N3,32,4.40401e-05,8.85216e-05,0.000897666,0.99897
+N3,33,0.999987,4.29702e-06,6.59128e-06,2.57296e-06
+N3,34,1.6614e-06,0.999984,1.4285e-06,1.31012e-05
+N3,35,1.89843e-05,0.00013657,1.6323e-05,0.999828
+N3,36,3.23934e-06,7.23851e-07,0.999995,7.68661e-07
+N3,37,4.57689e-06,0.99992,6.38838e-05,1.15045e-05
+N3,38,0.996474,2.1357e-05,0.00348172,2.26791e-05
+N3,39,0.999984,1.67263e-06,1.22842e-05,1.77617e-06
+N3,40,0.999984,1.67263e-06,1.22842e-05,1.77617e-06
+N3,41,1.17285e-06,5.15861e-06,1.00843e-06,0.999993
+N3,42,1.17285e-06,5.15861e-06,1.00843e-06,0.999993
+N3,43,0.999994,1.024e-06,4.01591e-06,1.08739e-06
+N3,44,8.38993e-05,0.00231342,0.997536,6.64044e-05
+N3,45,5.64328e-06,1.81895e-06,0.999989,3.3484e-06
+N3,46,6.41043e-06,1.43261e-05,0.000106927,0.999872
+N3,47,1.17285e-06,5.15861e-06,1.00843e-06,0.999993
+N3,48,1.17285e-06,5.15861e-06,1.00843e-06,0.999993
+N3,49,4.40401e-05,8.85216e-05,0.000897666,0.99897
+N3,50,3.29821e-06,7.47558e-07,0.999995,1.08597e-06
+N3,51,4.79778e-06,8.23913e-06,2.32112e-06,0.999985
+N3,52,0.999994,1.024e-06,4.01591e-06,1.08739e-06
+N3,53,7.73709e-06,0.998672,6.65245e-06,0.00131398
+N3,54,0.999984,6.52399e-06,6.72791e-06,2.66839e-06
+N3,55,2.32206e-06,1.77793e-05,1.99653e-06,0.999978
+N3,56,0.999987,4.29702e-06,6.59128e-06,2.57296e-06
+N3,57,0.00129725,7.31792e-06,0.998688,7.77094e-06
+N3,58,0.00277106,1.84964e-05,0.997191,1.96414e-05
+N3,59,1.66424e-05,0.999459,0.00047787,4.69362e-05
+N3,60,2.69957e-06,8.23913e-06,4.41934e-06,0.999985
+N3,61,2.69957e-06,8.23913e-06,4.41934e-06,0.999985
+N3,62,0.999987,4.29702e-06,6.59128e-06,2.57296e-06
+N3,63,3.90196e-05,0.997259,0.00262546,7.691e-05
+N3,64,3.23934e-06,7.23851e-07,0.999995,7.68661e-07
+N3,65,4.57689e-06,0.99992,6.38838e-05,1.15045e-05
+N3,66,0.998557,7.96597e-06,0.00142627,8.4591e-06
+N3,67,1.73855e-05,0.998275,1.49483e-05,0.00169257
+N3,68,5.68239e-06,1.82728e-06,0.999989,3.36241e-06
+N3,69,4.28181e-06,0.999986,2.06915e-06,7.73929e-06
+N3,70,2.82811e-05,0.00413169,2.43165e-05,0.995816
+N3,71,5.55915e-05,0.999928,3.91895e-06,1.28389e-05
+N3,72,5.64328e-06,3.2358e-06,0.999989,1.93155e-06
+N3,73,2.40651e-06,0.999986,3.94445e-06,7.73929e-06
+N3,74,2.83268e-05,8.03625e-05,4.62444e-05,0.999845
+N3,75,2.018e-05,5.97112e-05,1.7351e-05,0.999903
+N3,76,0.999984,1.67263e-06,1.22842e-05,1.77617e-06
+N3,77,3.23934e-06,7.23851e-07,0.999995,7.68661e-07
+N3,78,3.23934e-06,7.23851e-07,0.999995,7.68661e-07
+N3,79,0.999994,1.024e-06,4.01591e-06,1.08739e-06
+N3,80,0.999994,1.024e-06,4.01591e-06,1.08739e-06
+N3,81,1.86429e-06,1.42869e-05,1.60294e-06,0.999982
+N3,82,1.02255e-06,0.999993,8.79198e-07,4.74004e-06
+N3,83,0.999365,1.94664e-05,0.000594887,2.06715e-05
+N3,84,0.999842,1.76032e-05,0.000121907,1.86929e-05
+N3,85,5.64328e-06,3.23579e-06,0.999989,1.93155e-06
+N3,86,1.02254e-06,0.999993,8.79197e-07,4.74004e-06
+N3,87,1.17285e-06,5.15861e-06,1.00843e-06,0.999993
+N3,88,3.23934e-06,7.23851e-07,0.999995,7.68661e-07
+N3,89,0.999057,0.000828957,7.15293e-05,4.22991e-05
+N3,90,1.86429e-06,1.42869e-05,1.60294e-06,0.999982
+N3,91,0.00101888,5.71535e-06,0.998969,6.06916e-06
+N3,92,0.999987,2.42297e-06,6.59128e-06,4.44702e-06
+N3,93,0.999994,1.024e-06,4.01591e-06,1.08739e-06
+N3,94,0.999987,4.29703e-06,6.59128e-06,2.57296e-06
+N2,1,8.15235e-09,1,7.0095e-09,1.99831e-08
+N2,2,8.94809e-08,1.53318e-08,1,1.62809e-08
+N2,3,2.76692e-08,4.0935e-08,6.21441e-08,1
+N2,4,0.999999,6.74638e-07,6.87614e-08,8.64627e-08
+N2,5,1,1.17622e-08,2.023e-08,1.83693e-08
+N2,6,6.44089e-08,1,2.32303e-08,4.24022e-08
+N2,7,6.03794e-08,1.25922e-08,1,1.33717e-08
+N2,8,7.99725e-08,8.14223e-08,0.999999,6.60727e-07
+N2,9,1.44506e-08,6.69312e-08,1.24249e-08,1
+N2,10,2.69623e-08,1,6.03391e-08,4.23565e-08
+N2,11,1.40332e-08,1,1.20659e-08,6.68773e-08
+N2,12,1.68523e-08,1,1.44899e-08,9.75118e-08
+N2,13,6.4256e-08,1,2.3205e-08,4.2379e-08
+N2,14,4.09698e-08,1,1.79513e-08,3.51684e-08
+N2,15,1.40332e-08,1,1.20659e-08,6.68773e-08
+N2,16,9.44654e-09,1,7.51499e-09,2.05736e-08
+N2,17,5.90589e-08,1.24295e-08,1,1.31989e-08
+N2,18,6.05337e-08,1.26116e-08,1,1.33923e-08
+N2,19,1.44464e-08,6.68965e-08,1.24212e-08,1
+N2,20,1,2.03764e-08,2.89939e-08,4.12484e-08
+N2,21,3.10512e-08,1.87612e-08,1,3.77257e-08
+N2,22,8.13704e-09,1,6.99633e-09,1.98907e-08
+N2,23,8.13704e-09,1,6.99633e-09,1.98907e-08
+N2,24,1.72794e-08,9.78759e-08,1.48571e-08,1
+N2,25,1.40332e-08,1,1.20659e-08,6.68773e-08
+N2,26,1,1.63891e-08,9.0989e-08,1.74037e-08
+N2,27,3.78066e-08,5.78186e-08,1,2.60026e-08
+N2,28,1,6.24596e-08,3.48253e-08,2.78544e-08
+N2,29,7.99725e-08,8.14223e-08,0.999999,6.60727e-07
+N2,30,2.69938e-08,1,6.04848e-08,4.23823e-08
+N2,31,1.72794e-08,9.78759e-08,1.48571e-08,1
+N2,32,8.58712e-09,1.97694e-08,7.40239e-09,1
+N2,33,6.86054e-07,0.999999,7.1683e-08,8.33358e-08
+N2,34,3.19391e-08,5.87718e-07,2.74617e-08,0.999999
+N2,35,1.40329e-08,1,1.20657e-08,6.68696e-08
+N2,36,8.94809e-08,1.53318e-08,1,1.62809e-08
+N2,37,3.10502e-08,3.65622e-08,1,1.99217e-08
+N2,38,6.03794e-08,1.25922e-08,1,1.33717e-08
+N2,39,6.05337e-08,1.26116e-08,1,1.33923e-08
+N2,40,6.05337e-08,1.26116e-08,1,1.33923e-08
+N2,41,6.60229e-08,4.0935e-08,2.37903e-08,1
+N2,42,6.60229e-08,4.0935e-08,2.37903e-08,1
+N2,43,1,1.63891e-08,9.0989e-08,1.74037e-08
+N2,44,2.0882e-08,1,3.80535e-08,3.5173e-08
+N2,45,8.33704e-08,7.84777e-08,7.2798e-07,0.999999
+N2,46,3.10495e-08,1.87597e-08,1,3.77219e-08
+N2,47,2.76692e-08,4.0935e-08,6.21441e-08,1
+N2,48,2.76692e-08,4.0935e-08,6.21441e-08,1
+N2,49,8.58712e-09,1.97694e-08,7.40239e-09,1
+N2,50,1.64714e-08,6.8711e-09,1,7.29645e-09
+N2,51,1,2.03764e-08,2.89939e-08,4.12484e-08
+N2,52,1,6.24596e-08,3.48253e-08,2.78544e-08
+N2,53,8.14937e-09,1,7.00694e-09,1.9964e-08
+N2,54,6.86053e-07,0.999999,7.16829e-08,8.33357e-08
+N2,55,1.40332e-08,1,1.20659e-08,6.6877e-08
+N2,56,6.86054e-07,0.999999,7.1683e-08,8.33358e-08
+N2,57,1.65416e-08,6.88338e-09,1,7.30949e-09
+N2,58,1,1.36543e-08,6.13323e-08,1.44996e-08
+N2,59,8.14769e-09,1,7.01553e-09,1.9904e-08
+N2,60,3.10512e-08,1.87612e-08,1,3.77257e-08
+N2,61,3.10512e-08,1.87612e-08,1,3.77257e-08
+N2,62,6.86054e-07,0.999999,7.1683e-08,8.33358e-08
+N2,63,3.1007e-08,3.64752e-08,1,1.9883e-08
+N2,64,8.94809e-08,1.53318e-08,1,1.62809e-08
+N2,65,3.10502e-08,3.65622e-08,1,1.99217e-08
+N2,66,1,7.89499e-09,1.6369e-08,8.38373e-09
+N2,67,8.15235e-09,1,7.0095e-09,1.99831e-08
+N2,68,2.15747e-08,3.42069e-08,3.94607e-08,1
+N2,69,0.999999,6.74638e-07,6.87614e-08,8.64627e-08
+N2,70,1.40092e-08,1,1.20453e-08,6.66804e-08
+N2,71,8.13947e-09,1,6.99747e-09,1.98924e-08
+N2,72,2.09086e-08,1,3.81266e-08,3.52043e-08
+N2,73,3.10512e-08,3.65643e-08,1,1.99226e-08
+N2,74,3.10512e-08,1.87616e-08,1,3.7722e-08
+N2,75,1.72825e-08,9.78923e-08,1.48597e-08,1
+N2,76,6.05337e-08,1.26116e-08,1,1.33923e-08
+N2,77,3.78066e-08,5.78186e-08,1,2.60026e-08
+N2,78,8.94809e-08,1.53318e-08,1,1.62809e-08
+N2,79,1,1.63891e-08,9.0989e-08,1.74037e-08
+N2,80,1,1.63891e-08,9.0989e-08,1.74037e-08
+N2,81,1.40332e-08,1,1.20659e-08,6.68773e-08
+N2,82,6.41189e-08,1,2.31825e-08,4.23565e-08
+N2,83,1,1.64016e-08,9.11505e-08,1.74169e-08
+N2,84,6.0527e-08,1.26113e-08,1,1.3392e-08
+N2,85,8.33704e-08,0.999999,7.2798e-07,8.33358e-08
+N2,86,1.68523e-08,1,1.44899e-08,9.75118e-08
+N2,87,1.72794e-08,9.78759e-08,1.48571e-08,1
+N2,88,8.94809e-08,1.53318e-08,1,1.62809e-08
+N2,89,1,7.91548e-09,1.6312e-08,8.38814e-09
+N2,90,1.40332e-08,1,1.20659e-08,6.68773e-08
+N2,91,1.65265e-08,6.88072e-09,1,7.30667e-09
+N2,92,6.86054e-07,7.84777e-08,7.1683e-08,0.999999
+N2,93,1,1.63891e-08,9.0989e-08,1.74037e-08
+N2,94,4.10577e-08,1,1.79775e-08,3.52043e-08
+N1,1,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,2,0.999998,2.19114e-07,1.18209e-06,2.32678e-07
+N1,3,4.51173e-07,3.65724e-07,0.999998,1.05857e-06
+N1,4,1.05593e-06,0.999998,3.21196e-07,4.70148e-07
+N1,5,1,9.41403e-08,1.63572e-07,9.9968e-08
+N1,6,0.999998,1.03593e-06,3.87924e-07,3.88364e-07
+N1,7,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,8,3.73565e-07,4.4274e-07,1.00356e-06,0.999998
+N1,9,9.93991e-08,1.92982e-07,8.54646e-08,1
+N1,10,4.51173e-07,1.03593e-06,0.999998,3.88364e-07
+N1,11,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,12,2.23822e-07,1.22404e-06,1.92445e-07,0.999998
+N1,13,0.999998,1.03593e-06,3.87924e-07,3.88364e-07
+N1,14,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,15,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,16,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,17,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,18,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,19,9.93991e-08,1.92982e-07,8.54646e-08,1
+N1,20,1,9.41403e-08,1.63572e-07,9.9968e-08
+N1,21,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,22,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,23,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,24,2.23822e-07,0.999998,1.92445e-07,1.25145e-06
+N1,25,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,26,1.24534e-06,2.19114e-07,0.999998,2.32678e-07
+N1,27,3.73565e-07,0.999998,1.00356e-06,4.70148e-07
+N1,28,1.05593e-06,0.999998,3.21196e-07,4.70148e-07
+N1,29,3.73565e-07,4.4274e-07,1.00356e-06,0.999998
+N1,30,4.51173e-07,1.03593e-06,0.999998,3.88364e-07
+N1,31,2.23822e-07,0.999998,1.92445e-07,1.25145e-06
+N1,32,9.93991e-08,1.92982e-07,8.54646e-08,1
+N1,33,0.999998,1.03593e-06,3.87924e-07,3.88364e-07
+N1,34,2.23822e-07,0.999998,1.92445e-07,1.25145e-06
+N1,35,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,36,0.999998,2.19114e-07,1.18209e-06,2.32678e-07
+N1,37,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,38,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,39,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,40,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,41,0.999998,3.65724e-07,3.87924e-07,1.05857e-06
+N1,42,0.999998,3.65724e-07,3.87924e-07,1.05857e-06
+N1,43,1.24534e-06,2.19114e-07,0.999998,2.32678e-07
+N1,44,9.6371e-08,1,8.28611e-08,1.98609e-07
+N1,45,4.51173e-07,3.65724e-07,0.999998,1.05857e-06
+N1,46,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,47,4.51173e-07,3.65724e-07,0.999998,1.05857e-06
+N1,48,4.51173e-07,3.65724e-07,0.999998,1.05857e-06
+N1,49,9.93991e-08,1.92982e-07,8.54646e-08,1
+N1,50,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,51,1,9.41403e-08,1.63572e-07,9.9968e-08
+N1,52,1.05593e-06,0.999998,3.21196e-07,4.70148e-07
+N1,53,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,54,0.999998,1.03593e-06,3.87924e-07,3.88364e-07
+N1,55,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,56,0.999998,1.03593e-06,3.87924e-07,3.88364e-07
+N1,57,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,58,1,9.41403e-08,1.63572e-07,9.9968e-08
+N1,59,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,60,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,61,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,62,0.999998,1.03593e-06,3.87924e-07,3.88364e-07
+N1,63,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,64,0.999998,2.19114e-07,1.18209e-06,2.32678e-07
+N1,65,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,66,1,9.41403e-08,1.63572e-07,9.9968e-08
+N1,67,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,68,9.93991e-08,1.92982e-07,8.54646e-08,1
+N1,69,1.05593e-06,0.999998,3.21196e-07,4.70148e-07
+N1,70,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,71,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,72,9.6371e-08,1,8.28611e-08,1.98609e-07
+N1,73,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,74,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,75,2.23822e-07,0.999998,1.92445e-07,1.25145e-06
+N1,76,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,77,3.73565e-07,0.999998,1.00356e-06,4.70148e-07
+N1,78,0.999998,2.19114e-07,1.18209e-06,2.32678e-07
+N1,79,1.24534e-06,2.19114e-07,0.999998,2.32678e-07
+N1,80,1.24534e-06,2.19114e-07,0.999998,2.32678e-07
+N1,81,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,82,0.999998,1.03593e-06,3.87924e-07,3.88364e-07
+N1,83,1.24534e-06,2.19114e-07,0.999998,2.32678e-07
+N1,84,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,85,4.51173e-07,1.03593e-06,0.999998,3.88364e-07
+N1,86,2.23822e-07,1.22404e-06,1.92445e-07,0.999998
+N1,87,2.23822e-07,0.999998,1.92445e-07,1.25145e-06
+N1,88,0.999998,2.19114e-07,1.18209e-06,2.32678e-07
+N1,89,1,9.41403e-08,1.63572e-07,9.9968e-08
+N1,90,9.6371e-08,1,8.2861e-08,1.98609e-07
+N1,91,1.75179e-07,8.67672e-08,1,9.21385e-08
+N1,92,0.999998,3.65724e-07,3.87924e-07,1.05857e-06
+N1,93,1.24534e-06,2.19114e-07,0.999998,2.32678e-07
+N1,94,9.6371e-08,1,8.2861e-08,1.98609e-07
+
+++++++++++++++++++++++++ marginal log likelihood +++++++++++++++++++++++++++++++
+
+node,site,A,C,G,T
+N7,1,-15.9885,-14.2028,-16.1395,-8.90628e-07
+N7,2,-15.0626,-16.4133,-4.40815e-07,-16.3532
+N7,3,-16.0116,-14.6978,-16.1626,-6.20721e-07
+N7,4,-16.1306,-5.73659e-07,-16.2817,-14.7571
+N7,5,-15.6511,-14.6712,-16.1316,-6.83186e-07
+N7,6,-0.0109858,-4.52532,-9.84491,-10.0923
+N7,7,-5.41489e-07,-16.1137,-14.911,-16.0536
+N7,8,-16.0116,-14.6978,-16.1626,-6.20723e-07
+N7,9,-16.1305,-5.74339e-07,-16.2816,-14.7554
+N7,10,-16.1306,-5.73658e-07,-16.2817,-14.7571
+N7,11,-16.0116,-14.6978,-16.1626,-6.20725e-07
+N7,12,-16.1306,-5.73658e-07,-16.2817,-14.7571
+N7,13,-16.1303,-5.7373e-07,-16.2816,-14.7571
+N7,14,-5.40912e-07,-16.1125,-14.9131,-16.0536
+N7,15,-16.0116,-14.6978,-16.1626,-6.20725e-07
+N7,16,-1.23665e-05,-11.3928,-14.1105,-14.8774
+N7,17,-5.48602e-07,-16.1128,-14.8905,-16.0527
+N7,18,-5.40708e-07,-16.1138,-14.9132,-16.0537
+N7,19,-16.0931,-6.23052e-07,-16.2441,-14.654
+N7,20,-16.0116,-14.6978,-16.1626,-6.20723e-07
+N7,21,-16.0116,-14.6978,-16.1626,-6.20723e-07
+N7,22,-6.49727,-0.00155378,-11.0753,-10.4301
+N7,23,-6.49727,-0.00155378,-11.0753,-10.4301
+N7,24,-16.0116,-14.6978,-16.1626,-6.20721e-07
+N7,25,-16.0116,-14.6978,-16.1626,-6.20725e-07
+N7,26,-5.40705e-07,-16.1138,-14.9133,-16.0537
+N7,27,-15.0626,-16.4133,-4.40815e-07,-16.3532
+N7,28,-5.40705e-07,-16.1138,-14.9133,-16.0537
+N7,29,-16.0116,-14.6978,-16.1626,-6.20723e-07
+N7,30,-16.1305,-5.73763e-07,-16.2809,-14.757
+N7,31,-16.0116,-14.6978,-16.1626,-6.20721e-07
+N7,32,-15.0309,-16.3763,-4.92866e-07,-15.9438
+N7,33,-5.40707e-07,-16.1138,-14.9133,-16.0537
+N7,34,-16.1306,-5.73661e-07,-16.2817,-14.7571
+N7,35,-16.0116,-14.6976,-16.1626,-6.20792e-07
+N7,36,-15.0626,-16.4133,-4.40815e-07,-16.3532
+N7,37,-16.0486,-7.70938e-07,-15.2134,-14.6911
+N7,38,-5.41489e-07,-16.1137,-14.911,-16.0536
+N7,39,-5.40708e-07,-16.1138,-14.9132,-16.0537
+N7,40,-5.40708e-07,-16.1138,-14.9132,-16.0537
+N7,41,-16.0116,-14.6978,-16.1626,-6.20721e-07
+N7,42,-16.0116,-14.6978,-16.1626,-6.20721e-07
+N7,43,-5.40705e-07,-16.1138,-14.9133,-16.0537
+N7,44,-15.0625,-16.4124,-4.40933e-07,-16.3531
+N7,45,-15.0626,-16.4133,-4.40816e-07,-16.3532
+N7,46,-12.9479,-12.1399,-10.0601,-5.04747e-05
+N7,47,-16.0116,-14.6978,-16.1626,-6.20721e-07
+N7,48,-16.0116,-14.6978,-16.1626,-6.20721e-07
+N7,49,-15.0309,-16.3763,-4.92866e-07,-15.9438
+N7,50,-13.5888,-14.4227,-3.77438e-05,-10.2336
+N7,51,-16.0116,-14.6978,-16.1626,-6.20723e-07
+N7,52,-5.40705e-07,-16.1138,-14.9133,-16.0537
+N7,53,-16.1305,-5.74284e-07,-16.2816,-14.7556
+N7,54,-5.08226,-0.00631656,-10.3621,-9.7352
+N7,55,-15.9759,-14.6463,-16.1269,-6.50114e-07
+N7,56,-5.40707e-07,-16.1138,-14.9133,-16.0537
+N7,57,-10.5295,-11.484,-4.79618e-05,-11.4239
+N7,58,-15.0613,-16.4132,-4.41219e-07,-16.3532
+N7,59,-16.1305,-5.73763e-07,-16.2809,-14.757
+N7,60,-16.0116,-14.6978,-16.1626,-6.20723e-07
+N7,61,-16.0116,-14.6978,-16.1626,-6.20723e-07
+N7,62,-5.40707e-07,-16.1138,-14.9133,-16.0537
+N7,63,-16.1304,-5.73983e-07,-16.2791,-14.7569
+N7,64,-15.0626,-16.4133,-4.40815e-07,-16.3532
+N7,65,-16.0486,-7.70938e-07,-15.2134,-14.6911
+N7,66,-5.41413e-07,-16.1137,-14.9112,-16.0536
+N7,67,-15.9885,-14.2028,-16.1395,-8.90628e-07
+N7,68,-9.47007,-10.388,-0.000140642,-10.3279
+N7,69,-16.1306,-5.73659e-07,-16.2817,-14.7571
+N7,70,-15.972,-14.584,-16.123,-6.78947e-07
+N7,71,-1.30101e-05,-11.3405,-14.0792,-14.8378
+N7,72,-15.0626,-16.4133,-4.40816e-07,-16.3532
+N7,73,-16.1306,-5.73659e-07,-16.2817,-14.7571
+N7,74,-16.0116,-14.6977,-16.1626,-6.20776e-07
+N7,75,-16.0116,-14.6977,-16.1626,-6.20756e-07
+N7,76,-5.40708e-07,-16.1138,-14.9132,-16.0537
+N7,77,-15.0626,-16.4133,-4.40815e-07,-16.3532
+N7,78,-15.0626,-16.4133,-4.40815e-07,-16.3532
+N7,79,-5.40705e-07,-16.1138,-14.9133,-16.0537
+N7,80,-5.40705e-07,-16.1138,-14.9133,-16.0537
+N7,81,-16.0116,-14.6978,-16.1626,-6.20725e-07
+N7,82,-16.1306,-5.73658e-07,-16.2817,-14.7571
+N7,83,-9.82711e-05,-13.5946,-9.25435,-13.5345
+N7,84,-5.40761e-07,-16.1138,-14.9131,-16.0537
+N7,85,-15.0626,-16.4133,-4.40816e-07,-16.3532
+N7,86,-16.1306,-5.73658e-07,-16.2817,-14.7571
+N7,87,-16.0116,-14.6978,-16.1626,-6.20721e-07
+N7,88,-15.0626,-16.4133,-4.40815e-07,-16.3532
+N7,89,-15.6612,-6.50575e-07,-16.2399,-14.7216
+N7,90,-16.0116,-14.6978,-16.1626,-6.20725e-07
+N7,91,-15.0615,-16.4132,-4.41148e-07,-16.3532
+N7,92,-5.40707e-07,-16.1138,-14.9133,-16.0537
+N7,93,-5.40705e-07,-16.1138,-14.9133,-16.0537
+N7,94,-5.40707e-07,-16.1138,-14.9133,-16.0537
+N6,1,-14.8854,-10.8098,-15.0364,-2.08384e-05
+N6,2,-14.9669,-16.3465,-4.80296e-07,-16.2864
+N6,3,-15.9324,-14.5847,-16.0834,-6.87304e-07
+N6,4,-16.055,-6.32432e-07,-16.2062,-14.6494
+N6,5,-12.0769,-13.6348,-14.7501,-7.28048e-06
+N6,6,-0.00422453,-5.47118,-12.174,-12.384
+N6,7,-6.55143e-07,-16.0296,-14.6598,-15.9695
+N6,8,-15.9322,-14.5845,-16.0831,-6.87461e-07
+N6,9,-16.0477,-6.84656e-07,-16.1988,-14.5389
+N6,10,-16.0553,-6.32299e-07,-16.2064,-14.6496
+N6,11,-15.9323,-14.5842,-16.0833,-6.87573e-07
+N6,12,-16.0553,-6.32299e-07,-16.2064,-14.6496
+N6,13,-16.0216,-6.38598e-07,-16.2011,-14.6446
+N6,14,-6.16629e-07,-15.9041,-14.7938,-15.9627
+N6,15,-15.9323,-14.5842,-16.0833,-6.87573e-07
+N6,16,-0.001572,-6.48499,-10.603,-10.8327
+N6,17,-1.21019e-06,-15.9551,-13.8485,-15.8951
+N6,18,-5.95614e-07,-16.0377,-14.804,-15.9776
+N6,19,-14.4682,-4.76028e-06,-14.6193,-12.4826
+N6,20,-15.9321,-14.5845,-16.0833,-6.87461e-07
+N6,21,-15.9322,-14.5845,-16.0831,-6.87461e-07
+N6,22,-11.3345,-1.32261e-05,-15.0345,-13.8385
+N6,23,-11.3345,-1.32261e-05,-15.0345,-13.8385
+N6,24,-15.9324,-14.5847,-16.0834,-6.87304e-07
+N6,25,-15.9323,-14.5842,-16.0833,-6.87573e-07
+N6,26,-5.9539e-07,-16.0378,-14.8045,-15.9777
+N6,27,-14.9669,-16.3465,-4.80296e-07,-16.2864
+N6,28,-5.9539e-07,-16.0378,-14.8045,-15.9777
+N6,29,-15.9322,-14.5845,-16.0831,-6.87461e-07
+N6,30,-16.049,-6.41715e-07,-16.1403,-14.6439
+N6,31,-15.9324,-14.5847,-16.0834,-6.87304e-07
+N6,32,-13.7698,-14.7262,-7.0706e-06,-12.0889
+N6,33,-5.95517e-07,-16.0375,-14.8043,-15.9775
+N6,34,-16.0552,-6.32519e-07,-16.2063,-14.6491
+N6,35,-15.9296,-14.5757,-16.0807,-6.92142e-07
+N6,36,-14.9669,-16.3465,-4.80296e-07,-16.2864
+N6,37,-13.8962,-2.29762e-05,-10.8291,-13.0099
+N6,38,-6.55143e-07,-16.0296,-14.6598,-15.9695
+N6,39,-5.95614e-07,-16.0377,-14.804,-15.9776
+N6,40,-5.95614e-07,-16.0377,-14.804,-15.9776
+N6,41,-15.9324,-14.5847,-16.0834,-6.87304e-07
+N6,42,-15.9324,-14.5847,-16.0834,-6.87304e-07
+N6,43,-5.9539e-07,-16.0378,-14.8045,-15.9777
+N6,44,-14.9576,-16.2312,-4.94064e-07,-16.2735
+N6,45,-14.9667,-16.3463,-4.80378e-07,-16.2862
+N6,46,-8.38833,-8.00485,-5.20405,-0.00607403
+N6,47,-15.9324,-14.5847,-16.0834,-6.87304e-07
+N6,48,-15.9324,-14.5847,-16.0834,-6.87304e-07
+N6,49,-13.7698,-14.7262,-7.0706e-06,-12.0889
+N6,50,-9.83231,-10.3233,-0.00563399,-5.19728
+N6,51,-15.9321,-14.5845,-16.0833,-6.87461e-07
+N6,52,-5.9539e-07,-16.0378,-14.8045,-15.9777
+N6,53,-16.0493,-6.74925e-07,-16.2003,-14.5585
+N6,54,-0.00684705,-5.00165,-9.80794,-10.0831
+N6,55,-14.4283,-13.1393,-14.5794,-2.97406e-06
+N6,56,-5.95517e-07,-16.0375,-14.8043,-15.9775
+N6,57,-12.3285,-14.0945,-5.98375e-06,-14.0344
+N6,58,-14.8639,-16.3397,-5.1572e-07,-16.2797
+N6,59,-16.049,-6.41715e-07,-16.1403,-14.6439
+N6,60,-15.9322,-14.5845,-16.0831,-6.87461e-07
+N6,61,-15.9322,-14.5845,-16.0831,-6.87461e-07
+N6,62,-5.95517e-07,-16.0375,-14.8043,-15.9775
+N6,63,-16.0361,-6.64615e-07,-15.971,-14.636
+N6,64,-14.9669,-16.3465,-4.80296e-07,-16.2864
+N6,65,-13.8962,-2.29762e-05,-10.8291,-13.0099
+N6,66,-6.42867e-07,-16.0313,-14.6879,-15.9712
+N6,67,-14.8854,-10.8098,-15.0364,-2.08384e-05
+N6,68,-9.15145,-10.0787,-0.000192618,-10.0185
+N6,69,-16.055,-6.32432e-07,-16.2062,-14.6494
+N6,70,-14.3504,-12.3767,-14.5015,-5.30505e-06
+N6,71,-0.00164172,-6.44177,-10.5552,-10.7842
+N6,72,-14.9667,-16.3462,-4.80378e-07,-16.2863
+N6,73,-16.0552,-6.32432e-07,-16.2061,-14.6494
+N6,74,-15.9286,-14.5787,-16.0775,-6.91185e-07
+N6,75,-15.93,-14.5807,-16.0811,-6.89694e-07
+N6,76,-5.95614e-07,-16.0377,-14.804,-15.9776
+N6,77,-14.9669,-16.3465,-4.80296e-07,-16.2864
+N6,78,-14.9669,-16.3465,-4.80296e-07,-16.2864
+N6,79,-5.9539e-07,-16.0378,-14.8045,-15.9777
+N6,80,-5.9539e-07,-16.0378,-14.8045,-15.9777
+N6,81,-15.9323,-14.5842,-16.0833,-6.87573e-07
+N6,82,-16.0553,-6.32299e-07,-16.2064,-14.6496
+N6,83,-0.00853564,-9.05566,-4.7965,-8.99559
+N6,84,-5.99415e-07,-16.0351,-14.7953,-15.9751
+N6,85,-14.9667,-16.3462,-4.80378e-07,-16.2863
+N6,86,-16.0553,-6.32299e-07,-16.2064,-14.6496
+N6,87,-15.9324,-14.5847,-16.0834,-6.87304e-07
+N6,88,-14.9669,-16.3465,-4.80296e-07,-16.2864
+N6,89,-11.8274,-9.17579e-06,-14.5969,-13.4676
+N6,90,-15.9323,-14.5842,-16.0833,-6.87573e-07
+N6,91,-14.8909,-16.3417,-5.06056e-07,-16.2816
+N6,92,-5.95517e-07,-16.0376,-14.8043,-15.9774
+N6,93,-5.9539e-07,-16.0378,-14.8045,-15.9777
+N6,94,-5.95517e-07,-16.0375,-14.8043,-15.9775
+N5,1,-9.56111,-5.09822,-9.71215,-0.00625809
+N5,2,-11.6402,-12.9513,-1.3698e-05,-12.8912
+N5,3,-12.5591,-11.2861,-12.7102,-1.90797e-05
+N5,4,-12.6695,-1.77454e-05,-12.8226,-11.3389
+N5,5,-5.90841,-8.5981,-9.1973,-0.00300679
+N5,6,-0.00828881,-4.84452,-8.44382,-8.69185
+N5,7,-3.53442e-05,-12.5735,-10.476,-12.5134
+N5,8,-12.5569,-11.2841,-12.7053,-1.91269e-05
+N5,9,-12.5902,-3.41571e-05,-12.7412,-10.4896
+N5,10,-12.6737,-1.77037e-05,-12.8248,-11.3408
+N5,11,-12.558,-11.281,-12.709,-1.91515e-05
+N5,12,-12.6737,-1.77037e-05,-12.8248,-11.3408
+N5,13,-12.2785,-1.99238e-05,-12.7621,-11.2974
+N5,14,-2.60577e-05,-11.4255,-11.4064,-12.4244
+N5,15,-12.558,-11.281,-12.709,-1.91515e-05
+N5,16,-2.53253,-0.0842663,-7.63106,-7.04594
+N5,17,-0.000214873,-11.9698,-8.50827,-11.9097
+N5,18,-1.6713e-05,-12.6609,-11.496,-12.6008
+N5,19,-8.5929,-0.00147455,-8.74394,-6.78676
+N5,20,-12.5546,-11.2841,-12.7079,-1.91269e-05
+N5,21,-12.5569,-11.2841,-12.7053,-1.91269e-05
+N5,22,-12.4545,-1.85665e-05,-12.8161,-11.3348
+N5,23,-12.4545,-1.85665e-05,-12.8161,-11.3348
+N5,24,-12.5591,-11.2861,-12.7102,-1.90797e-05
+N5,25,-12.558,-11.281,-12.709,-1.91515e-05
+N5,26,-1.66501e-05,-12.662,-11.5015,-12.602
+N5,27,-11.6402,-12.9513,-1.3698e-05,-12.8912
+N5,28,-1.66501e-05,-12.662,-11.5015,-12.602
+N5,29,-12.5569,-11.2841,-12.7053,-1.91269e-05
+N5,30,-12.6048,-2.10135e-05,-12.1665,-11.2933
+N5,31,-12.5591,-11.2861,-12.7102,-1.90797e-05
+N5,32,-8.44947,-8.91889,-0.00359824,-5.73097
+N5,33,-1.66907e-05,-12.6577,-11.4995,-12.5998
+N5,34,-12.6726,-1.77657e-05,-12.8236,-11.3362
+N5,35,-12.5261,-11.2046,-12.6772,-2.03636e-05
+N5,36,-11.6402,-12.9513,-1.3698e-05,-12.8912
+N5,37,-8.25906,-0.0108528,-4.59328,-7.78574
+N5,38,-3.53442e-05,-12.5735,-10.476,-12.5134
+N5,39,-1.6713e-05,-12.6609,-11.496,-12.6008
+N5,40,-1.6713e-05,-12.6609,-11.496,-12.6008
+N5,41,-12.5591,-11.2861,-12.7102,-1.90797e-05
+N5,42,-12.5591,-11.2861,-12.7102,-1.90797e-05
+N5,43,-1.66501e-05,-12.662,-11.5015,-12.602
+N5,44,-11.547,-11.7328,-2.06905e-05,-12.7173
+N5,45,-11.6384,-12.9493,-1.37275e-05,-12.8876
+N5,46,-7.78905,-7.37909,-4.12243,-0.017394
+N5,47,-12.5591,-11.2861,-12.7102,-1.90797e-05
+N5,48,-12.5591,-11.2861,-12.7102,-1.90797e-05
+N5,49,-8.44947,-8.91889,-0.00359824,-5.73097
+N5,50,-10.8828,-11.7573,-0.000313344,-8.15713
+N5,51,-12.5546,-11.2841,-12.7079,-1.91269e-05
+N5,52,-1.66501e-05,-12.662,-11.5015,-12.602
+N5,53,-12.6156,-2.87253e-05,-12.7666,-10.6998
+N5,54,-0.00043163,-7.82828,-10.7305,-11.3855
+N5,55,-8.62165,-7.77217,-8.77269,-0.000756656
+N5,56,-1.66907e-05,-12.6577,-11.4995,-12.5998
+N5,57,-7.36953,-8.77952,-0.000947841,-8.71945
+N5,58,-10.7646,-12.868,-2.64524e-05,-12.8079
+N5,59,-12.6048,-2.10135e-05,-12.1665,-11.2933
+N5,60,-12.5569,-11.2841,-12.7053,-1.91269e-05
+N5,61,-12.5569,-11.2841,-12.7053,-1.91269e-05
+N5,62,-1.66907e-05,-12.6577,-11.4995,-12.5998
+N5,63,-12.4669,-3.10256e-05,-11.1855,-11.2278
+N5,64,-11.6402,-12.9513,-1.3698e-05,-12.8912
+N5,65,-8.25906,-0.0108528,-4.59328,-7.78574
+N5,66,-2.87478e-05,-12.6004,-10.7337,-12.5404
+N5,67,-9.56111,-5.09822,-9.71215,-0.00625809
+N5,68,-10.9331,-12.235,-2.78826e-05,-12.1732
+N5,69,-12.6695,-1.77454e-05,-12.8226,-11.3389
+N5,70,-8.53406,-6.72649,-8.6851,-0.00156571
+N5,71,-3.01495,-0.0517232,-7.64068,-7.0361
+N5,72,-11.6384,-12.9476,-1.37275e-05,-12.8893
+N5,73,-12.6716,-1.77454e-05,-12.8202,-11.3389
+N5,74,-12.5123,-11.2337,-12.6335,-2.01628e-05
+N5,75,-12.5303,-11.2511,-12.6813,-1.97177e-05
+N5,76,-1.6713e-05,-12.6609,-11.496,-12.6008
+N5,77,-11.6402,-12.9513,-1.3698e-05,-12.8912
+N5,78,-11.6402,-12.9513,-1.3698e-05,-12.8912
+N5,79,-1.66501e-05,-12.662,-11.5015,-12.602
+N5,80,-1.66501e-05,-12.662,-11.5015,-12.602
+N5,81,-12.558,-11.281,-12.709,-1.91515e-05
+N5,82,-12.6737,-1.77037e-05,-12.8248,-11.3408
+N5,83,-0.0247456,-8.70911,-3.72548,-8.64905
+N5,84,-1.77756e-05,-12.6294,-11.4154,-12.5694
+N5,85,-11.6384,-12.9476,-1.37275e-05,-12.8893
+N5,86,-12.6737,-1.77037e-05,-12.8248,-11.3408
+N5,87,-12.5591,-11.2861,-12.7102,-1.90797e-05
+N5,88,-11.6402,-12.9513,-1.3698e-05,-12.8912
+N5,89,-5.60081,-0.00409039,-8.92157,-8.27943
+N5,90,-12.558,-11.281,-12.709,-1.91515e-05
+N5,91,-11.0352,-12.8993,-2.12792e-05,-12.8393
+N5,92,-1.66907e-05,-12.6598,-11.4995,-12.5978
+N5,93,-1.66501e-05,-12.662,-11.5015,-12.602
+N5,94,-1.66907e-05,-12.6577,-11.4995,-12.5998
+N8,1,-12.3679,-0.00047206,-12.519,-7.67554
+N8,2,-13.352,-14.9155,-2.27601e-06,-14.8555
+N8,3,-14.4152,-12.8575,-14.5662,-3.62747e-06
+N8,4,-13.8159,-4.73167e-06,-14.3009,-12.6788
+N8,5,-0.0496011,-8.32684,-8.15999,-3.03941
+N8,6,-8.70568,-0.00019976,-11.7477,-10.5501
+N8,7,-0.000685145,-12.3464,-7.29939,-12.2864
+N8,8,-14.0014,-12.588,-13.7665,-5.29309e-06
+N8,9,-12.3601,-0.000602376,-12.5111,-7.42826
+N8,10,-14.5622,-3.24764e-06,-14.7132,-12.9542
+N8,11,-14.2057,-12.2339,-14.3567,-6.12182e-06
+N8,12,-14.5622,-3.24764e-06,-14.7132,-12.9542
+N8,13,-9.69273,-8.30592e-05,-12.2561,-11.008
+N8,14,-0.000361016,-8.03428,-10.6797,-11.1918
+N8,15,-14.2057,-12.2339,-14.3567,-6.12182e-06
+N8,16,-3.38473,-0.0347184,-9.40366,-8.78101
+N8,17,-0.0315208,-8.39002,-3.48803,-8.32996
+N8,18,-5.22637e-06,-14.3327,-12.4299,-14.2727
+N8,19,-12.1263,-0.00076491,-12.2773,-7.18939
+N8,20,-13.6614,-12.588,-14.1525,-5.29309e-06
+N8,21,-14.0014,-12.588,-13.7665,-5.29309e-06
+N8,22,-14.5616,-3.24806e-06,-14.7132,-12.9542
+N8,23,-14.5616,-3.24806e-06,-14.7132,-12.9542
+N8,24,-14.4152,-12.8575,-14.5662,-3.62747e-06
+N8,25,-14.2057,-12.2339,-14.3567,-6.12182e-06
+N8,26,-3.01448e-06,-14.5483,-13.1106,-14.4883
+N8,27,-13.352,-14.9155,-2.27601e-06,-14.8555
+N8,28,-3.01448e-06,-14.5483,-13.1106,-14.4883
+N8,29,-14.0014,-12.588,-13.7665,-5.29309e-06
+N8,30,-10.1742,-0.00152265,-6.56859,-9.43884
+N8,31,-14.4152,-12.8575,-14.5662,-3.62747e-06
+N8,32,-11.4598,-10.4732,-8.57278,-0.000228042
+N8,33,-4.46541e-06,-13.8004,-12.8309,-14.0722
+N8,34,-14.3497,-5.43101e-06,-14.5007,-12.3474
+N8,35,-10.3002,-8.71642,-10.4513,-0.000226436
+N8,36,-13.352,-14.9155,-2.27601e-06,-14.8555
+N8,37,-13.6355,-1.70862e-05,-11.3608,-12.3695
+N8,38,-0.000685145,-12.3464,-7.29939,-12.2864
+N8,39,-5.22637e-06,-14.3327,-12.4299,-14.2727
+N8,40,-5.22637e-06,-14.3327,-12.4299,-14.2727
+N8,41,-14.4152,-12.8575,-14.5662,-3.62747e-06
+N8,42,-14.4152,-12.8575,-14.5662,-3.62747e-06
+N8,43,-3.01448e-06,-14.5483,-13.1106,-14.4883
+N8,44,-10.8156,-8.32367,-0.000273176,-11.4785
+N8,45,-13.0586,-14.5048,-3.35358e-06,-14.1442
+N8,46,-13.2908,-12.1456,-10.8062,-2.72756e-05
+N8,47,-14.4152,-12.8575,-14.5662,-3.62747e-06
+N8,48,-14.4152,-12.8575,-14.5662,-3.62747e-06
+N8,49,-11.4598,-10.4732,-8.57278,-0.000228042
+N8,50,-13.3415,-14.9005,-2.3619e-06,-14.6889
+N8,51,-13.6614,-12.588,-14.1525,-5.29309e-06
+N8,52,-3.01448e-06,-14.5483,-13.1106,-14.4883
+N8,53,-11.0382,-0.00279231,-11.1892,-5.89306
+N8,54,-4.98039e-06,-13.4337,-12.8151,-14.0438
+N8,55,-14.0627,-12.0456,-14.2137,-7.32259e-06
+N8,56,-4.46541e-06,-13.8004,-12.8309,-14.0722
+N8,57,-5.93299,-11.1298,-0.00268439,-11.0698
+N8,58,-7.6548,-12.637,-0.000480578,-12.577
+N8,59,-10.1742,-0.00152265,-6.56859,-9.43884
+N8,60,-14.0014,-12.588,-13.7665,-5.29309e-06
+N8,61,-14.0014,-12.588,-13.7665,-5.29309e-06
+N8,62,-4.46541e-06,-13.8004,-12.8309,-14.0722
+N8,63,-9.75495,-0.00372001,-5.64108,-9.15148
+N8,64,-13.352,-14.9155,-2.27601e-06,-14.8555
+N8,65,-13.6355,-1.70862e-05,-11.3608,-12.3695
+N8,66,-0.00302742,-11.0089,-5.81291,-10.9488
+N8,67,-12.3679,-0.00047206,-12.519,-7.67554
+N8,68,-13.0535,-14.5014,-3.36878e-06,-14.1404
+N8,69,-13.8159,-4.73167e-06,-14.3009,-12.6788
+N8,70,-12.0127,-7.05166,-12.1637,-0.000877639
+N8,71,-11.3176,-1.81014e-05,-13.7142,-12.239
+N8,72,-13.0586,-14.1883,-3.35358e-06,-14.4447
+N8,73,-14.1499,-4.73167e-06,-13.9216,-12.6788
+N8,74,-10.0589,-9.08248,-9.7755,-0.000213291
+N8,75,-12.369,-10.9461,-12.52,-2.55279e-05
+N8,76,-5.22637e-06,-14.3327,-12.4299,-14.2727
+N8,77,-13.352,-14.9155,-2.27601e-06,-14.8555
+N8,78,-13.352,-14.9155,-2.27601e-06,-14.8555
+N8,79,-3.01448e-06,-14.5483,-13.1106,-14.4883
+N8,80,-3.01448e-06,-14.5483,-13.1106,-14.4883
+N8,81,-14.2057,-12.2339,-14.3567,-6.12182e-06
+N8,82,-14.5622,-3.24764e-06,-14.7132,-12.9542
+N8,83,-0.000654668,-10.3008,-7.44362,-10.2407
+N8,84,-0.000211434,-10.3517,-8.83494,-10.2916
+N8,85,-13.0586,-14.1883,-3.35358e-06,-14.4447
+N8,86,-14.5622,-3.24764e-06,-14.7132,-12.9542
+N8,87,-14.4152,-12.8575,-14.5662,-3.62747e-06
+N8,88,-13.352,-14.9155,-2.27601e-06,-14.8555
+N8,89,-0.000201353,-8.68397,-10.7138,-11.5313
+N8,90,-14.2057,-12.2339,-14.3567,-6.12182e-06
+N8,91,-6.04364,-11.2239,-0.00240333,-11.1638
+N8,92,-4.46541e-06,-14.1323,-12.8309,-13.757
+N8,93,-3.01448e-06,-14.5483,-13.1106,-14.4883
+N8,94,-4.46541e-06,-13.8004,-12.8309,-14.0722
+N4,1,-10.9675,-0.00172632,-11.1186,-6.38141
+N4,2,-12.7384,-14.2963,-4.21123e-06,-14.2362
+N4,3,-13.7844,-12.2534,-13.9355,-6.68736e-06
+N4,4,-12.5322,-1.24496e-05,-13.2403,-11.8606
+N4,5,-0.357127,-7.15323,-7.36896,-1.20763
+N4,6,-7.10649,-0.000939271,-10.2795,-9.37603
+N4,7,-0.00303053,-10.9166,-5.81298,-10.8565
+N4,8,-12.9649,-11.7918,-12.4917,-1.36653e-05
+N4,9,-10.912,-0.00266421,-11.0631,-5.94201
+N4,10,-13.93,-6.01594e-06,-14.081,-12.3437
+N4,11,-13.3303,-11.2525,-13.4813,-1.59961e-05
+N4,12,-13.93,-6.01594e-06,-14.081,-12.3437
+N4,13,-8.0948,-0.000378524,-10.792,-9.84963
+N4,14,-0.00219413,-6.18961,-9.47637,-9.64965
+N4,15,-13.3303,-11.2525,-13.4813,-1.59961e-05
+N4,16,-3.41204,-0.0337335,-9.59174,-8.95752
+N4,17,-0.0338045,-8.47856,-3.41699,-8.4185
+N4,18,-1.40751e-05,-13.4456,-11.4094,-13.3855
+N4,19,-10.6637,-0.00338703,-10.8148,-5.70244
+N4,20,-12.408,-11.7918,-13.1159,-1.36653e-05
+N4,21,-12.9649,-11.7918,-12.4917,-1.36653e-05
+N4,22,-13.9286,-6.01764e-06,-14.0809,-12.3436
+N4,23,-13.9286,-6.01764e-06,-14.0809,-12.3436
+N4,24,-13.7844,-12.2534,-13.9355,-6.68736e-06
+N4,25,-13.3303,-11.2525,-13.4813,-1.59961e-05
+N4,26,-5.54265e-06,-13.9264,-12.5079,-13.8663
+N4,27,-12.7384,-14.2963,-4.21123e-06,-14.2362
+N4,28,-5.54265e-06,-13.9264,-12.5079,-13.8663
+N4,29,-12.9649,-11.7918,-12.4917,-1.36653e-05
+N4,30,-11.0115,-0.000541145,-7.64605,-9.97482
+N4,31,-13.7844,-12.2534,-13.9355,-6.68736e-06
+N4,32,-10.0335,-9.33655,-7.01546,-0.00103047
+N4,33,-1.18718e-05,-12.5262,-12.0195,-13.0199
+N4,34,-13.4547,-1.44888e-05,-13.6057,-11.3457
+N4,35,-10.8844,-8.90824,-11.0355,-0.000170152
+N4,36,-12.7384,-14.2963,-4.21123e-06,-14.2362
+N4,37,-12.3715,-7.83323e-05,-9.66822,-11.4333
+N4,38,-0.00303053,-10.9166,-5.81298,-10.8565
+N4,39,-1.40751e-05,-13.4456,-11.4094,-13.3855
+N4,40,-1.40751e-05,-13.4456,-11.4094,-13.3855
+N4,41,-13.7844,-12.2534,-13.9355,-6.68736e-06
+N4,42,-13.7844,-12.2534,-13.9355,-6.68736e-06
+N4,43,-5.54265e-06,-13.9264,-12.5079,-13.8663
+N4,44,-9.50764,-6.35705,-0.00186479,-9.82112
+N4,45,-12.1919,-13.3925,-9.34942e-06,-12.8034
+N4,46,-12.0151,-11.2015,-9.1495,-0.000125987
+N4,47,-13.7844,-12.2534,-13.9355,-6.68736e-06
+N4,48,-13.7844,-12.2534,-13.9355,-6.68736e-06
+N4,49,-10.0335,-9.33655,-7.01546,-0.00103047
+N4,50,-12.7185,-14.2586,-4.61125e-06,-13.8418
+N4,51,-12.408,-11.7918,-13.1159,-1.36653e-05
+N4,52,-5.54265e-06,-13.9264,-12.5079,-13.8663
+N4,53,-11.787,-0.00132902,-11.9381,-6.63468
+N4,54,-1.4331e-05,-12.0478,-11.9971,-12.9777
+N4,55,-13.082,-11.0141,-13.233,-2.03404e-05
+N4,56,-1.18718e-05,-12.5262,-12.0195,-13.0199
+N4,57,-6.64742,-11.8402,-0.00131309,-11.7802
+N4,58,-6.06598,-11.0883,-0.00235478,-11.0282
+N4,59,-11.0115,-0.000541145,-7.64605,-9.97482
+N4,60,-12.9649,-11.7918,-12.4917,-1.36653e-05
+N4,61,-12.9649,-11.7918,-12.4917,-1.36653e-05
+N4,62,-1.18718e-05,-12.5262,-12.0195,-13.0199
+N4,63,-10.1604,-0.00274369,-5.94267,-9.48168
+N4,64,-12.7384,-14.2963,-4.21123e-06,-14.2362
+N4,65,-12.3715,-7.83323e-05,-9.66822,-11.4333
+N4,66,-0.00144357,-11.7572,-6.55262,-11.6971
+N4,67,-10.9675,-0.00172632,-11.1186,-6.38141
+N4,68,-12.1842,-13.387,-9.41088e-06,-12.7983
+N4,69,-12.5322,-1.24496e-05,-13.2403,-11.8606
+N4,70,-10.5962,-5.60418,-10.7472,-0.00373591
+N4,71,-9.79948,-7.17472e-05,-12.4787,-11.2932
+N4,72,-12.1919,-12.8383,-9.34942e-06,-13.3324
+N4,73,-13.0892,-1.24496e-05,-12.6159,-11.8606
+N4,74,-10.4843,-9.43721,-9.99593,-0.000153271
+N4,75,-10.9508,-9.81248,-11.1019,-8.73949e-05
+N4,76,-1.40751e-05,-13.4456,-11.4094,-13.3855
+N4,77,-12.7384,-14.2963,-4.21123e-06,-14.2362
+N4,78,-12.7384,-14.2963,-4.21123e-06,-14.2362
+N4,79,-5.54265e-06,-13.9264,-12.5079,-13.8663
+N4,80,-5.54265e-06,-13.9264,-12.5079,-13.8663
+N4,81,-13.3303,-11.2525,-13.4813,-1.59961e-05
+N4,82,-13.93,-6.01594e-06,-14.081,-12.3437
+N4,83,-0.000634828,-10.8533,-7.42737,-10.7932
+N4,84,-0.000156574,-10.9601,-9.02201,-10.9
+N4,85,-12.1919,-12.8383,-9.34942e-06,-13.3324
+N4,86,-13.93,-6.01594e-06,-14.081,-12.3437
+N4,87,-13.7844,-12.2534,-13.9355,-6.68736e-06
+N4,88,-12.7384,-14.2963,-4.21123e-06,-14.2362
+N4,89,-0.000942992,-7.0951,-9.54974,-10.0739
+N4,90,-13.3303,-11.2525,-13.4813,-1.59961e-05
+N4,91,-6.88903,-12.0915,-0.001031,-12.0315
+N4,92,-1.18718e-05,-13.08,-12.0195,-12.4913
+N4,93,-5.54265e-06,-13.9264,-12.5079,-13.8663
+N4,94,-1.18718e-05,-12.5262,-12.0195,-13.0199
+N3,1,-10.9599,-0.0017264,-11.1109,-6.38151
+N3,2,-12.6401,-14.1387,-4.73186e-06,-14.0786
+N3,3,-13.6561,-12.1748,-13.8071,-7.33991e-06
+N3,4,-12.3611,-1.40903e-05,-13.0884,-11.7692
+N3,5,-0.35719,-7.14984,-7.36438,-1.20751
+N3,6,-7.10673,-0.000939557,-10.2763,-9.37165
+N3,7,-0.00353198,-10.7541,-5.66023,-10.6941
+N3,8,-12.8224,-11.7066,-12.3295,-1.53581e-05
+N3,9,-10.7468,-0.00310605,-10.8979,-5.78894
+N3,10,-13.7932,-6.6418e-06,-13.9443,-12.2595
+N3,11,-13.1926,-11.1562,-13.3437,-1.77543e-05
+N3,12,-13.7932,-6.6418e-06,-13.9443,-12.2595
+N3,13,-7.92571,-0.000443186,-10.6426,-9.7572
+N3,14,-0.00279476,-5.941,-9.374,-9.47753
+N3,15,-13.1926,-11.1562,-13.3437,-1.77543e-05
+N3,16,-3.41245,-0.0337209,-9.58526,-8.9511
+N3,17,-0.0343059,-8.4641,-3.40252,-8.40404
+N3,18,-1.57331e-05,-13.3011,-11.3072,-13.2411
+N3,19,-10.5328,-0.00382888,-10.6838,-5.58015
+N3,20,-12.2474,-11.7066,-12.9735,-1.53582e-05
+N3,21,-12.8224,-11.7066,-12.3295,-1.53582e-05
+N3,22,-13.792,-6.6435e-06,-13.9441,-12.2594
+N3,23,-13.792,-6.6435e-06,-13.9441,-12.2594
+N3,24,-13.6561,-12.1748,-13.8071,-7.33991e-06
+N3,25,-13.1926,-11.1562,-13.3437,-1.77543e-05
+N3,26,-6.12731e-06,-13.7918,-12.4252,-13.7317
+N3,27,-12.6401,-14.1387,-4.73186e-06,-14.0786
+N3,28,-6.12731e-06,-13.7918,-12.4252,-13.7317
+N3,29,-12.8224,-11.7066,-12.3295,-1.53581e-05
+N3,30,-11.0036,-0.000541595,-7.64617,-9.96672
+N3,31,-13.6561,-12.1748,-13.8071,-7.33991e-06
+N3,32,-10.0304,-9.33226,-7.01571,-0.00103076
+N3,33,-1.34614e-05,-12.3576,-11.9298,-12.8705
+N3,34,-13.3078,-1.61912e-05,-13.4589,-11.2428
+N3,35,-10.8719,-8.89867,-11.0229,-0.000171893
+N3,36,-12.6401,-14.1387,-4.73186e-06,-14.0786
+N3,37,-12.2945,-7.99684e-05,-9.65844,-11.3728
+N3,38,-0.00353198,-10.7541,-5.66023,-10.6941
+N3,39,-1.57331e-05,-13.3011,-11.3072,-13.2411
+N3,40,-1.57331e-05,-13.3011,-11.3072,-13.2411
+N3,41,-13.6561,-12.1748,-13.8071,-7.33991e-06
+N3,42,-13.6561,-12.1748,-13.8071,-7.33991e-06
+N3,43,-6.12731e-06,-13.7918,-12.4252,-13.7317
+N3,44,-9.38589,-6.06903,-0.00246677,-9.61975
+N3,45,-12.085,-13.2173,-1.08107e-05,-12.607
+N3,46,-11.9576,-11.1534,-9.14337,-0.000127672
+N3,47,-13.6561,-12.1748,-13.8071,-7.33991e-06
+N3,48,-13.6561,-12.1748,-13.8071,-7.33991e-06
+N3,49,-10.0304,-9.33226,-7.01571,-0.00103076
+N3,50,-12.6221,-14.1065,-5.13175e-06,-13.733
+N3,51,-12.2474,-11.7066,-12.9735,-1.53582e-05
+N3,52,-6.12731e-06,-13.7918,-12.4252,-13.7317
+N3,53,-11.7695,-0.00132926,-11.9205,-6.63469
+N3,54,-1.59204e-05,-11.94,-11.9092,-12.834
+N3,55,-12.9731,-10.9375,-13.1241,-2.20981e-05
+N3,56,-1.34614e-05,-12.3576,-11.9298,-12.8705
+N3,57,-6.64751,-11.8252,-0.0013132,-11.7651
+N3,58,-5.88852,-10.8979,-0.00281315,-10.8379
+N3,59,-11.0036,-0.000541595,-7.64617,-9.96672
+N3,60,-12.8224,-11.7066,-12.3295,-1.53582e-05
+N3,61,-12.8224,-11.7066,-12.3295,-1.53582e-05
+N3,62,-1.34614e-05,-12.3576,-11.9298,-12.8705
+N3,63,-10.1514,-0.00274515,-5.9425,-9.47287
+N3,64,-12.6401,-14.1387,-4.73186e-06,-14.0786
+N3,65,-12.2945,-7.99684e-05,-9.65844,-11.3728
+N3,66,-0.00144373,-11.7403,-6.5527,-11.6803
+N3,67,-10.9599,-0.0017264,-11.1109,-6.38151
+N3,68,-12.0781,-13.2127,-1.08721e-05,-12.6029
+N3,69,-12.3611,-1.40903e-05,-13.0884,-11.7692
+N3,70,-10.4733,-5.48907,-10.6244,-0.00419307
+N3,71,-9.79748,-7.23519e-05,-12.4497,-11.263
+N3,72,-12.085,-12.6412,-1.08107e-05,-13.1572
+N3,73,-12.9373,-1.40903e-05,-12.4432,-11.7692
+N3,74,-10.4717,-9.42896,-9.98157,-0.000154946
+N3,75,-10.8108,-9.72599,-10.9619,-9.7247e-05
+N3,76,-1.57331e-05,-13.3011,-11.3072,-13.2411
+N3,77,-12.6401,-14.1387,-4.73186e-06,-14.0786
+N3,78,-12.6401,-14.1387,-4.73186e-06,-14.0786
+N3,79,-6.12731e-06,-13.7918,-12.4252,-13.7317
+N3,80,-6.12731e-06,-13.7918,-12.4252,-13.7317
+N3,81,-13.1926,-11.1562,-13.3437,-1.77543e-05
+N3,82,-13.7932,-6.6418e-06,-13.9443,-12.2595
+N3,83,-0.000635226,-10.8468,-7.42714,-10.7868
+N3,84,-0.000158216,-10.9474,-9.01225,-10.8874
+N3,85,-12.085,-12.6412,-1.08107e-05,-13.1572
+N3,86,-13.7932,-6.6418e-06,-13.9443,-12.2595
+N3,87,-13.6561,-12.1748,-13.8071,-7.33991e-06
+N3,88,-12.6401,-14.1387,-4.73186e-06,-14.0786
+N3,89,-0.00094323,-7.09534,-9.5454,-10.0707
+N3,90,-13.1926,-11.1562,-13.3437,-1.77543e-05
+N3,91,-6.88905,-12.0724,-0.0010312,-12.0123
+N3,92,-1.34614e-05,-12.9305,-11.9298,-12.3233
+N3,93,-6.12731e-06,-13.7918,-12.4252,-13.7317
+N3,94,-1.34614e-05,-12.3576,-11.9298,-12.8705
+N2,1,-18.625,-3.5145e-08,-18.776,-17.7284
+N2,2,-16.2292,-17.9933,-1.21094e-07,-17.9333
+N2,3,-17.4029,-17.0113,-16.5938,-1.30748e-07
+N2,4,-8.29862e-07,-14.2091,-16.4926,-16.2636
+N2,5,-5.03614e-08,-18.2584,-17.7161,-17.8126
+N2,6,-16.558,-1.30041e-07,-17.5778,-16.9761
+N2,7,-16.6226,-18.1902,-8.63434e-08,-18.1301
+N2,8,-16.3416,-16.3236,-8.22122e-07,-14.2299
+N2,9,-18.0525,-16.5196,-18.2036,-9.38068e-08
+N2,10,-17.4288,-1.29658e-07,-16.6233,-16.9771
+N2,11,-18.0818,-9.29764e-08,-18.2329,-16.5204
+N2,12,-17.8988,-1.28854e-07,-18.0498,-16.1433
+N2,13,-16.5604,-1.2984e-07,-17.5789,-16.9766
+N2,14,-17.0104,-9.40894e-08,-17.8356,-17.1631
+N2,15,-18.0818,-9.29764e-08,-18.2329,-16.5204
+N2,16,-18.4776,-3.75351e-08,-18.7064,-17.6993
+N2,17,-16.6447,-18.2032,-8.46873e-08,-18.1431
+N2,18,-16.6201,-18.1887,-8.65376e-08,-18.1286
+N2,19,-18.0528,-16.5201,-18.2039,-9.37641e-08
+N2,20,-9.06187e-08,-17.7089,-17.3562,-17.0037
+N2,21,-17.2876,-17.7915,-8.75381e-08,-17.0929
+N2,22,-18.6268,-3.5024e-08,-18.7779,-17.733
+N2,23,-18.6268,-3.5024e-08,-18.7779,-17.733
+N2,24,-17.8738,-16.1396,-18.0248,-1.30012e-07
+N2,25,-18.0818,-9.29764e-08,-18.2329,-16.5204
+N2,26,-1.24782e-07,-17.9266,-16.2125,-17.8666
+N2,27,-17.0908,-16.666,-1.21628e-07,-17.4651
+N2,28,-1.25139e-07,-16.5887,-17.1729,-17.3963
+N2,29,-16.3416,-16.3236,-8.22122e-07,-14.2299
+N2,30,-17.4277,-1.29861e-07,-16.6209,-16.9765
+N2,31,-17.8738,-16.1396,-18.0248,-1.30012e-07
+N2,32,-18.573,-17.7391,-18.7215,-3.57589e-08
+N2,33,-14.1923,-8.41073e-07,-16.451,-16.3004
+N2,34,-17.2594,-14.347,-17.4105,-6.47119e-07
+N2,35,-18.0819,-9.29681e-08,-18.2329,-16.5205
+N2,36,-16.2292,-17.9933,-1.21094e-07,-17.9333
+N2,37,-17.2877,-17.1243,-8.75341e-08,-17.7315
+N2,38,-16.6226,-18.1902,-8.63434e-08,-18.1301
+N2,39,-16.6201,-18.1887,-8.65376e-08,-18.1286
+N2,40,-16.6201,-18.1887,-8.65376e-08,-18.1286
+N2,41,-16.5333,-17.0113,-17.554,-1.30748e-07
+N2,42,-16.5333,-17.0113,-17.554,-1.30748e-07
+N2,43,-1.24782e-07,-17.9266,-16.2125,-17.8666
+N2,44,-17.6844,-9.41085e-08,-17.0843,-17.163
+N2,45,-16.3,-16.3605,-14.133,-8.89829e-07
+N2,46,-17.2877,-17.7916,-8.75312e-08,-17.093
+N2,47,-17.4029,-17.0113,-16.5938,-1.30748e-07
+N2,48,-17.4029,-17.0113,-16.5938,-1.30748e-07
+N2,49,-18.573,-17.7391,-18.7215,-3.57589e-08
+N2,50,-17.9216,-18.7959,-3.0639e-08,-18.7359
+N2,51,-9.06187e-08,-17.7089,-17.3562,-17.0037
+N2,52,-1.25139e-07,-16.5887,-17.1729,-17.3963
+N2,53,-18.6253,-3.51203e-08,-18.7764,-17.7293
+N2,54,-14.1923,-8.41072e-07,-16.451,-16.3004
+N2,55,-18.0818,-9.29762e-08,-18.2329,-16.5204
+N2,56,-14.1923,-8.41073e-07,-16.451,-16.3004
+N2,57,-17.9174,-18.7942,-3.07344e-08,-18.7341
+N2,58,-8.94862e-08,-18.1092,-16.607,-18.0491
+N2,59,-18.6255,-3.50672e-08,-18.7751,-17.7323
+N2,60,-17.2876,-17.7915,-8.75381e-08,-17.0929
+N2,61,-17.2876,-17.7915,-8.75381e-08,-17.0929
+N2,62,-14.1923,-8.41073e-07,-16.451,-16.3004
+N2,63,-17.2891,-17.1266,-8.73652e-08,-17.7334
+N2,64,-16.2292,-17.9933,-1.21094e-07,-17.9333
+N2,65,-17.2877,-17.1243,-8.75341e-08,-17.7315
+N2,66,-3.26478e-08,-18.657,-17.9279,-18.597
+N2,67,-18.625,-3.5145e-08,-18.776,-17.7284
+N2,68,-17.6517,-17.1908,-17.048,-9.52423e-08
+N2,69,-8.29862e-07,-14.2091,-16.4926,-16.2636
+N2,70,-18.0835,-9.2735e-08,-18.2346,-16.5234
+N2,71,-18.6265,-3.50294e-08,-18.7777,-17.7329
+N2,72,-17.6831,-9.42396e-08,-17.0824,-17.1621
+N2,73,-17.2876,-17.1242,-8.75381e-08,-17.7314
+N2,74,-17.2876,-17.7915,-8.75348e-08,-17.093
+N2,75,-17.8736,-16.1394,-18.0246,-1.30035e-07
+N2,76,-16.6201,-18.1887,-8.65376e-08,-18.1286
+N2,77,-17.0908,-16.666,-1.21628e-07,-17.4651
+N2,78,-16.2292,-17.9933,-1.21094e-07,-17.9333
+N2,79,-1.24782e-07,-17.9266,-16.2125,-17.8666
+N2,80,-1.24782e-07,-17.9266,-16.2125,-17.8666
+N2,81,-18.0818,-9.29764e-08,-18.2329,-16.5204
+N2,82,-16.5625,-1.29658e-07,-17.5799,-16.9771
+N2,83,-1.24969e-07,-17.9259,-16.2108,-17.8658
+N2,84,-16.6202,-18.1887,-8.65302e-08,-18.1286
+N2,85,-16.3,-8.94687e-07,-14.133,-16.3004
+N2,86,-17.8988,-1.28854e-07,-18.0498,-16.1433
+N2,87,-17.8738,-16.1396,-18.0248,-1.30012e-07
+N2,88,-16.2292,-17.9933,-1.21094e-07,-17.9333
+N2,89,-3.26156e-08,-18.6544,-17.9314,-18.5964
+N2,90,-18.0818,-9.29764e-08,-18.2329,-16.5204
+N2,91,-17.9183,-18.7945,-3.07139e-08,-18.7345
+N2,92,-14.1923,-16.3605,-16.451,-8.36215e-07
+N2,93,-1.24782e-07,-17.9266,-16.2125,-17.8666
+N2,94,-17.0083,-9.42395e-08,-17.8341,-17.1621
+N1,1,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,2,-1.63389e-06,-15.3337,-13.6482,-15.2736
+N1,3,-14.6114,-14.8214,-1.87547e-06,-13.7586
+N1,4,-13.7611,-1.84728e-06,-14.9512,-14.5702
+N1,5,-3.5768e-07,-16.1785,-15.626,-16.1184
+N1,6,-1.81222e-06,-13.7802,-14.7625,-14.7613
+N1,7,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,8,-14.8002,-14.6303,-13.812,-1.81987e-06
+N1,9,-16.1241,-15.4607,-16.2752,-3.77846e-07
+N1,10,-14.6114,-13.7802,-1.87547e-06,-14.7613
+N1,11,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,12,-15.3124,-13.6134,-15.4635,-1.64031e-06
+N1,13,-1.81222e-06,-13.7802,-14.7625,-14.7613
+N1,14,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,15,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,16,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,17,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,18,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,19,-16.1241,-15.4607,-16.2752,-3.77846e-07
+N1,20,-3.5768e-07,-16.1785,-15.626,-16.1184
+N1,21,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,22,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,23,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,24,-15.3124,-1.66772e-06,-15.4635,-13.5912
+N1,25,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,26,-13.5961,-15.3337,-1.69714e-06,-15.2736
+N1,27,-14.8002,-1.84728e-06,-13.812,-14.5702
+N1,28,-13.7611,-1.84728e-06,-14.9512,-14.5702
+N1,29,-14.8002,-14.6303,-13.812,-1.81987e-06
+N1,30,-14.6114,-13.7802,-1.87547e-06,-14.7613
+N1,31,-15.3124,-1.66772e-06,-15.4635,-13.5912
+N1,32,-16.1241,-15.4607,-16.2752,-3.77845e-07
+N1,33,-1.81222e-06,-13.7802,-14.7625,-14.7613
+N1,34,-15.3124,-1.66772e-06,-15.4635,-13.5912
+N1,35,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,36,-1.63389e-06,-15.3337,-13.6482,-15.2736
+N1,37,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,38,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,39,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,40,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,41,-1.81222e-06,-14.8214,-14.7625,-13.7586
+N1,42,-1.81222e-06,-14.8214,-14.7625,-13.7586
+N1,43,-13.5961,-15.3337,-1.69714e-06,-15.2736
+N1,44,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,45,-14.6114,-14.8214,-1.87546e-06,-13.7586
+N1,46,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,47,-14.6114,-14.8214,-1.87547e-06,-13.7586
+N1,48,-14.6114,-14.8214,-1.87547e-06,-13.7586
+N1,49,-16.1241,-15.4607,-16.2752,-3.77845e-07
+N1,50,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,51,-3.5768e-07,-16.1785,-15.626,-16.1184
+N1,52,-13.7611,-1.84728e-06,-14.9512,-14.5702
+N1,53,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,54,-1.81222e-06,-13.7802,-14.7625,-14.7613
+N1,55,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,56,-1.81222e-06,-13.7802,-14.7625,-14.7613
+N1,57,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,58,-3.5768e-07,-16.1785,-15.626,-16.1184
+N1,59,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,60,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,61,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,62,-1.81222e-06,-13.7802,-14.7625,-14.7613
+N1,63,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,64,-1.63389e-06,-15.3337,-13.6482,-15.2736
+N1,65,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,66,-3.5768e-07,-16.1785,-15.626,-16.1184
+N1,67,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,68,-16.1241,-15.4607,-16.2752,-3.77846e-07
+N1,69,-13.7611,-1.84728e-06,-14.9512,-14.5702
+N1,70,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,71,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,72,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,73,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,74,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,75,-15.3124,-1.66772e-06,-15.4635,-13.5912
+N1,76,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,77,-14.8002,-1.84728e-06,-13.812,-14.5702
+N1,78,-1.63389e-06,-15.3337,-13.6482,-15.2736
+N1,79,-13.5961,-15.3337,-1.69714e-06,-15.2736
+N1,80,-13.5961,-15.3337,-1.69714e-06,-15.2736
+N1,81,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,82,-1.81222e-06,-13.7802,-14.7625,-14.7613
+N1,83,-13.5961,-15.3337,-1.69714e-06,-15.2736
+N1,84,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,85,-14.6114,-13.7802,-1.87546e-06,-14.7613
+N1,86,-15.3124,-13.6134,-15.4635,-1.64031e-06
+N1,87,-15.3124,-1.66772e-06,-15.4635,-13.5912
+N1,88,-1.63389e-06,-15.3337,-13.6482,-15.2736
+N1,89,-3.5768e-07,-16.1785,-15.626,-16.1184
+N1,90,-16.1551,-3.77841e-07,-16.3061,-15.4319
+N1,91,-15.5575,-16.26,-3.54084e-07,-16.2
+N1,92,-1.81222e-06,-14.8214,-14.7625,-13.7586
+N1,93,-13.5961,-15.3337,-1.69714e-06,-15.2736
+N1,94,-16.1551,-3.77841e-07,-16.3061,-15.4319

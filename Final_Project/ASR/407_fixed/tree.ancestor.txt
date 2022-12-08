@@ -1,0 +1,14 @@
+# created on Sun Dec  4 19:06:40 2022
+name   	parent  child   
+Met1   N4     
+Met2   N5     
+Met3   N5     
+Met4   N3     
+Prim   N2     
+Normal N1     
+N1     root!   N2 Normal
+N2     N1      N3 Prim
+N3     N2      N4 Met4
+N4     N3      Met1 N5
+N5     N4      Met2 Met3
+

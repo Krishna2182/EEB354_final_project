@@ -1,0 +1,108 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=6;
+	taxlabels
+	Met1
+	Met2
+	Met3
+	Met4
+	Normal
+	Prim
+;
+end;
+
+begin trees;
+	tree TREE1 = [&R] (((((Met1[&height=2.759086889573523E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,1.4210854715202004E-14},length=1.6986422491205115,length_95%_HPD={1.0619573385562262,2.318978743236997},length_median=1.725721081259067,length_range={0.22215363235962116,2.898521210521679},rate=0.04092149881709089,rate_95%_HPD={0.025346835948912134,0.06473616609733361},rate_median=0.03648227733434009,rate_range={0.016945742136092425,0.26845717645531986}]:1.698416,Met2[&height=2.7588500479159776E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,1.4210854715202004E-14},length=1.698630224639197,length_95%_HPD={1.0640674248498243,2.3211301815177023},length_median=1.7256506129436318,length_range={0.22215363235962116,2.898521210521679},rate=0.006504425587333206,rate_95%_HPD={0.0012587502657071818,0.012209686465107613},rate_median=0.006152822360146705,rate_range={8.648001138019827E-5,0.048335082609331205}]:1.698416)[&height=1.698416112856343,height_95%_HPD={1.0619962353685821,2.318978743236997},height_median=1.725437569877002,height_range={0.22215363235962116,2.898521210521679},length=0.18424579970055424,length_95%_HPD={9.592338775945564E-4,0.44520961536872505},length_median=0.15171453956702408,length_range={9.110645987675525E-5,1.4274024354685082},posterior=0.9990791896869244,rate=0.17416836715755687,rate_95%_HPD={0.004116326377355992,0.44379445486954233},rate_median=0.08508337431602618,rate_range={3.988607646978442E-6,74.35484115145313}]:0.138654,Met3[&height=2.7873894676501816E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,1.4210854715202004E-14},length=1.8604247526543607,length_95%_HPD={1.278055848375189,2.4031542305094717},length_median=1.877945880731815,length_range={0.39234344050258585,3.0465784617060336},rate=0.009022761568532316,rate_95%_HPD={0.003197592704988629,0.01603333935356558},rate_median=0.00851418189775964,rate_range={0.0012494858048657737,0.04705617781523036}]:1.837071)[&height=1.8370705857925156,height_95%_HPD={1.277029022840651,2.383163129343046},height_median=1.856232119718669,height_range={0.7202256771563071,3.0210971665344744},length=0.11828113266061446,length_95%_HPD={8.011890315628989E-7,0.284958969816401},length_median=0.10055845510724737,length_range={8.011890315628989E-7,0.7405000798944172},posterior=0.6880619651175387,rate=0.13294497267798155,rate_95%_HPD={2.4075679561050357E-6,0.33575022214890754},rate_median=0.050663728847004666,rate_range={2.4075679561050357E-6,726.786540456187}]:0.135576,Met4[&height=2.7946723486196986E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,1.4210854715202004E-14},length=1.9333080524253394,length_95%_HPD={1.365788910013535,2.448976495004217},length_median=1.951493243126933,length_range={0.39234344050258585,3.0593757939677317},rate=0.03242572561178701,rate_95%_HPD={0.018183451391572493,0.04725689199509333},rate_median=0.03165948395246257,rate_range={0.009540732532649364,0.1725135118553059}]:1.972647)[&height=1.9726470247197305,height_95%_HPD={1.4070251216403875,2.4822709145527},height_median=1.9880546994262644,height_range={0.9275604910327075,3.154157062376541},length=1.5273543798436302,length_95%_HPD={1.0177365881157812,2.092974880380595},length_median=1.5119455707935998,length_range={0.34588516965166605,2.572439510988275},posterior=1.0,rate=0.3366313397554005,rate_95%_HPD={0.15417212776341688,0.47696618236060717},rate_median=0.3380634967393233,rate_range={2.9376699518535545E-6,0.7293226473611942}]:1.527354,Prim[&height=3.5,height_95%_HPD={3.499999999999986,3.500000000000014},height_median=3.5,height_range={3.499999999999986,3.5000000000000284},length=1.4045633490945069E-6,length_95%_HPD={2.0209824924677378E-9,9.153532232630823E-6},length_median=1.936108446898288E-7,length_range={2.0209824924677378E-9,5.806253594187183E-5},rate=2970.084524522161,rate_95%_HPD={1.372553282171609E-5,31935.965166539245},rate_median=0.07482422276452579,rate_range={1.372553282171609E-5,95020.81914874578}]:1.0E-6)[&height=3.5000014045575267,height_95%_HPD={3.5000000020209683,3.5000091535322184},height_median=3.500000193610859,height_range={3.5000000020209683,3.500058062535956},length=74.49999859543487,length_95%_HPD={74.49999084646777,74.49999999797902},length_median=74.49999980638916,length_range={74.49994193746406,74.49999999797902},posterior=1.0,rate=0.031947114089417236,rate_95%_HPD={0.02577805680150038,0.038448358302653037},rate_median=0.03170017815270722,rate_range={0.02079926554123091,0.05486709724576765}]:74.499999,Normal[&height=78.0,height_95%_HPD={77.99999999999999,78.00000000000001},height_median=78.0,height_range={77.99999999999999,78.00000000000003},length=0.0,rate=316.8037159613459,rate_95%_HPD={2.48032045242791E-6,8.437790975362848},rate_median=0.06355879239425352,rate_range={2.3805266711172562E-6,88132.316421388}]:0.0)[&height=78.0,height_95%_HPD={77.99999999999999,78.00000000000001},height_median=78.0,height_range={77.99999999999999,78.00000000000003},length=0.0,posterior=1.0,rate=1.0];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="rate_95%_HPD";
+	set branchLabels.fontName=".AppleSystemUIFont";
+	set branchLabels.fontSize=12;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName=".AppleSystemUIFont";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName=".AppleSystemUIFont";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

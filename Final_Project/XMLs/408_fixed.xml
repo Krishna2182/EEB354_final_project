@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+
+    <data
+id="408_aln"
+spec="Alignment"
+name="alignment">
+                        <sequence id="seq_Met11" spec="Sequence" taxon="Met1" totalcount="4" value="GATCAAAAGGCATCAACTAGG-TGTA-TTCTGAAAAAAAGAGCCAGTGATAGAATACTTTACTCAGCCGTTGGGGGTAAGCTCACAAGCATAACATATAACGGTACTCAATAAATGGTCTCATATCTCTGGAGGTAATCATGCTTATTTTGATTAGATGTATAAT"/>
+                        <sequence id="seq_Met31" spec="Sequence" taxon="Met3" totalcount="4" value="GAGCAGAAGGTATTAATTGGGCTGTATTTCAAATAAAAGTAGCCAGGAGTAGTCTACTCTACCTAGATATTTATGGTAATCTAACAAATATAACCGATACTAATATTGACTAGCTAGTCACACATCATTGGATATAATTATCCAGATTTTGATGAGATATATAAT"/>
+                        <sequence id="seq_Met41" spec="Sequence" taxon="Met4" totalcount="4" value="TGGTAGAGTTCATCAATTATCCCATATTATTGATAAAAAGAGATAGGGGGAATCTACTCT-GTCAGCCATCGAGACCAAGCTCTCAAATATAAACTACACCGGTACCGCCTAACTGGCTATACATATCTTTAGGAAATCATCTAGATCCTGGCTGAATGAATTAT"/>
+                        <sequence id="seq_Normal1" spec="Sequence" taxon="Normal" totalcount="4" value="GGGCGGGAGTCGCCGGTGAGCGCACGCGTCTGGTGGCGAGGTCCGAGGGTGATCCAGCCCGCTCGACCAGTGAGGCCGGGTCCAGGGACGGGGCCTCTGCCGGCGCTGACAGATCGCCCACGCGCATCCGGCGGTGGCTGCGCAGGCTTGAACTGAGCGTGCAGC"/>
+                        <sequence id="seq_Prim1" spec="Sequence" taxon="Prim" totalcount="4" value="GGGCAGAAGTCATCAATTAGGCTGTATTTCTGATAAAAAGAGCCAGGGGTAGTCTCCTCTACTCAGCCATTGAGGCCAAGCTCACAAATATAACCTATACTAGTACTGACTAATTGGCTACACATATCTGGAGGTAATCATGCAGATCTTGACTGAATGTATAAT"/>
+                    </data>
+
+
+    
+
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+<run id="mcmc" spec="MCMC" chainLength="500000000" storeEvery="10000">
+    <state id="state" spec="State" storeEvery="10000">
+        <tree id="Tree.t:408_aln" spec="beast.evolution.tree.Tree" name="stateNode">
+            <trait id="dateTrait.t:408_aln" spec="beast.evolution.tree.TraitSet" traitname="date-backward">
+                Normal=52,
+Prim=0.25,
+Met1=0,
+Met3=0,
+Met4=0                
+                            <taxa id="TaxonSet.408_aln" spec="TaxonSet">
+                    <alignment idref="408_aln"/>
+                </taxa>
+            </trait>
+            <taxonset idref="TaxonSet.408_aln"/>
+        </tree>
+        <parameter id="gammaShape.s:408_aln" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+        <parameter id="ePopSize.t:408_aln" spec="parameter.RealParameter" name="stateNode">0.3</parameter>
+        <parameter id="growthRate.t:408_aln" spec="parameter.RealParameter" name="stateNode">3.0E-4</parameter>
+        <parameter id="kappa.s:408_aln" spec="parameter.RealParameter" lower="0.0" name="stateNode">2.0</parameter>
+        <parameter id="clockRate.c:408_aln" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+        <parameter id="freqParameter.s:408_aln" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+    </state>
+    <init id="RandomTree.t:408_aln" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:408_aln" taxa="@408_aln">
+        <populationModel id="ConstantPopulation0.t:408_aln" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:408_aln" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="CoalescentExponential.t:408_aln" spec="Coalescent">
+                <populationModel id="ExponentialGrowth.t:408_aln" spec="ExponentialGrowth" growthRate="@growthRate.t:408_aln" popSize="@ePopSize.t:408_aln"/>
+                <treeIntervals id="TreeIntervals.t:408_aln" spec="TreeIntervals" tree="@Tree.t:408_aln"/>
+            </distribution>
+            <prior id="ClockPrior.c:408_aln" name="distribution" x="@clockRate.c:408_aln">
+                <Uniform id="Uniform.0" name="distr" upper="Infinity"/>
+            </prior>
+            <prior id="ePopSizePrior.t:408_aln" name="distribution" x="@ePopSize.t:408_aln">
+                <OneOnX id="OneOnX.1" name="distr"/>
+            </prior>
+            <prior id="FrequenciesPrior.s:408_aln" name="distribution" x="@freqParameter.s:408_aln">
+                <Uniform id="Uniform.3" name="distr"/>
+            </prior>
+            <prior id="GammaShapePrior.s:408_aln" name="distribution" x="@gammaShape.s:408_aln">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="GrowthRatePrior.t:408_aln" name="distribution" x="@growthRate.t:408_aln">
+                <LaplaceDistribution id="LaplaceDistribution.0" name="distr">
+                    <parameter id="RealParameter.13" spec="parameter.RealParameter" estimate="false" name="mu">0.001</parameter>
+                    <parameter id="RealParameter.14" spec="parameter.RealParameter" estimate="false" name="scale">30.701135</parameter>
+                </LaplaceDistribution>
+            </prior>
+            <prior id="KappaPrior.s:408_aln" name="distribution" x="@kappa.s:408_aln">
+                <LogNormal id="LogNormalDistributionModel.0" name="distr">
+                    <parameter id="RealParameter.9" spec="parameter.RealParameter" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.10" spec="parameter.RealParameter" estimate="false" name="S">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <distribution id="cancer.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:408_aln">
+                <taxonset id="cancer" spec="TaxonSet">
+                    <taxon id="Met1" spec="Taxon"/>
+                    <taxon id="Met3" spec="Taxon"/>
+                    <taxon id="Met4" spec="Taxon"/>
+                    <taxon id="Prim" spec="Taxon"/>
+                </taxonset>
+            </distribution>
+            <distribution id="root.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:408_aln">
+                <taxonset id="root" spec="TaxonSet">
+                    <taxon idref="Met1"/>
+                    <taxon idref="Met3"/>
+                    <taxon idref="Met4"/>
+                    <taxon id="Normal" spec="Taxon"/>
+                    <taxon idref="Prim"/>
+                </taxonset>
+                <Uniform id="Uniform.4" name="distr" upper="52.0"/>
+            </distribution>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.408_aln" spec="ThreadedTreeLikelihood" data="@408_aln" tree="@Tree.t:408_aln">
+                <siteModel id="SiteModel.s:408_aln" spec="SiteModel" gammaCategoryCount="4" shape="@gammaShape.s:408_aln">
+                    <parameter id="mutationRate.s:408_aln" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="proportionInvariant.s:408_aln" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="hky.s:408_aln" spec="HKY" kappa="@kappa.s:408_aln">
+                        <frequencies id="estimatedFreqs.s:408_aln" spec="Frequencies" frequencies="@freqParameter.s:408_aln"/>
+                    </substModel>
+                </siteModel>
+                <branchRateModel id="StrictClock.c:408_aln" spec="beast.evolution.branchratemodel.StrictClockModel" clock.rate="@clockRate.c:408_aln"/>
+            </distribution>
+        </distribution>
+    </distribution>
+    <operator id="gammaShapeScaler.s:408_aln" spec="ScaleOperator" parameter="@gammaShape.s:408_aln" scaleFactor="0.5" weight="0.1"/>
+    <operator id="CoalescentExponentialTreeScaler.t:408_aln" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:408_aln" weight="3.0"/>
+    <operator id="CoalescentExponentialTreeRootScaler.t:408_aln" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:408_aln" weight="3.0"/>
+    <operator id="CoalescentExponentialUniformOperator.t:408_aln" spec="Uniform" tree="@Tree.t:408_aln" weight="30.0"/>
+    <operator id="CoalescentExponentialSubtreeSlide.t:408_aln" spec="SubtreeSlide" tree="@Tree.t:408_aln" weight="15.0"/>
+    <operator id="CoalescentExponentialNarrow.t:408_aln" spec="Exchange" tree="@Tree.t:408_aln" weight="15.0"/>
+    <operator id="CoalescentExponentialWide.t:408_aln" spec="Exchange" isNarrow="false" tree="@Tree.t:408_aln" weight="3.0"/>
+    <operator id="CoalescentExponentialWilsonBalding.t:408_aln" spec="WilsonBalding" tree="@Tree.t:408_aln" weight="3.0"/>
+    <operator id="ePopSizeScaler.t:408_aln" spec="ScaleOperator" parameter="@ePopSize.t:408_aln" scaleFactor="0.999" weight="3.0"/>
+    <operator id="GrowthRateRandomWalk.t:408_aln" spec="RealRandomWalkOperator" parameter="@growthRate.t:408_aln" weight="3.0" windowSize="1.0"/>
+    <operator id="KappaScaler.s:408_aln" spec="ScaleOperator" parameter="@kappa.s:408_aln" scaleFactor="0.5" weight="0.1"/>
+    <operator id="StrictClockRateScaler.c:408_aln" spec="ScaleOperator" parameter="@clockRate.c:408_aln" weight="3.0"/>
+    <operator id="strictClockUpDownOperator.c:408_aln" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+        <up idref="clockRate.c:408_aln"/>
+        <down idref="Tree.t:408_aln"/>
+    </operator>
+    <operator id="FrequenciesExchanger.s:408_aln" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+        <parameter idref="freqParameter.s:408_aln"/>
+    </operator>
+    <logger id="tracelog" spec="Logger" fileName="408_aln.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.408_aln"/>
+        <log id="TreeHeight.t:408_aln" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:408_aln"/>
+        <log idref="gammaShape.s:408_aln"/>
+        <log idref="CoalescentExponential.t:408_aln"/>
+        <log idref="ePopSize.t:408_aln"/>
+        <log idref="growthRate.t:408_aln"/>
+        <log idref="cancer.prior"/>
+        <log idref="root.prior"/>
+        <log idref="kappa.s:408_aln"/>
+        <log idref="clockRate.c:408_aln"/>
+        <log idref="freqParameter.s:408_aln"/>
+    </logger>
+    <logger id="screenlog" spec="Logger" logEvery="10000">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+    <logger id="treelog.t:408_aln" spec="Logger" fileName="$(tree).trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:408_aln" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:408_aln"/>
+    </logger>
+    <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+</run>
+</beast>

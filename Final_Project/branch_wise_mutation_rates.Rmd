@@ -7,40 +7,271 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-setwd('~/Desktop/Phylogenetics/Final_Project/')
+setwd('~/Desktop/Phylogenetics/EEB354_final_project/Final_Project/')
 library(data.table)
 library(readxl)
 library(ape)
+library(ggplot2)
 ```
 
+# Data Processing
+
+### Identify suitable alignments
 
 ```{r}
-maf=read_xls('PNAS Data/mafs.xls',sheet='435')
-maf=as.data.table(maf)
+#pats = excel_sheets('PNAS Data/mafs.xls')
+pats_w_prim_time_info = c('442','420','451','435','410','441','407','450','408','446','458','414','422')
+mafs = lapply(pats_w_prim_time_info, function(pats_w_prim_time_info){read_xls('PNAS Data/mafs.xls',sheet=pats_w_prim_time_info)})
+names(mafs) = pats_w_prim_time_info
+prim_pats = pats_w_prim_time_info[unlist(lapply(mafs, function(maf){
+                  'Prim' %in% colnames(maf)}
+                  ))]
+prim_mafs = mafs[prim_pats]
+lapply(prim_mafs, dim)
+```
 
-for(sample_idx in 4:ncol(maf)){
-  tmp = as.list(maf[, ..sample_idx])
-  tmp = paste(tmp[[1]], collapse = '')
-  tmp = gsub('\n','', tmp)
-  fwrite(list(paste0('>', colnames(maf)[sample_idx],'\n', tmp)), file = '435/435_aln.fasta', append = T, quote = F)
+Alignments 407, 408, 435, and 458 appear to be most suitable for analysis based on their length and inclusion of a primary sample which can be used to date the tree.
+
+#### Create fasta formatted alignments
+
+```{r}
+alignments = c('407','408','435','458')
+mafs = prim_mafs[alignments]
+mafs = lapply(mafs, as.data.table)
+
+system("rm alignments/*")
+
+for(i in 1:length(alignments)){
+  maf = mafs[[i]]
+  for(sample_idx in 4:ncol(maf)){
+    tmp = as.list(maf[, ..sample_idx])
+    tmp = paste(tmp[[1]], collapse = '')
+    tmp = gsub('\n','', tmp)
+    fwrite(list(paste0('>', colnames(maf)[sample_idx],'\n', tmp)), file = paste0('alignments/',alignments[i],'_aln.fasta'), append=T, quote = F)
+  }
 }
 ```
 
-```{r}
-maf=read_xls('PNAS Data/mafs.xls',sheet='407')
-maf=as.data.table(maf)
+# Phylogenetic inference
+
+```{r, eval=F}
+source('scripts/beast_submit_jobs.R')
 ```
+
+## Comparing strick clock and relaxed clock models
+
+After phylogenetic inference under a strict and relaxed clock model, we compare the fit of the models using their likelihoods. We use the median log likelihood rather than the mean because in some cases, the distribution is positively skewed due to infrequent spikes in the likelihood value of the trace. Nevertheless, the median and mean log likelihoods differ by less than 1 for all alignments.
+
+```{r compare strict and relaxed clocks}
+#get logL from median loglikelihood in combined log file
+logLs = data.table(alignment = alignments,
+                   num_tips = c(6,5,9,5),
+                   relaxed_logL = c(-3037.1384, -790.0307, -548.148, -1229.4273),
+                   strict_logL = c(-3155.9703, -837.635, -576.2602, -1257.4204))
+
+# the degrees of freedom for relaxed clock as the number of branches where the mutation rate can vary - 1, which is 2N-3
+# the strict clock has 0 degrees of freedom, because there is only rate that can fit the observed data given the time scaling
+
+logLs[, delta_df := 2*num_tips-3]
+logLs[, LRT_p := pchisq(q = -2 * (strict_logL - relaxed_logL), df = delta_df, lower.tail = FALSE)]
+
+#' We don't know the exact number of free parameters in each model but we do 
+#' know the difference, so we can calculate the difference in AIC aand BIC values.
+
+logLs[, delta_AIC := 2 * (delta_df + strict_logL - relaxed_logL)]
+logLs[, delta_BIC := delta_df * log(num_tips) + 2 * (strict_logL - relaxed_logL)]
+logLs
+```
+
+With an alpha of 0.01, the LRT confidently indicates that the relaxed clock model had a better fit. The difference in AIC and BIC also indicate that the relaxed clock model is better despite the increased parameters it includes.
+
+## Ancestral State Reconstruction
+
+The following scripts accomplish several tasks essential for ASR and mutation mapping
+1) creating newick trees
+2) running ancestral state reconstruction using FastML
+3) using FastML output and alignment annotations to map mutations to the branches they occurred on
+
 ```{r}
-for(sample_idx in 4:ncol(maf)){
-  tmp = as.list(maf[, ..sample_idx])
-  tmp = paste(tmp[[1]], collapse = '')
-  tmp = gsub('\n','', tmp)
-  fwrite(list(paste0('>', colnames(maf)[sample_idx],'\n', tmp)), file = '407/407_aln.fasta', append = T, quote = F)
-}
+source('scripts/nexus_newick.R')
+# Can add -p parameter (Gamma shape parameter) to fast ML command
+source('scripts/ASR_command.R')
+source('scripts/asr2maf_wrapper.R')
+```
+
+To get a sense of the functional impacts of these mutations, I loaded the data into a cesa object which automatically annotates the variants.
+
+```{r}
+ces_maf = lapply(mafs, function(maf){maf[,.(Sample_ID,Chromosome,Start_Position,Reference_Allele,Tumor_Seq_Allele2)]})
+ces_maf = rbindlist(ces_maf)
+colnames(ces_maf) = sub('Sample_ID','Unique_Patient_Identifier',colnames(ces_maf))
+
+library(cancereffectsizeR)
+library(ces.refset.hg19)
+
+ces_maf = preload_maf(maf = ces_maf, refset = "ces.refset.hg19", detect_hidden_mnv = FALSE)
+cesa = CESAnalysis(refset = "ces.refset.hg19")
+cesa = load_maf(cesa = cesa, maf = ces_maf)
+
+signature_exclusions = suggest_cosmic_signature_exclusions(cancer_type = "BRCA", treatment_naive = TRUE)
+cesa = trinuc_mutation_rates(cesa,
+  signature_set = ces.refset.hg19$signatures$COSMIC_v3.2,
+  signature_exclusions = signature_exclusions)
+cesa = gene_mutation_rates(cesa, covariates = ces.refset.hg19$covariates$breast)
+cesa = ces_variant(cesa)
+
+snv_counts = cesa$mutational_signatures$snv_counts
+MutationalPatterns::plot_96_profile(snv_counts)
+
+cesa_maf = cesa$maf[,.(Chromosome,Start_Position,top_gene,top_consequence)]#,Reference_Allele)]
 ```
 
 ```{r}
-setwd('~/Desktop/Phylogenetics/Final_Project/435/estimated_rates_results/')
+rates_407 = data.table(Origin_Node = 
+                         c('Normal','N2','Prim','N3','Met4','N4','Met3','N5','Met1','Met2'), 
+                       Rate = 
+                         c(0.0636, 0.0317, 0.0748, 0.3381, 0.0317, 0.0507, 0.0085, 0.0851, 0.0365, 0.0062))
+rates_407[, Rate_Rel_Norm := Rate / rates_407[Origin_Node == 'Normal', Rate]]
+rates_407[, Rate_Rel_Prev := Rate_Rel_Norm]
+rates_407[Origin_Node == 'Prim', Rate_Rel_Prev := Rate / rates_407[Origin_Node == 'N2', Rate]]
+rates_407[Origin_Node == 'N3', Rate_Rel_Prev := Rate / rates_407[Origin_Node == 'N2', Rate]]
+rates_407[Origin_Node == 'Met4', Rate_Rel_Prev := Rate / rates_407[Origin_Node == 'N3', Rate]]
+rates_407[Origin_Node == 'N4', Rate_Rel_Prev := Rate / rates_407[Origin_Node == 'N3', Rate]]
+rates_407[Origin_Node == 'Met3', Rate_Rel_Prev := Rate / rates_407[Origin_Node == 'N4', Rate]]
+rates_407[Origin_Node == 'N5', Rate_Rel_Prev := Rate / rates_407[Origin_Node == 'N4', Rate]]
+rates_407[Origin_Node == 'Met1', Rate_Rel_Prev := Rate / rates_407[Origin_Node == 'N5', Rate]]
+rates_407[Origin_Node == 'Met2', Rate_Rel_Prev := Rate / rates_407[Origin_Node == 'N5', Rate]]
+```
+
+```{r}
+rates_408 = data.table(Origin_Node = 
+                         c('Normal','N2','Prim','N3','Met4','N4','Met1','Met3'), 
+                       Rate = 
+                         c(25207.0849, 0.0142, 1094.0451, 0.0142, 88426.7937, 4944.6177, 1335399.0338, 1335399.0338))
+rates_408[, logRate := log10(Rate + 1)]
+rates_408[, Rate_Rel_Norm := logRate / rates_408[Origin_Node == 'Normal', logRate]]
+rates_408[, Rate_Rel_Prev := Rate_Rel_Norm]
+rates_408[Origin_Node == 'Prim', Rate_Rel_Prev := logRate / rates_408[Origin_Node == 'N2', logRate]]
+rates_408[Origin_Node == 'N3', Rate_Rel_Prev := logRate / rates_408[Origin_Node == 'N2', logRate]]
+rates_408[Origin_Node == 'Met4', Rate_Rel_Prev := logRate / rates_408[Origin_Node == 'N3', logRate]]
+rates_408[Origin_Node == 'N4', Rate_Rel_Prev := logRate / rates_408[Origin_Node == 'N3', logRate]]
+rates_408[Origin_Node == 'Met1', Rate_Rel_Prev := logRate / rates_408[Origin_Node == 'N4', logRate]]
+rates_408[Origin_Node == 'Met3', Rate_Rel_Prev := logRate / rates_408[Origin_Node == 'N4', logRate]]
+```
+
+```{r}
+rates_435 = data.table(Origin_Node = 
+                         c('Normal','N2','Prim','N3','Met0','N4','N8','Met5','Met8','N5','Met4','N6','Met1','N7','Met3','Met7'), 
+                       Rate = 
+                         c(1.6395, 0.0104, 0.4524, 0.4745, 0.0001, 1.5042, 0.0033, 0.0104, 0.0108, 0.9626, 0.0111, 0.1734, 0.0026, 0.0071, 0.0095, 0.0013))
+rates_435[, Rate_Rel_Norm := Rate / rates_435[Origin_Node == 'Normal', Rate]]
+rates_435[, Rate_Rel_Prev := Rate_Rel_Norm]
+rates_435[Origin_Node == 'Prim', Rate_Rel_Prev := Rate / rates_435[Origin_Node == 'N2', Rate]]
+rates_435[Origin_Node == 'N3', Rate_Rel_Prev := Rate / rates_435[Origin_Node == 'N2', Rate]]
+rates_435[Origin_Node == 'Met0', Rate_Rel_Prev := Rate / rates_435[Origin_Node == 'N3', Rate]]
+rates_435[Origin_Node == 'N4', Rate_Rel_Prev := Rate / rates_435[Origin_Node == 'N3', Rate]]
+rates_435[Origin_Node == 'N8', Rate_Rel_Prev := Rate / rates_435[Origin_Node == 'N4', Rate]]
+rates_435[Origin_Node == 'Met5', Rate_Rel_Prev := Rate / rates_435[Origin_Node == 'N8', Rate]]
+rates_435[Origin_Node == 'Met8', Rate_Rel_Prev := Rate / rates_435[Origin_Node == 'N8', Rate]]
+rates_435[Origin_Node == 'N5', Rate_Rel_Prev := Rate / rates_435[Origin_Node == 'N4', Rate]]
+rates_435[Origin_Node == 'Met4', Rate_Rel_Prev := Rate / rates_435[Origin_Node == 'N5', Rate]]
+rates_435[Origin_Node == 'N6', Rate_Rel_Prev := Rate / rates_435[Origin_Node == 'N5', Rate]]
+rates_435[Origin_Node == 'Met1', Rate_Rel_Prev := Rate / rates_435[Origin_Node == 'N6', Rate]]
+rates_435[Origin_Node == 'N7', Rate_Rel_Prev := Rate / rates_435[Origin_Node == 'N6', Rate]]
+rates_435[Origin_Node == 'Met3', Rate_Rel_Prev := Rate / rates_435[Origin_Node == 'N7', Rate]]
+rates_435[Origin_Node == 'Met7', Rate_Rel_Prev := Rate / rates_435[Origin_Node == 'N7', Rate]]
+```
+
+```{r}
+rates_458 = data.table(Origin_Node = 
+                         c('Normal','N2','Prim','N3','Met3','N4','Met1','Met2'), 
+                       Rate = 
+                         c(2648.6829, 2291734845.8275, 400.3061, 0.0072, 445.1523, 1e-6, 363576, 1e-6))
+rates_458[, logRate := log10(Rate + 1)]
+rates_458[, Rate_Rel_Norm := logRate / rates_458[Origin_Node == 'Normal', logRate]]
+rates_458[, Rate_Rel_Prev := Rate_Rel_Norm]
+rates_458[Origin_Node == 'Prim', Rate_Rel_Prev := logRate / rates_458[Origin_Node == 'N2', logRate]]
+rates_458[Origin_Node == 'N3', Rate_Rel_Prev := logRate / rates_458[Origin_Node == 'N2', logRate]]
+rates_458[Origin_Node == 'Met3', Rate_Rel_Prev := logRate / rates_458[Origin_Node == 'N3', logRate]]
+rates_458[Origin_Node == 'N4', Rate_Rel_Prev := logRate / rates_458[Origin_Node == 'N3', logRate]]
+rates_458[Origin_Node == 'Met1', Rate_Rel_Prev := logRate / rates_458[Origin_Node == 'N4', logRate]]
+rates_458[Origin_Node == 'Met2', Rate_Rel_Prev := logRate / rates_458[Origin_Node == 'N4', logRate]]
+```
+
+```{r}
+rates_list = list(rates_407, rates_408, rates_435, rates_458)
+names(rates_list) = alignments
+rates = rbindlist(rates_list, fill=T, idcol = T)
+rates = rates[Origin_Node != "Normal"]
+
+jitter = position_jitter(width = 0.1, height = 0.1)
+ggplot(rates, aes(x=.id, y=Rate_Rel_Prev)) + 
+  geom_boxplot(color = "grey50") +
+  geom_point(position=jitter, aes(color = Origin_Node), size = 2) + 
+  geom_hline(yintercept = 1, col='red', lty=5) +
+  ylab('Rate Relative to Previous Branch') +
+  xlab('Tumor') + 
+  theme_classic() +
+  scale_y_log10()
+```
+
+
+
+
+#### Viewing ASR MAFs
+```{r}
+asr_mafs = lapply(alignments, function(alignment){fread(paste0('ASR/asr_',alignment,'_estimated.maf'))})
+names(asr_mafs) = alignments
+
+# number of mutations on each branch
+lapply(asr_mafs, function(maf){table(maf$Origin_Node)})
+# percentage of total mutations on each branch
+lapply(asr_mafs, function(maf){round(table(maf$Origin_Node)/nrow(maf),2)*100})
+
+asr_mafs = lapply(asr_mafs, function(maf){
+              merge.data.table(maf, cesa_maf, by = c('Chromosome','Start_Position'), all.x = T)
+            })
+
+asr_mafs = lapply(alignments, function(alignment){
+  merge.data.table(asr_mafs[[alignment]], rates[[alignment]], by='Origin_Node', all.x=T)
+})
+
+asr_mafs = lapply(asr_mafs, function(maf){maf[!duplicated.data.frame(maf)]})
+names(asr_mafs) = alignments
+```
+
+```{r}
+tmp = rbindlist(asr_mafs, fill=T)
+common_mutations = names(sort(table(tmp$top_gene), decreasing = T)[1:6])
+to_plot = tmp[top_gene %in% common_mutations]
+
+to_plot$Patient_ID = factor(to_plot$Patient_ID)
+
+jitter = position_jitter(width = 0.1, height = 0.1)
+ggplot(to_plot, aes(x=top_gene, y=Rate)) + 
+  geom_point(position=jitter, aes(color = Origin_Node, shape = Patient_ID), size = 2) + 
+  #geom_jitter(width=0.1) + 
+  geom_hline(yintercept = 1, col='red', lty=5) + 
+  ylab('Rate Relative to Parent Branch') + 
+  xlab('Gene') + 
+  theme_classic() + 
+  scale_y_log10() + 
+  guides(color = guide_legend(title = "Child Node"), 
+         shape = guide_legend(title = "Tumor"))
+```
+
+```{r}
+tmp = asr_mafs$`407`
+nodal_mapping = data.table(node = c('N2','Prim','N3'), 
+                           order = c(1,2,2,))
+tmp
+```
+
+
+### Random
+
+```{r}
+setwd('435/estimated_rates_results/')
 tree_maf = fread('435_asr.maf')
 #View(tree_maf)
 #' mutations on branches leading to each node, mostly N2 and N3
@@ -53,8 +284,6 @@ variant_info$CHR = as.character(variant_info$CHR)
 tree_maf_w_genes = merge.data.table(tree_maf, variant_info[,.(GeneName,CHR,POS)], 
                  by.x = c('Chromosome','Start_Position'), by.y= c('CHR','POS'), 
                  all.x = T)
-
-orig_maf=fread('../435_maf.maf',header=T)
 
 asr_tree=read.tree('ASR/tree.newick.txt')
 plot(asr_tree,show.node.label = T)

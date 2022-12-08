@@ -71,7 +71,7 @@ The MCC trees for both the relaxed clock and strict models are shown below, in t
 
 ![435 strict clock maximum clade credibility tree](/Final_Project/Images/435_mcc_strict.tree.png)
 
-The mean log likelihood for the relaxed model was -545.061, and the mean log likelihood for the strict model was -564.775. 
+The mean log likelihood for the relaxed model was -545.061, and the mean log likelihood for the strict model was -564.775. Because I have not been able to ascertain the exact degrees of freedom from the BEAST setup, I have not compared the models by AIC/BIC yet.
 
 Once ancestral state reconstruction was performed, the mutations were programmatically mapped onto the tree. A snapshot of the results are shown below. The rest can be found by running the Rmd document in the repository. 
 
@@ -93,13 +93,19 @@ The MCC trees for the relaxed and strict clock models are shown below, in that o
 
 The mean log likelihood for the relaxed model was -3015.937, and the mean log likelihood for the strict model was -3041.73. 
 
+Ancestral state reconstruction has not yet been performed but will be soon.
+
 ## Discussion
 
-These results indicate...
+The relaxed clock models tend to have a slightly higher likelihood, as expected given that they have allow for more parameter estimation. A formal model comparison has not been implemented yet but will be used to compare the two clock models once 500 million chain length runs has been completed.
 
-The biggest difficulty in implementing these analyses was...
+In the relaxed clock models, the rates do appear to vary across branches. With alignment 435, we see some instances where the 95% CI's don't overlap. However, many of the intervals stretch to nearly 0, a symptom of the lack of data for this alignment. The increased chain length may help tighten this distribution. Nevertheless, it may still be more productive to focus on other alignments that sequenced more sites. Support for this is evident in the MCC tree for alignment 407, where the 95% CI's are much tighter, due to the fact that 722 sites were included in the alignment compared to 94 in alignment 435.
 
-If I did these analyses again, I would...
+Additionally, the majority of mutations seem to occur on the branch leading to the primary tumor and from the primary tumor to the metastatic lineages. This limits the selection of possible rate-shifting sites, but it also suggests that observed variability may be due more so to external factors of the metastatic environment than to internal mutations.
+
+Below is shown the mutations per branch described by the child node that the branch leads to.
+![435 mutations per branch](/Final_Project/Images/branch_mutations.png)
+![435 ASR tree](/Final_Project/Images/435_ASR.png)
 
 ## To-Do
 

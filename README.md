@@ -78,30 +78,42 @@ The relaxed clock model was found to have a significantly higher likelihood by t
 
 ### Rate variation within tumors reveals no significant trend towards increased mutation rate.
 
+To investigate whether mutation rates tend to increase as cancer progresses, I took the ratio of the rate on each branch to the rate on its parent/previous branch, which indicates the relative change in mutation rate at each bifurcation. I plotted those ratios on every branch within each tumor below.
 
+![Relative branch rates](/Final_Project/Images_v2/Tumor_Rel_Rates.png)
 
-## Discussion
+Figure 7. Relative changes in mutation rate across the four tumors.
 
-The relaxed clock models tend to have a slightly higher likelihood, as expected given that they have allow for more parameter estimation. A formal model comparison has not been implemented yet but will be used to compare the two clock models once 500 million chain length runs has been completed.
+Based on the distribution of relative changes, there does not appear to be strong evidence towards a general increase or decrease in mutation rate during cancer progression. Additionally, it does not seem like there exists a relationship between the relative age of the node and the direction of relative rate change (i.e., the branches leading to the tip do not seem to have unusually more positive rate changes relative to more internal branches.)
 
-In the relaxed clock models, the rates do appear to vary across branches. With alignment 435, we see some instances where the 95% CI's don't overlap. However, many of the intervals stretch to nearly 0, a symptom of the lack of data for this alignment. The increased chain length may help tighten this distribution. Nevertheless, it may still be more productive to focus on other alignments that sequenced more sites. Support for this is evident in the MCC tree for alignment 407, where the 95% CI's are much tighter, due to the fact that 722 sites were included in the alignment compared to 94 in alignment 435.
+There are several possible reasons we might not see a generally increasing mutation rate in cancers. For example, immune surveillance may select against highly mutated cancers, which are more immunogenic. Thus, cancer lineages which obtained excessively destabilizing mutations may die off before we can sample them. Since immune cells have difficulty penetrating tumors, internal cells may be shielded from the immune selective pressure, so multiple-sampling of a single tumor may help us understand if destabilizing mutations are still being gained late in cancer progression. Another reason we might not see more destabilization is that too much genome and cellular instability can directly cause cell death.
 
-Additionally, the majority of mutations seem to occur on the branch leading to the primary tumor and from the primary tumor to the metastatic lineages. This limits the selection of possible rate-shifting sites, but it also suggests that observed variability may be due more so to external factors of the metastatic environment than to internal mutations.
+Additionally, variation in mutation rate is confounded by the fact that the primary and metastatic tumors are in different tissue types. Each of these tissue types have their own associated mutation rate covariates as well unique sets of mutational processes, so the anatomical location of each node could have a significant influence on its branch rate. This would also affect each of the different cancer types differently.
 
-Below is shown the mutations per branch described by the child node that the branch leads to.
-![435 mutations per branch](/Final_Project/Images/branch_mutations.png)
-![435 ASR tree](/Final_Project/Images/435_ASR.png)
+### Mutations in certain genes are possibly associated with directional shifts in mutation rate
 
-## To-Do
+To address the original question, I plotted the relative rate changes for the branches upon which the most commonly observed mutations were found.
 
-- Constrain topology in priors. Done
-- Constrain truncal branch length. Done, kinda?
-- Compare Likelihoods and Relaxed Clock and Strict Clock AIC and BIC
-- Adjust ASR-MAF script to map mutations to branches. Done.
-- Adjust priors for estimated and fixed runs based on BEAST slurm outputs. Done - though maybe this is misleading
-- Incorporate info on doubling time to constrain substitution rate distribution prior.
-- Determine if it would be possible to do a permutation test for branch mutations and mutation rate.
-- Useful plots? how rate variability varies with clade age (does it increase? could decrease bc immune surveillance), some way to compare clade-wide rate variability to see if trends in rate changes remain consistent within clades or are somewhat random?, boxplots of commonly observed mutations and their associated relative rate changes
+![Relative branch rates by gene](/Final_Project/Images_v2/Gene_Rel_Rates.png)
+
+Figure 8. Gene-associated changes in relative mutation rates. CDH23 is a cadherin, cell-cell adhesion protein. Mutations to the same gene in the same tumor are either at different sites, are reversions, or are homoplasies. 
+
+EPHA6 is a biomarker for breast cancer (Zhou et al., 2018). FBXO46 degrades FBXO31, which is a protein key for genomic stability. SAFB2 is involved in the stress response and cell cycle regulation (NCBI). TP53 is the classically known tumor suppressor and "guardian of the genome." And TTN is a very large human gene that we see commonly mutated in human cancers. It is not known to have any carcinogenic function, so its mutation is likely a product of its size and genome instability.
+
+Of the most recurrently mutated genes in this dataset, the majority are strongly associated with directional shifts in mutation rate. Here we see that CDH23, FBXO46, SAFB2, and TP53 mutations are associated with decreases in mutation rate while EPHA6 and TTN mutations are associated with increases in mutation rate. However, it is also important to note that many of the rate intervals between branches overlap, and so we often cannot make conclusions with significance.
+
+Because FBXO46 degrades a genome-stabilizing protein, it makes sense that its mutation might decreases the general mutation rate. However, in the case of TP53, we should expect that the mutation rate should increase following its mutation, given its role as a stabilizing protein. We do not observe that here, though it should be noted that all TP53 mutations were found to occur on the branch leading to the cancer lineage. This branch contains the majority of mutations and is long, so it might be the case that the effect of TP53's mutation on the cancer is being drowned out by other mutations or by external agents. We do expect TP53 to be commonly mutated on this branch given its role in driving carcinogenesis.
+
+Though TTN is associated with an increased mutation rate, there is very little reason to believe that is itself causing the increased mutation rate because it is just a muscle protein. We may see this association because TTN is more commonly mutated when the genome has already become unstable.
+
+## Discussion and Future Work
+
+The results indicate that mutation rates do vary along the branches of cancer phylogenies. However, with our current data, we cannot determine the precise nature of the changes in mutation rate along each branch, since the rate intervals are often too wide and overlap. Additionally, genetic mutations do appear to be associated with directional shifts in mutation rate, with possible causal links in the literature. Nevertheless, the finds so far as 
+association-based, as is exemplified by the case of TP53 -- in which we have strong reason to suspect its mutation to increase the mutation rate -- and TTN -- which is consistently associated with a higher mutation rate despite having no known effect on genome or cellular stability. These associations are dependent on changes in mutation rates that may not be significant, which highlights the necessity of having longer reads to perform phylogenetic inference with.
+
+In considering future work, it may be helpful to consider the association of groups of related genes with changes in mutation rate to preserve power. Additionally, given more sequence data, it may be feasible to mask potential rate-shifting sites from the inference algorithm and observe whether the relative changes in mutation rate it infers remains consistent. If a site was truly rate-shifting (stabilizing or destabilizing), the effect of its mutation should be evident in the increased or decreased mutation rate at all other sites, so the inferred mutation rate of the branch which it occured should be robust to its exclusion. This analysis would move one step further towards causal inference.
+
+I would also like to consider the influence of other sources of variation in mutation rate. The most significant would be the influence of tissue type and endogenous and exogenous mutational processes, but I may also want to consider possible evolutionary pressures for and against increased mutation rates. These would allow me to make more precise conclusions about the true causes for rate variation within a tumor and amongst its metastatic sites.
 
 ## References
 

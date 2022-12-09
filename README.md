@@ -16,7 +16,7 @@ The data for the phylogenies will come from a 2016 study of metastatic lineages 
 
 ## Methods
 
-In order to infer mutation rates per unit time, it is necessary to have data to time calibrate the tree. Thus, I only considered sets of samples for which the primary tumor was resected and sequenced before the metastatic tumors, which were sequenced during necropsy. This produced three time-points for each patient: birth, primary tumor resection, and death. Based on this criteria, as well as the length of alignments, I chose four cancers for which I would construct phylogenies, described in the table below.
+In order to infer mutation rates per unit time, it is necessary to have data to time calibrate the tree. Thus, I only considered sets of samples for which the primary tumor was resected and sequenced before the metastatic tumors, which were sequenced during necropsy. This produced three time-points for each patient: birth, primary tumor resection, and death. Based on this criteria, as well as the length of alignments, I chose four cancers for which I would construct phylogenies, described in Table 1.
 
 ![Tumor Characteristics](/Final_Project/Images_v2/tumor_characteristics.png)
 
@@ -31,6 +31,8 @@ The relaxed clock models were run with a chain length of 100 million. The strict
 Once all runs were completed, the logs and trees were combined with a 20% burn-in, and a maximum clade credibility (MCC) tree was constructed using mean heights. The relaxed clock and strict clock models were compared using a likelihood ratio test, AIC, and BIC. Ancestral state reconstruction was performed using FastML with a HKY model and 4 gamma rate categories (Ashkenazy et al., 2012). A script was then used to map mutations from the original mutation matrix to the branches they occurred on according to the ancestral state reconstruction. The resultant MAF file was loaded into cancereffectsizeR to annotate the variants and determine the amino acid changes resulting from the mutations (Cannataro et al., 2018).
 
 ## Results
+
+### Chronograms
 
 The relaxed clock chronograms for each of the four tumors are shown below. 
 
@@ -54,47 +56,29 @@ Despite the large number of metastatic sites, they all seemed to diverge within 
 Figure 4. Relaxed clock chronogram for tumor 458. The branches are annotated with the median rate.
 This chronogram provides the least reliable rate intervals, so its results should be interpreted with caution. We can note, at least, that there appears to be a high degree of homogeneity amongst the metastatic samples (compared to 407, in which all cancer sites were homogeneous).
 
+#### Traces
+
+Though most of the traces for the MCMC runs were satisfactory (including all of the strict clock trees), a couple were not as stable, namely the traces for 435 and 458. Example traces are shown in figure 5. 
+
+![Traces](/Final_Project/Images_v2/traces.png)
+
+Figure 5. Likelihod traces from the MCMC runs.
+
+Note that tumor 435 had the shortest alignment length, which likely contributed to the difficulty of getting satisfactory traces.
+
+### Model Comparison
+
+The results of the model comparison are shown in figure 6.
+
+![Model Comparison](/Final_Project/Images_v2/model_comparison.png)
+
+Figure 6. Comparison of relaxed clock and strict clock models by likelihood ratio test with alpha of 0.01, AIC, and BIC.
+
+The relaxed clock model was found to have a significantly higher likelihood by the likelihood ratio test, and it was considered to be a better model despite the increased number of estimated parameters (as indicated by the lower AIC and BIC). This indicates that the branch rates do tend to vary during cancer evolution, even if our ability to compare rate intervals is limited.
+
+### Rate variation within tumors reveals no significant trend towards increased mutation rate.
 
 
-### 435
-
-Six runs of 50 million chain length were completed. After the 20% burn-in, the traces were examined and an MCC tree was constructed, followed by ancestral state reconstruction and mutation mapping.
-
-Though the effective sample size (ESS) for certain parameters was relatively low, many were sufficiently high, including the likelihood. The likelihood trace is shown below:
-![Likelihood trace for alignment 435](/Final_Project/Images/435_likelihood_trace.png)
-
-Six runs of 500 million chain length were also completed, and the ESS and trace appeared to significantly improve, as shown below. However, it appears that for a short time, one of the runs entered an extremely different parameter sampling space, resulting in trace plots that are hard to interpret. For example, the likelihood suddenly spiked from negative likelihoods to positive tens of thousands for just a small number of runs. For this reason, the 500 million chain length results are not included here but will modified and posted soon.
-![Stats for alignment 435](/Final_Project/Images/435_run_stats.png)
-
-The MCC trees for both the relaxed clock and strict models are shown below, in that order. Posterior probabilities are displayed on the nodes. 95% confidence intervals for rates inferred by the relaxed clock inference are displayed on the branches.
-
-![435 relaxed clock maximum clade credibility tree](/Final_Project/Images/435_mcc_relaxed.tree.png)
-
-![435 strict clock maximum clade credibility tree](/Final_Project/Images/435_mcc_strict.tree.png)
-
-The mean log likelihood for the relaxed model was -545.061, and the mean log likelihood for the strict model was -564.775. Because I have not been able to ascertain the exact degrees of freedom from the BEAST setup, I have not compared the models by AIC/BIC yet.
-
-Once ancestral state reconstruction was performed, the mutations were programmatically mapped onto the tree. A snapshot of the results are shown below. The rest can be found by running the Rmd document in the repository. 
-
-![435 mutations mapped to branches](/Final_Project/Images/435_tree_maf.png)
-
-### 407
-
-Similarly, six runs of 50 million chain length were completed. A 20% burn-in was used, an MCC tree was constructed, and ancestral state reconstruction was performed.
-
-The traces also appeared acceptable for this alignment, though the ESS was still relatively low for certain parameters. Shown below is the likelihood trace.
-
-![407 likelihood trace](/Final_Project/Images/407_likelihood_trace.png)
-
-The MCC trees for the relaxed and strict clock models are shown below, in that order. Again, posterior probabilities are shown on the nodes, and for the relaxed clock model, 95% confidence intervals for the rates are shown on the branches.
-
-![407 relaxed clock maximum clade credibility tree](/Final_Project/Images/407_mcc_relaxed.tree.png)
-
-![407 strict clock maximum clade credibility tree](/Final_Project/Images/407_mcc_strict.tree.png)
-
-The mean log likelihood for the relaxed model was -3015.937, and the mean log likelihood for the strict model was -3041.73. 
-
-Ancestral state reconstruction has not yet been performed but will be soon.
 
 ## Discussion
 

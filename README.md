@@ -39,21 +39,25 @@ The relaxed clock chronograms for each of the four tumors are shown below.
 ![407 Relaxed Clock Chronogram](/Final_Project/Images_v2/mcc_407_estimated.tree.png)
 
 Figure 1. Relaxed clock chronogram for tumor 407. The branches are annotated with 95% HPD intervals for rate.
+
 Note that the rate intervals are often wide and overlap. This remains a consistent trend for the other tumors and is a result of the data limitations that we necessarily deal with in cancer phylogenetics. Interestingly, the cancer also appears to be highly homogenous. From the perspective of treatment, this is valuable because it means that the cancer does not have reservoirs of genetic variation that will allow it to recur after the strong selective pressure induced by treatment.
 
 ![408 Relaxed Clock Chronogram](/Final_Project/Images_v2/mcc_408_estimated.tree.png)
 
 Figure 2. Relaxed clock chronogram for tumor 408. The branches are annotated with 95% HPD intervals for rate.
+
 The rate intervals are much more constrained in this chronogram and sometimes do not overlap. However, the primary sample branch has an unusually large upper bound for the mutation rate.
 
 ![435 Relaxed Clock Chronogram](/Final_Project/Images_v2/mcc_435_estimated.tree.png)
 
 Figure 3. Relaxed clock chronogram for tumor 435. The branches are annotated with the median rate.
+
 Despite the large number of metastatic sites, they all seemed to diverge within a relatively short time span, suggesting a critical metastasis-inducing event. This could possibly be linked to other clinical occurences within the patient at that time, such as inflammation that may have promoted the epithelial-mesenchymal transition necessary for metastasis (López-Novoa and Angela Nieto 2009).
 
 ![458 Relaxed Clock Chronogram](/Final_Project/Images_v2/mcc_458_estimated.tree.png)
 
 Figure 4. Relaxed clock chronogram for tumor 458. The branches are annotated with the median rate.
+
 This chronogram provides the least reliable rate intervals, so its results should be interpreted with caution. We can note, at least, that there appears to be a high degree of homogeneity amongst the metastatic samples (compared to 407, in which all cancer sites were homogeneous).
 
 #### Traces
@@ -108,12 +112,18 @@ Though TTN is associated with an increased mutation rate, there is very little r
 
 ## Discussion and Future Work
 
-The results indicate that mutation rates do vary along the branches of cancer phylogenies. However, with our current data, we cannot determine the precise nature of the changes in mutation rate along each branch, since the rate intervals are often too wide and overlap. Additionally, genetic mutations do appear to be associated with directional shifts in mutation rate, with possible causal links in the literature. Nevertheless, the finds so far as 
-association-based, as is exemplified by the case of TP53 -- in which we have strong reason to suspect its mutation to increase the mutation rate -- and TTN -- which is consistently associated with a higher mutation rate despite having no known effect on genome or cellular stability. These associations are dependent on changes in mutation rates that may not be significant, which highlights the necessity of having longer reads to perform phylogenetic inference with.
+The results indicate that mutation rates do vary along the branches of cancer phylogenies. However, with our current data, we cannot determine the precise nature of the changes in mutation rate along each branch, since the rate intervals are often too wide and overlap. Additionally, genetic mutations do appear to be associated with directional shifts in mutation rate, with possible causal links in the literature. Nevertheless, the findings so far are 
+association-based, as is exemplified by the case of TP53 -- in which we have strong reason to suspect its mutation to increase the mutation rate yet find an association with a decreased mutation rate -- and TTN -- which is consistently associated with a higher mutation rate despite having no known effect on genome or cellular stability. These associations are dependent on changes in mutation rates that may not be significant, which highlights the necessity of having longer reads to perform phylogenetic inference with.
 
 In considering future work, it may be helpful to consider the association of groups of related genes with changes in mutation rate to preserve power. Additionally, given more sequence data, it may be feasible to mask potential rate-shifting sites from the inference algorithm and observe whether the relative changes in mutation rate it infers remains consistent. If a site was truly rate-shifting (stabilizing or destabilizing), the effect of its mutation should be evident in the increased or decreased mutation rate at all other sites, so the inferred mutation rate of the branch which it occured should be robust to its exclusion. This analysis would move one step further towards causal inference.
 
-I would also like to consider the influence of other sources of variation in mutation rate. The most significant would be the influence of tissue type and endogenous and exogenous mutational processes, but I may also want to consider possible evolutionary pressures for and against increased mutation rates. These would allow me to make more precise conclusions about the true causes for rate variation within a tumor and amongst its metastatic sites.
+With the current data, I could check for associations between the age of the node and the trends in relative changes in mutation rate as well as compare variability in mutation rates and relative rate changes as metastases form. Increasing rate variability due to the different cellular environments and adaptive landscapes would be another form of heterogeneity that might make systemic treatment more difficult.
+
+I would also like to consider the influence of other sources of variation in mutation rate. The most significant would be the influence of tissue type and endogenous and exogenous mutational processes, but I may want to additionally consider possible evolutionary pressures for and against increased mutation rates like immune surveillance and resource competition. These would allow me to make more precise conclusions about the true causes for rate variation within a tumor and amongst its metastatic sites.
+
+## Conclusion
+
+In summary, this project has developed an initial framework to study mutation-associated variability in the mutation rates of cancer throughout its progression. Though the lack of data makes it difficult to state conclusions, we broadly do not observe a trend in relative rate changes as cancer progresses and do appear to find associations between mutations and the degree and direction of relative rate changes. Further data will provide more power to make conclusions, enable analyses of causality, and enable the consideration of confounding variables such as endogenous and exogenous mutational processes and evolutionary pressures.
 
 ## References
 
